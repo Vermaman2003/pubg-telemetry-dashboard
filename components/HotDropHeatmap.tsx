@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useRef, useEffect, useState } from 'react';
+import Image from 'next/image';
 import { Match } from '@/lib/types';
 
 interface HotDropHeatmapProps {
@@ -10,66 +11,130 @@ interface HotDropHeatmapProps {
 }
 
 export default function HotDropHeatmap({ matches, selectedZone, onZoneClick }: HotDropHeatmapProps) {
-    const canvasRef = useRef<HTMLCanvasElement>(null);
+    const containerRef = useRef<HTMLDivElement>(null);
+    const baseMapCanvasRef = useRef<HTMLCanvasElement>(null);
+    const heatmapCanvasRef = useRef<HTMLCanvasElement>(null);
     const [tooltip, setTooltip] = useState<{
         x: number;
         y: number;
         match: Match;
     } | null>(null);
+    const [isInitialized, setIsInitialized] = useState(false);
 
+    // Initialize after mount to ensure container has size
     useEffect(() => {
-        const canvas = canvasRef.current;
-        if (!canvas) return;
+        const timer = setTimeout(() => setIsInitialized(true), 100);
+        return () => clearTimeout(timer);
+    }, []);
+
+    // Generate base map from data
+    useEffect(() => {
+        if (!isInitialized) return;
+
+        const canvas = baseMapCanvasRef.current;
+        const container = containerRef.current;
+
+        console.log('🗺️ Base map rendering...', {
+            canvas: !!canvas,
+            container: !!container,
+            matches: matches.length
+        });
+
+        if (!canvas || !container || matches.length === 0) {
+            console.log('❌ Cannot render - missing requirements');
+            return;
+        }
 
         const ctx = canvas.getContext('2d');
         if (!ctx) return;
 
-        // Set canvas size
-        const size = 600;
+        const rect = container.getBoundingClientRect();
+        const size = rect.width;
+
+        console.log('📐 Canvas size:', size, 'x', size);
+
+        if (size === 0) {
+            console.log('⚠️ Container has no width yet, skipping render');
+            return;
+        }
+
+
         canvas.width = size;
         canvas.height = size;
 
-        // Create radial gradient background
-        const bgGradient = ctx.createRadialGradient(size / 2, size / 2, 0, size / 2, size / 2, size);
-        bgGradient.addColorStop(0, '#1a2332');
-        bgGradient.addColorStop(1, '#0a0e14');
-        ctx.fillStyle = bgGradient;
-        ctx.fillRect(0, 0, size, size);
+        // Clear canvas for transparent overlay
+        ctx.clearRect(0, 0, size, size);
 
-        // Draw glowing border
-        ctx.strokeStyle = '#00ff88';
-        ctx.lineWidth = 3;
-        ctx.shadowColor = '#00ff88';
-        ctx.shadowBlur = 15;
-        ctx.strokeRect(0, 0, size, size);
-        ctx.shadowBlur = 0;
+        console.log('✅ Base canvas initialized for overlay');
 
-        // Draw corner accents
-        const drawCorner = (x: number, y: number, flipX: number, flipY: number) => {
-            ctx.strokeStyle = '#ff6b35';
-            ctx.lineWidth = 3;
-            ctx.shadowColor = '#ff6b35';
-            ctx.shadowBlur = 10;
-            ctx.beginPath();
-            ctx.moveTo(x, y + 30 * flipY);
-            ctx.lineTo(x, y);
-            ctx.lineTo(x + 30 * flipX, y);
-            ctx.stroke();
-            ctx.shadowBlur = 0;
-        };
-        drawCorner(0, 0, 1, 1);
-        drawCorner(size, 0, -1, 1);
-        drawCorner(0, size, 1, -1);
-        drawCorner(size, size, -1, -1);
+        // === LAYER 2: Density-Based Zones ===
+        const gridSize = 50; // Higher resolution for smoother density
+        const densityGrid: number[][] = Array(gridSize).fill(0).map(() => Array(gridSize).fill(0));
 
-        // Draw enhanced grid with depth
-        ctx.strokeStyle = '#2a3f3f';
+        // Calculate landing density
+        matches.forEach((match) => {
+            const gridX = Math.floor((match.landing_zone.x / 8000) * gridSize);
+            const gridY = Math.floor(((8000 - match.landing_zone.y) / 8000) * gridSize);
+            if (gridX >= 0 && gridX < gridSize && gridY >= 0 && gridY < gridSize) {
+                densityGrid[gridY][gridX]++;
+            }
+        });
+
+        // Find max density for normalization
+        const maxDensity = Math.max(...densityGrid.flat());
+
+        // Render density zones with smooth gradients
+        densityGrid.forEach((row, y) => {
+            row.forEach((density, x) => {
+                if (density > 0) {
+                    const cellSize = size / gridSize;
+                    const centerX = x * cellSize + cellSize / 2;
+                    const centerY = y * cellSize + cellSize / 2;
+                    const intensity = density / maxDensity;
+
+                    // Create radial gradient for smooth falloff
+                    const gradient = ctx.createRadialGradient(
+                        centerX, centerY, 0,
+                        centerX, centerY, cellSize * 2
+                    );
+
+                    // Color based on intensity
+                    if (intensity > 0.5) {
+                        // High density - red/orange
+                        gradient.addColorStop(0, `rgba(255, 100, 50, ${intensity * 0.5})`);
+                        gradient.addColorStop(0.5, `rgba(255, 150, 0, ${intensity * 0.3})`);
+                        gradient.addColorStop(1, 'transparent');
+                    } else if (intensity > 0.2) {
+                        // Medium density - orange/yellow
+                        gradient.addColorStop(0, `rgba(255, 180, 0, ${intensity * 0.4})`);
+                        gradient.addColorStop(0.5, `rgba(100, 200, 150, ${intensity * 0.2})`);
+                        gradient.addColorStop(1, 'transparent');
+                    } else {
+                        // Low density - teal/cyan
+                        gradient.addColorStop(0, `rgba(0, 255, 200, ${intensity * 0.3})`);
+                        gradient.addColorStop(1, 'transparent');
+                    }
+
+                    ctx.fillStyle = gradient;
+                    ctx.beginPath();
+                    ctx.arc(centerX, centerY, cellSize * 2, 0, 2 * Math.PI);
+                    ctx.fill();
+                }
+            });
+        });
+
+        // === LAYER 3: Coordinate Grid ===
+        ctx.strokeStyle = 'rgba(0, 255, 150, 0.2)';
         ctx.lineWidth = 1;
+        ctx.font = '11px monospace';
+        ctx.fillStyle = 'rgba(0, 255, 150, 0.7)';
+        ctx.textAlign = 'center';
+
         for (let i = 0; i <= 8; i++) {
             const pos = (i / 8) * size;
-            const opacity = i === 0 || i === 8 ? 0.6 : 0.3;
-            ctx.globalAlpha = opacity;
+            const coord = i * 1000;
 
+            // Grid lines
             ctx.beginPath();
             ctx.moveTo(pos, 0);
             ctx.lineTo(pos, size);
@@ -79,126 +144,202 @@ export default function HotDropHeatmap({ matches, selectedZone, onZoneClick }: H
             ctx.moveTo(0, pos);
             ctx.lineTo(size, pos);
             ctx.stroke();
+
+            // Coordinate labels
+            if (i > 0 && i < 8) {
+                ctx.fillText(`${coord}m`, pos, 15);
+                ctx.save();
+                ctx.translate(15, pos);
+                ctx.rotate(-Math.PI / 2);
+                ctx.fillText(`${coord}m`, 0, 0);
+                ctx.restore();
+            }
         }
-        ctx.globalAlpha = 1;
 
-        // Draw central crosshair
-        ctx.strokeStyle = '#00ffaa';
-        ctx.lineWidth = 2;
-        ctx.globalAlpha = 0.4;
-        ctx.beginPath();
-        ctx.moveTo(size / 2 - 20, size / 2);
-        ctx.lineTo(size / 2 + 20, size / 2);
-        ctx.moveTo(size / 2, size / 2 - 20);
-        ctx.lineTo(size / 2, size / 2 + 20);
-        ctx.stroke();
-        ctx.globalAlpha = 1;
+        // === LAYER 4: Zone Labels from Data Clusters ===
+        const zoneClusters = new Map<string, { x: number[], y: number[], count: number }>();
 
-        // Draw map label with premium styling
-        const gradient = ctx.createLinearGradient(0, size / 2 - 40, 0, size / 2 + 40);
-        gradient.addColorStop(0, '#00ff88');
-        gradient.addColorStop(1, '#00dd77');
+        matches.forEach((match) => {
+            const zoneName = match.landing_zone.zone_name;
+            if (!zoneClusters.has(zoneName)) {
+                zoneClusters.set(zoneName, { x: [], y: [], count: 0 });
+            }
+            const cluster = zoneClusters.get(zoneName)!;
+            cluster.x.push(match.landing_zone.x);
+            cluster.y.push(8000 - match.landing_zone.y); // Inverted Y
+            cluster.count++;
+        });
 
-        ctx.fillStyle = gradient;
-        ctx.font = 'bold 48px sans-serif';
+        // Draw zone labels at centroids
+        ctx.font = 'bold 14px sans-serif';
         ctx.textAlign = 'center';
-        ctx.shadowColor = 'rgba(0, 255, 136, 0.8)';
-        ctx.shadowBlur = 20;
-        ctx.fillText('ERANGEL', size / 2, size / 2 - 10);
-
-        ctx.font = 'bold 18px monospace';
-        ctx.fillStyle = '#00ff88';
         ctx.shadowBlur = 10;
-        ctx.fillText('[ 8000m × 8000m ]', size / 2, size / 2 + 30);
 
-        // Add tactical indicator
-        ctx.font = 'bold 12px sans-serif';
-        ctx.fillStyle = '#ff6b35';
-        ctx.shadowColor = '#ff6b35';
-        ctx.fillText('TACTICAL OVERVIEW', size / 2, size / 2 + 50);
+        zoneClusters.forEach((cluster, zoneName) => {
+            if (cluster.count < 3) return; // Only show zones with 3+ landings
+
+            const avgX = cluster.x.reduce((a, b) => a + b, 0) / cluster.count;
+            const avgY = cluster.y.reduce((a, b) => a + b, 0) / cluster.count;
+            const canvasX = (avgX / 8000) * size;
+            const canvasY = (avgY / 8000) * size;
+
+            // Background box
+            const textWidth = ctx.measureText(zoneName).width;
+            ctx.fillStyle = 'rgba(0, 0, 0, 0.7)';
+            ctx.fillRect(canvasX - textWidth / 2 - 8, canvasY - 20, textWidth + 16, 28);
+
+            // Border
+            ctx.strokeStyle = 'rgba(0, 255, 150, 0.6)';
+            ctx.lineWidth = 2;
+            ctx.strokeRect(canvasX - textWidth / 2 - 8, canvasY - 20, textWidth + 16, 28);
+
+            // Text
+            ctx.fillStyle = '#00ff88';
+            ctx.shadowColor = '#00ff88';
+            ctx.fillText(zoneName, canvasX, canvasY);
+
+            // Count badge
+            ctx.font = 'bold 10px monospace';
+            ctx.fillStyle = '#ffaa00';
+            ctx.shadowColor = '#ffaa00';
+            ctx.fillText(`${cluster.count} drops`, canvasX, canvasY + 15);
+            ctx.font = 'bold 14px sans-serif';
+        });
+
         ctx.shadowBlur = 0;
 
-        // Plot landing points with enhanced visuals
-        matches.forEach((match, index) => {
+        // === LAYER 5: Corner Accents ===
+        const drawCorner = (x: number, y: number, flipX: number, flipY: number) => {
+            ctx.strokeStyle = 'rgba(0, 255, 150, 0.4)';
+            ctx.lineWidth = 3;
+            ctx.beginPath();
+            ctx.moveTo(x, y + 40 * flipY);
+            ctx.lineTo(x, y);
+            ctx.lineTo(x + 40 * flipX, y);
+            ctx.stroke();
+        };
+
+        drawCorner(0, 0, 1, 1);
+        drawCorner(size, 0, -1, 1);
+        drawCorner(0, size, 1, -1);
+        drawCorner(size, size, -1, -1);
+
+        // Map title
+        ctx.font = 'bold 18px sans-serif';
+        ctx.fillStyle = '#00ff88';
+        ctx.shadowColor = '#00ff88';
+        ctx.shadowBlur = 15;
+        ctx.textAlign = 'center';
+        ctx.fillText('ERANGEL - DATA VISUALIZATION', size / 2, 35);
+        ctx.shadowBlur = 0;
+
+    }, [matches.length, isInitialized]);
+
+    // Generate heatmap overlay with individual markers
+    useEffect(() => {
+        const canvas = heatmapCanvasRef.current;
+        const container = containerRef.current;
+        if (!canvas || !container || matches.length === 0) return;
+
+        const ctx = canvas.getContext('2d');
+        if (!ctx) return;
+
+        const rect = container.getBoundingClientRect();
+        const size = rect.width;
+        canvas.width = size;
+        canvas.height = size;
+
+        ctx.clearRect(0, 0, size, size);
+
+        // Plot individual landing points
+        matches.forEach((match) => {
             const x = (match.landing_zone.x / 8000) * size;
-            const y = (match.landing_zone.y / 8000) * size;
+            const y = ((8000 - match.landing_zone.y) / 8000) * size;
             const minutes = match.time_survived / 60;
 
-            // Color based on survival time with enhanced palette
+            // Color based on survival time
             let color, glowColor;
             if (minutes < 2) {
                 color = '#ff1744';
-                glowColor = 'rgba(255, 23, 68, 0.6)';
+                glowColor = 'rgba(255, 23, 68, 0.8)';
             } else if (minutes < 15) {
                 color = '#ffc107';
-                glowColor = 'rgba(255, 193, 7, 0.6)';
+                glowColor = 'rgba(255, 193, 7, 0.8)';
             } else {
                 color = '#00e676';
-                glowColor = 'rgba(0, 230, 118, 0.6)';
+                glowColor = 'rgba(0, 230, 118, 0.8)';
             }
 
             // Draw outer glow
-            const outerGradient = ctx.createRadialGradient(x, y, 0, x, y, 12);
+            const outerGradient = ctx.createRadialGradient(x, y, 0, x, y, 20);
             outerGradient.addColorStop(0, glowColor);
+            outerGradient.addColorStop(0.5, glowColor.replace('0.8', '0.4'));
             outerGradient.addColorStop(1, 'transparent');
             ctx.fillStyle = outerGradient;
             ctx.beginPath();
-            ctx.arc(x, y, 12, 0, 2 * Math.PI);
+            ctx.arc(x, y, 20, 0, 2 * Math.PI);
             ctx.fill();
 
-            // Draw main circle with gradient
-            const innerGradient = ctx.createRadialGradient(x - 2, y - 2, 0, x, y, 8);
-            innerGradient.addColorStop(0, color);
-            innerGradient.addColorStop(1, color + 'CC');
-            ctx.fillStyle = innerGradient;
-            ctx.globalAlpha = 0.9;
+            // Draw main circle
+            ctx.fillStyle = color;
+            ctx.strokeStyle = '#ffffff';
+            ctx.lineWidth = 3;
+            ctx.shadowColor = color;
+            ctx.shadowBlur = 8;
             ctx.beginPath();
-            ctx.arc(x, y, 7, 0, 2 * Math.PI);
+            ctx.arc(x, y, 8, 0, 2 * Math.PI);
             ctx.fill();
+            ctx.stroke();
+            ctx.shadowBlur = 0;
 
-            // Add highlight
-            ctx.fillStyle = 'rgba(255, 255, 255, 0.3)';
+            // Highlight
+            ctx.fillStyle = 'rgba(255, 255, 255, 0.7)';
             ctx.beginPath();
-            ctx.arc(x - 2, y - 2, 2, 0, 2 * Math.PI);
+            ctx.arc(x - 2, y - 2, 3, 0, 2 * Math.PI);
             ctx.fill();
-
-            ctx.globalAlpha = 1;
         });
 
-        // Add scan line effect
-        ctx.strokeStyle = '#00ff88';
-        ctx.lineWidth = 1;
-        ctx.globalAlpha = 0.1;
-        for (let i = 0; i < size; i += 4) {
-            ctx.beginPath();
-            ctx.moveTo(0, i);
-            ctx.lineTo(size, i);
-            ctx.stroke();
-        }
-        ctx.globalAlpha = 1;
+    }, [matches.length, isInitialized]);
 
-    }, [matches]);
+    // Handle window resize
+    useEffect(() => {
+        const handleResize = () => {
+            // Trigger re-render by calling the effects again
+            const event = new Event('resize');
+            window.dispatchEvent(event);
+        };
 
-    const handleMouseMove = (e: React.MouseEvent<HTMLCanvasElement>) => {
-        const canvas = canvasRef.current;
-        if (!canvas) return;
+        let timeout: NodeJS.Timeout;
+        const debouncedResize = () => {
+            clearTimeout(timeout);
+            timeout = setTimeout(handleResize, 100);
+        };
 
-        const rect = canvas.getBoundingClientRect();
-        const scaleX = canvas.width / rect.width;
-        const scaleY = canvas.height / rect.height;
-        const mouseX = (e.clientX - rect.left) * scaleX;
-        const mouseY = (e.clientY - rect.top) * scaleY;
-        const size = canvas.width;
+        window.addEventListener('resize', debouncedResize);
+        return () => {
+            window.removeEventListener('resize', debouncedResize);
+            clearTimeout(timeout);
+        };
+    }, []);
+
+    const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
+        const container = containerRef.current;
+        if (!container) return;
+
+        const rect = container.getBoundingClientRect();
+        const mouseX = ((e.clientX - rect.left) / rect.width) * 8000;
+        const mouseY = 8000 - ((e.clientY - rect.top) / rect.height) * 8000;
 
         let nearestMatch: Match | null = null;
         let nearestDistance = Infinity;
 
         matches.forEach((match) => {
-            const x = (match.landing_zone.x / 8000) * size;
-            const y = (match.landing_zone.y / 8000) * size;
-            const distance = Math.sqrt((mouseX - x) ** 2 + (mouseY - y) ** 2);
+            const distance = Math.sqrt(
+                (mouseX - match.landing_zone.x) ** 2 +
+                (mouseY - match.landing_zone.y) ** 2
+            );
 
-            if (distance < 15 && distance < nearestDistance) {
+            if (distance < 300 && distance < nearestDistance) {
                 nearestMatch = match;
                 nearestDistance = distance;
             }
@@ -221,13 +362,12 @@ export default function HotDropHeatmap({ matches, selectedZone, onZoneClick }: H
 
     return (
         <div className="group relative bg-gradient-to-br from-gray-900/90 to-black/90 backdrop-blur-sm border-2 border-green-500/30 rounded-2xl p-8 hover:border-green-500/60 transition-all duration-500 shadow-2xl hover:shadow-green-500/20 animate-slide-up">
-            {/* Top accent bar */}
             <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-green-500 to-transparent"></div>
 
             <div className="flex items-center justify-between mb-6">
                 <div>
                     <h2 className="text-3xl font-black text-green-400 mb-1 tracking-tight">TACTICAL HEATMAP</h2>
-                    <p className="text-sm text-gray-400">Landing Zone Distribution Analysis</p>
+                    <p className="text-sm text-gray-400">Real-Time Landing Zone Analysis</p>
                 </div>
                 <div className="px-4 py-2 bg-green-500/10 border border-green-500/30 rounded-lg">
                     <div className="text-xs text-green-400 uppercase tracking-wider">Live Data</div>
@@ -235,12 +375,36 @@ export default function HotDropHeatmap({ matches, selectedZone, onZoneClick }: H
                 </div>
             </div>
 
-            <div className="relative">
+            <div
+                ref={containerRef}
+                className="relative w-full aspect-square rounded-xl overflow-hidden cursor-crosshair transition-all duration-300 group-hover:scale-[1.02] border-2 border-emerald-500/20"
+                onMouseMove={handleMouseMove}
+                onMouseLeave={handleMouseLeave}
+            >
+                {/* Official PUBG Map Background */}
+                <Image
+                    src="/erangel-official.png"
+                    alt="Erangel Map"
+                    fill
+                    className="object-cover"
+                    priority
+                    unoptimized
+                />
+
+                {/* Dark overlay for better heatmap visibility */}
+                <div className="absolute inset-0 bg-black/40"></div>
+
+                {/* Base Map Canvas - Grid, labels, and density zones */}
                 <canvas
-                    ref={canvasRef}
-                    className="w-full h-auto rounded-xl cursor-crosshair transition-all duration-300 group-hover:scale-[1.02]"
-                    onMouseMove={handleMouseMove}
-                    onMouseLeave={handleMouseLeave}
+                    ref={baseMapCanvasRef}
+                    className="absolute inset-0 w-full h-full"
+                />
+
+                {/* Heatmap Overlay Canvas - Individual markers */}
+                <canvas
+                    ref={heatmapCanvasRef}
+                    className="absolute inset-0 w-full h-full pointer-events-none"
+                    style={{ mixBlendMode: 'lighten' }}
                 />
 
                 {tooltip && (
@@ -278,7 +442,7 @@ export default function HotDropHeatmap({ matches, selectedZone, onZoneClick }: H
                 )}
             </div>
 
-            {/* Enhanced Legend */}
+            {/* Legend */}
             <div className="mt-6 pt-6 border-t border-gray-700/50">
                 <div className="flex flex-wrap gap-6 text-sm">
                     <div className="flex items-center gap-3">
