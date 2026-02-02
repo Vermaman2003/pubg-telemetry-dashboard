@@ -78,24 +78,31 @@ export default function DashboardPage() {
 
   return (
     <div className="min-h-screen relative overflow-x-hidden">
-      {/* Dynamic gradient background */}
-      <div className="fixed inset-0 bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 -z-10"></div>
-      <div className="fixed inset-0 bg-gradient-to-tr from-blue-900/20 via-transparent to-pink-900/20 -z-10"></div>
-      <div className="fixed inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-purple-700/20 via-transparent to-transparent -z-10"></div>
+      {/* Tactical dark background */}
+      <div className="fixed inset-0 bg-gradient-to-br from-[#0a1e1e] via-[#0d2626] to-[#0a1e1e] -z-10"></div>
+      <div className="fixed inset-0 bg-gradient-to-tr from-emerald-950/20 via-transparent to-teal-950/20 -z-10"></div>
 
-      {/* Animated mesh gradient overlay */}
-      <div className="fixed inset-0 opacity-30 -z-10"
+      {/* Grid pattern overlay */}
+      <div className="fixed inset-0 opacity-10 -z-10"
         style={{
           backgroundImage: `
-            radial-gradient(at 40% 20%, hsla(280,100%,70%,0.3) 0px, transparent 50%),
-            radial-gradient(at 80% 0%, hsla(200,100%,70%,0.2) 0px, transparent 50%),
-            radial-gradient(at 0% 50%, hsla(340,100%,70%,0.2) 0px, transparent 50%),
-            radial-gradient(at 80% 50%, hsla(150,100%,70%,0.15) 0px, transparent 50%),
-            radial-gradient(at 0% 100%, hsla(260,100%,70%,0.2) 0px, transparent 50%),
-            radial-gradient(at 80% 100%, hsla(40,100%,70%,0.2) 0px, transparent 50%)
-          `
+            linear-gradient(rgba(0, 255, 136, 0.1) 1px, transparent 1px),
+            linear-gradient(90deg, rgba(0, 255, 136, 0.1) 1px, transparent 1px)
+          `,
+          backgroundSize: '50px 50px'
         }}
       ></div>
+
+      {/* Scanning line effect */}
+      <div className="fixed inset-0 -z-10 overflow-hidden pointer-events-none">
+        <div className="absolute w-full h-1 bg-gradient-to-r from-transparent via-emerald-400/30 to-transparent animate-scan"></div>
+      </div>
+
+      {/* Corner accents */}
+      <div className="fixed top-0 left-0 w-32 h-32 border-l-2 border-t-2 border-emerald-500/30 -z-10"></div>
+      <div className="fixed top-0 right-0 w-32 h-32 border-r-2 border-t-2 border-emerald-500/30 -z-10"></div>
+      <div className="fixed bottom-0 left-0 w-32 h-32 border-l-2 border-b-2 border-emerald-500/30 -z-10"></div>
+      <div className="fixed bottom-0 right-0 w-32 h-32 border-r-2 border-b-2 border-emerald-500/30 -z-10"></div>
 
       <div className="relative p-4 md:p-8">
         <div className="max-w-7xl mx-auto space-y-8">
