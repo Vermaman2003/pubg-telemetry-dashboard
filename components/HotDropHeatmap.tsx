@@ -5,9 +5,11 @@ import { Match } from '@/lib/types';
 
 interface HotDropHeatmapProps {
     matches: Match[];
+    selectedZone?: string | null;
+    onZoneClick?: (zone: string | null) => void;
 }
 
-export default function HotDropHeatmap({ matches }: HotDropHeatmapProps) {
+export default function HotDropHeatmap({ matches, selectedZone, onZoneClick }: HotDropHeatmapProps) {
     const canvasRef = useRef<HTMLCanvasElement>(null);
     const [tooltip, setTooltip] = useState<{
         x: number;

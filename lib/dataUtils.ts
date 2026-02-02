@@ -1,6 +1,6 @@
-// Data processing utilities for PUBG Telemetry Analytics
+// Data processing utilities for PUBG Telemetry Analytics v2.0
 
-import { Match, WeaponStat, ZoneStat, SurvivalCategory } from './types';
+import { Match, WeaponStat, ZoneStat, SurvivalCategory, WeaponMetric, ArchetypeStats, PlayerArchetype, WeaponCategory } from './types';
 
 /**
  * Calculate weapon statistics from match data
@@ -27,8 +27,95 @@ export function calculateWeaponStats(matches: Match[]): WeaponStat[] {
         });
     });
 
-    // Sort by average kills descending
     return stats.sort((a, b) => b.avgKills - a.avgKills);
+}
+
+/**
+ * v2.0: Calculate weapon balance metrics for Game Balancing feature
+ */
+export function calculateWeaponMetrics(matches: Match[]): WeaponMetric[] {
+    const weaponMap = new Map<string, {
+        category: WeaponCategory;
+        picks: number;
+        wins: number;
+        totalKills: number;
+    }>();
+
+    matches.forEach((match) => {
+        const weapon = match.weapon_used;
+        const current = weaponMap.get(weapon) || {
+            category: match.weapon_category,
+            picks: 0,
+            wins: 0,
+            totalKills: 0
+        };
+
+        weaponMap.set(weapon, {
+            category: match.weapon_category,
+            picks: current.picks + 1,
+            wins: current.wins + (match.weapon_won ? 1 : 0),
+            totalKills: current.totalKills + match.kills
+        });
+    });
+
+    const metrics: WeaponMetric[] = [];
+    weaponMap.forEach((value, weapon) => {
+        metrics.push({
+            weapon,
+            category: value.category,
+            pickRate: parseFloat(((value.picks / matches.length) * 100).toFixed(2)),
+            winRate: parseFloat(((value.wins / value.picks) * 100).toFixed(1)),
+            totalPicks: value.picks,
+            totalWins: value.wins,
+            avgKills: parseFloat((value.totalKills / value.picks).toFixed(2))
+        });
+    });
+
+    return metrics.sort((a, b) => b.pickRate - a.pickRate);
+}
+
+/**
+ * v2.0: Calculate player archetype statistics for Player Segmentation feature
+ */
+export function calculateArchetypeStats(matches: Match[]): ArchetypeStats[] {
+    const archetypeMap = new Map<PlayerArchetype, Match[]>();
+
+    matches.forEach((match) => {
+        const archetype = match.player_archetype;
+        const current = archetypeMap.get(archetype) || [];
+        current.push(match);
+        archetypeMap.set(archetype, current);
+    });
+
+    const stats: ArchetypeStats[] = [];
+    archetypeMap.forEach((archetypeMatches, archetype) => {
+        const count = archetypeMatches.length;
+        const totalSurvival = archetypeMatches.reduce((sum, m) => sum + m.time_survived, 0);
+        const totalKills = archetypeMatches.reduce((sum, m) => sum + m.kills, 0);
+        const totalDamage = archetypeMatches.reduce((sum, m) => sum + m.damage_dealt, 0);
+        const totalDeaths = archetypeMatches.filter(m => m.final_placement > 1).length;
+        const wins = archetypeMatches.filter(m => m.final_placement === 1).length;
+        const top10 = archetypeMatches.filter(m => m.final_placement <= 10).length;
+        const totalMovement = archetypeMatches.reduce((sum, m) => sum + m.movement_distance, 0);
+        const totalKillDist = archetypeMatches.reduce((sum, m) => sum + m.avg_kill_distance, 0);
+        const totalHeadshot = archetypeMatches.reduce((sum, m) => sum + m.headshot_rate, 0);
+
+        stats.push({
+            archetype,
+            count,
+            avgSurvival: parseFloat((totalSurvival / count / 60).toFixed(1)), // minutes
+            avgKills: parseFloat((totalKills / count).toFixed(2)),
+            avgDamage: parseFloat((totalDamage / count).toFixed(0)),
+            kdRatio: parseFloat((totalKills / Math.max(totalDeaths, 1)).toFixed(2)),
+            top10Rate: parseFloat(((top10 / count) * 100).toFixed(1)),
+            winRate: parseFloat(((wins / count) * 100).toFixed(1)),
+            avgMovement: parseFloat((totalMovement / count).toFixed(0)),
+            avgKillDistance: parseFloat((totalKillDist / count).toFixed(1)),
+            avgHeadshotRate: parseFloat(((totalHeadshot / count) * 100).toFixed(1))
+        });
+    });
+
+    return stats;
 }
 
 /**
@@ -69,7 +156,6 @@ export function categorizeSurvivalRate(matches: Match[]): SurvivalCategory[] {
 export function calculateZoneStats(matches: Match[]): ZoneStat[] {
     const zoneMap = new Map<string, Match[]>();
 
-    // Group matches by zone
     matches.forEach((match) => {
         const zone = match.landing_zone.zone_name;
         const zoneMatches = zoneMap.get(zone) || [];
@@ -87,14 +173,13 @@ export function calculateZoneStats(matches: Match[]): ZoneStat[] {
         stats.push({
             zone,
             winRate: parseFloat(((wins / zoneMatches.length) * 100).toFixed(2)),
-            avgSurvival: parseFloat((totalSurvival / zoneMatches.length / 60).toFixed(1)), // in minutes
+            avgSurvival: parseFloat((totalSurvival / zoneMatches.length / 60).toFixed(1)),
             avgPlacement: parseFloat((totalPlacement / zoneMatches.length).toFixed(1)),
             avgKills: parseFloat((totalKills / zoneMatches.length).toFixed(2)),
             totalMatches: zoneMatches.length,
         });
     });
 
-    // Sort by total matches descending
     return stats.sort((a, b) => b.totalMatches - a.totalMatches);
 }
 
@@ -109,7 +194,6 @@ export function getLandingZones(matches: Match[]): string[] {
         zoneCounts.set(zone, (zoneCounts.get(zone) || 0) + 1);
     });
 
-    // Sort by count descending
     return Array.from(zoneCounts.entries())
         .sort((a, b) => b[1] - a[1])
         .map(([zone]) => zone);

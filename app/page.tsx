@@ -1,73 +1,105 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import React from 'react';
 import HeroSection from '@/components/HeroSection';
 import HotDropHeatmap from '@/components/HotDropHeatmap';
 import WeaponMetaChart from '@/components/WeaponMetaChart';
 import WinProbabilityEngine from '@/components/WinProbabilityEngine';
-import { TelemetryData } from '@/lib/types';
-import { calculateWeaponStats, calculateZoneStats } from '@/lib/dataUtils';
+import WeaponMetaMatrix from '@/components/WeaponMetaMatrix';
+import ArchetypeRadar from '@/components/ArchetypeRadar';
+import LoadingSkeleton from '@/components/LoadingSkeleton';
+import { useTelemetryData } from '@/hooks/useTelemetryData';
 
-export default function Home() {
-  const [data, setData] = useState<TelemetryData | null>(null);
-  const [loading, setLoading] = useState(true);
+export default function DashboardPage() {
+  const {
+    filteredMatches,
+    weaponStats,
+    zoneStats,
+    weaponMetrics,
+    archetypeStats,
+    selectedZone,
+    setSelectedZone,
+    isLoading,
+    error
+  } = useTelemetryData();
 
-  useEffect(() => {
-    fetch('/mock_telemetry.json')
-      .then((res) => res.json())
-      .then((data: TelemetryData) => {
-        setData(data);
-        setLoading(false);
-      })
-      .catch((error) => {
-        console.error('Error loading telemetry data:', error);
-        setLoading(false);
-      });
-  }, []);
+  if (isLoading) {
+    return <LoadingSkeleton />;
+  }
 
-  if (loading) {
+  if (error) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-gray-900">
-        <div className="text-center">
-          <div className="animate-spin rounded-full h-16 w-16 border-t-2 border-b-2 border-green-500 mx-auto mb-4"></div>
-          <div className="text-green-400 text-xl font-bold">Loading Telemetry Data...</div>
+      <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-black flex items-center justify-center p-8">
+        <div className="bg-red-500/10 border-2 border-red-500/50 rounded-2xl p-8 max-w-md">
+          <h2 className="text-2xl font-bold text-red-400 mb-2">Error Loading Data</h2>
+          <p className="text-gray-300">{error}</p>
         </div>
       </div>
     );
   }
-
-  if (!data) {
-    return (
-      <div className="min-h-screen flex items-center justify-center bg-gray-900">
-        <div className="text-red-400 text-xl font-bold">Error loading data. Please check console.</div>
-      </div>
-    );
-  }
-
-  const weaponStats = calculateWeaponStats(data.matches);
-  const zoneStats = calculateZoneStats(data.matches);
 
   return (
-    <main className="min-h-screen bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900 text-white p-4 md:p-8">
-      <div className="max-w-7xl mx-auto">
+    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-black p-4 md:p-8">
+      <div className="max-w-7xl mx-auto space-y-8">
+        {/* Hero Section */}
         <HeroSection />
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
-          <HotDropHeatmap matches={data.matches} />
-          <WeaponMetaChart weaponStats={weaponStats} />
+        {/* Filter Indicator */}
+        {selectedZone && (
+          <div className="bg-gradient-to-r from-orange-500/20 to-red-500/20 border-2 border-orange-500/50 rounded-xl p-4 flex items-center justify-between animate-slide-up">
+            <div className="flex items-center gap-3">
+              <div className="w-3 h-3 bg-orange-500 rounded-full animate-pulse"></div>
+              <span className="text-white font-bold">
+                Filtered by Zone: <span className="text-orange-400">{selectedZone}</span>
+              </span>
+              <span className="text-gray-400 text-sm">
+                ({filteredMatches.length} matches)
+              </span>
+            </div>
+            <button
+              onClick={() => setSelectedZone(null)}
+              className="px-4 py-2 bg-gray-800 hover:bg-gray-700 border border-gray-600 rounded-lg text-sm font-semibold text-white transition-all hover:scale-105"
+            >
+              Clear Filter
+            </button>
+          </div>
+        )}
+
+        {/* Main Analytics Grid */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          {/* Interactive Heatmap */}
+          <HotDropHeatmap
+            matches={filteredMatches}
+            selectedZone={selectedZone}
+            onZoneClick={setSelectedZone}
+          />
+
+          {/* v2.0: Weapon Meta Matrix (Game Balancing) */}
+          <WeaponMetaMatrix weaponMetrics={weaponMetrics} />
         </div>
 
-        <div className="mb-8">
+        {/* Player Segmentation & Prediction */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          {/* v2.0: Player Archetype Analysis */}
+          <ArchetypeRadar archetypeStats={archetypeStats} />
+
+          {/* Win Probability Engine */}
           <WinProbabilityEngine zoneStats={zoneStats} />
         </div>
 
-        {/* Footer */}
-        <div className="text-center text-gray-500 text-sm mt-12 pb-8 border-t border-gray-800 pt-8">
-          <p className="mb-2">Project Alpha: PUBG Telemetry Analytics Dashboard</p>
-          <p>Built with Next.js 14 + TypeScript + Tailwind CSS + Recharts</p>
-          <p className="mt-2">Analysis based on {data.matches.length} synthetic matches</p>
+        {/* Classic Weapon Stats */}
+        <WeaponMetaChart weaponStats={weaponStats} />
+
+        {/* Version Badge */}
+        <div className="flex justify-center">
+          <div className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-purple-500/20 to-blue-500/20 border border-purple-500/30 rounded-full">
+            <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
+            <span className="text-sm font-bold text-gray-300">
+              Dashboard v2.0 • Game Balancing & Player Segmentation
+            </span>
+          </div>
         </div>
       </div>
-    </main>
+    </div>
   );
 }
