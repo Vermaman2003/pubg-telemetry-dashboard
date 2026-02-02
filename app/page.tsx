@@ -77,98 +77,118 @@ export default function DashboardPage() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-black p-4 md:p-8">
-      <div className="max-w-7xl mx-auto space-y-8">
-        {/* Header with Hero and Data Selector */}
-        <div className="flex flex-col gap-4">
-          <HeroSection
-            onRefreshData={isDynamicMode ? handleRefresh : undefined}
-            isRefreshing={isRefreshing}
-            showRefreshButton={isDynamicMode}
-          />
-          <div className="flex justify-end">
-            <DataSourceSelector
-              currentSource={selectedDataSource}
-              onSourceChange={setSelectedDataSource}
-              lastUpdated={lastUpdated}
-            />
-          </div>
-        </div>
+    <div className="min-h-screen relative overflow-x-hidden">
+      {/* Dynamic gradient background */}
+      <div className="fixed inset-0 bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 -z-10"></div>
+      <div className="fixed inset-0 bg-gradient-to-tr from-blue-900/20 via-transparent to-pink-900/20 -z-10"></div>
+      <div className="fixed inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-purple-700/20 via-transparent to-transparent -z-10"></div>
 
-        {/* Filter Indicator */}
-        {selectedZone && (
-          <div className="bg-gradient-to-r from-orange-500/20 to-red-500/20 border-2 border-orange-500/50 rounded-xl p-4 flex items-center justify-between animate-slide-up">
-            <div className="flex items-center gap-3">
-              <div className="w-3 h-3 bg-orange-500 rounded-full animate-pulse"></div>
-              <span className="text-white font-bold">
-                Filtered by Zone: <span className="text-orange-400">{selectedZone}</span>
+      {/* Animated mesh gradient overlay */}
+      <div className="fixed inset-0 opacity-30 -z-10"
+        style={{
+          backgroundImage: `
+            radial-gradient(at 40% 20%, hsla(280,100%,70%,0.3) 0px, transparent 50%),
+            radial-gradient(at 80% 0%, hsla(200,100%,70%,0.2) 0px, transparent 50%),
+            radial-gradient(at 0% 50%, hsla(340,100%,70%,0.2) 0px, transparent 50%),
+            radial-gradient(at 80% 50%, hsla(150,100%,70%,0.15) 0px, transparent 50%),
+            radial-gradient(at 0% 100%, hsla(260,100%,70%,0.2) 0px, transparent 50%),
+            radial-gradient(at 80% 100%, hsla(40,100%,70%,0.2) 0px, transparent 50%)
+          `
+        }}
+      ></div>
+
+      <div className="relative p-4 md:p-8">
+        <div className="max-w-7xl mx-auto space-y-8">
+          {/* Header with Hero and Data Selector */}
+          <div className="flex flex-col gap-4">
+            <HeroSection
+              onRefreshData={isDynamicMode ? handleRefresh : undefined}
+              isRefreshing={isRefreshing}
+              showRefreshButton={isDynamicMode}
+            />
+            <div className="flex justify-end">
+              <DataSourceSelector
+                currentSource={selectedDataSource}
+                onSourceChange={setSelectedDataSource}
+                lastUpdated={lastUpdated}
+              />
+            </div>
+          </div>
+
+          {/* Filter Indicator */}
+          {selectedZone && (
+            <div className="bg-gradient-to-r from-orange-500/20 to-red-500/20 border-2 border-orange-500/50 rounded-xl p-4 flex items-center justify-between animate-slide-up">
+              <div className="flex items-center gap-3">
+                <div className="w-3 h-3 bg-orange-500 rounded-full animate-pulse"></div>
+                <span className="text-white font-bold">
+                  Filtered by Zone: <span className="text-orange-400">{selectedZone}</span>
+                </span>
+                <span className="text-gray-400 text-sm">
+                  ({filteredMatches.length} matches)
+                </span>
+              </div>
+              <button
+                onClick={() => setSelectedZone(null)}
+                className="px-4 py-2 bg-gray-800 hover:bg-gray-700 border border-gray-600 rounded-lg text-sm font-semibold text-white transition-all hover:scale-105"
+              >
+                Clear Filter
+              </button>
+            </div>
+          )}
+
+          {/* Main Analytics Grid */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            {/* Interactive Heatmap */}
+            <HotDropHeatmap
+              matches={filteredMatches}
+              selectedZone={selectedZone}
+              onZoneClick={setSelectedZone}
+            />
+
+            {/* v2.0: Weapon Meta Matrix (Game Balancing) */}
+            <WeaponMetaMatrix weaponMetrics={weaponMetrics} />
+          </div>
+
+          {/* Player Segmentation & Prediction */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            {/* v2.0: Player Archetype Analysis */}
+            <ArchetypeRadar archetypeStats={archetypeStats} />
+
+            {/* Win Probability Engine */}
+            <WinProbabilityEngine zoneStats={zoneStats} />
+          </div>
+
+          {/* Classic Weapon Stats */}
+          <WeaponMetaChart weaponStats={weaponStats} />
+
+          {/* Version Badge with Data Source Indicator */}
+          <div className="flex justify-center gap-4 flex-wrap">
+            {/* Data Source Badge */}
+            <div className={`inline-flex items-center gap-2 px-6 py-3 border rounded-full ${dataSource === 'real'
+              ? 'bg-gradient-to-r from-green-500/20 to-emerald-500/20 border-green-500/40'
+              : 'bg-gradient-to-r from-orange-500/20 to-yellow-500/20 border-orange-500/40'
+              }`}>
+              <div className={`w-2 h-2 rounded-full animate-pulse ${dataSource === 'real' ? 'bg-green-400' : 'bg-orange-400'
+                }`}></div>
+              <span className="text-sm font-bold text-gray-200">
+                {dataSource === 'real' ? '🟢 Live Data' : '🟠 Demo Mode'}
               </span>
-              <span className="text-gray-400 text-sm">
-                ({filteredMatches.length} matches)
+              {lastUpdated && (
+                <span className="text-xs text-gray-400">
+                  • {new Date(lastUpdated).toLocaleString()}
+                </span>
+              )}
+            </div>
+
+            {/* Version Badge */}
+            <div className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-purple-500/20 to-blue-500/20 border border-purple-500/30 rounded-full">
+              <div className="w-2 h-2 bg-purple-400 rounded-full animate-pulse"></div>
+              <span className="text-sm font-bold text-gray-300">
+                Dashboard v2.0 • Game Balancing & Player Segmentation
               </span>
             </div>
-            <button
-              onClick={() => setSelectedZone(null)}
-              className="px-4 py-2 bg-gray-800 hover:bg-gray-700 border border-gray-600 rounded-lg text-sm font-semibold text-white transition-all hover:scale-105"
-            >
-              Clear Filter
-            </button>
-          </div>
-        )}
-
-        {/* Main Analytics Grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-          {/* Interactive Heatmap */}
-          <HotDropHeatmap
-            matches={filteredMatches}
-            selectedZone={selectedZone}
-            onZoneClick={setSelectedZone}
-          />
-
-          {/* v2.0: Weapon Meta Matrix (Game Balancing) */}
-          <WeaponMetaMatrix weaponMetrics={weaponMetrics} />
-        </div>
-
-        {/* Player Segmentation & Prediction */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-          {/* v2.0: Player Archetype Analysis */}
-          <ArchetypeRadar archetypeStats={archetypeStats} />
-
-          {/* Win Probability Engine */}
-          <WinProbabilityEngine zoneStats={zoneStats} />
-        </div>
-
-        {/* Classic Weapon Stats */}
-        <WeaponMetaChart weaponStats={weaponStats} />
-
-        {/* Version Badge with Data Source Indicator */}
-        <div className="flex justify-center gap-4 flex-wrap">
-          {/* Data Source Badge */}
-          <div className={`inline-flex items-center gap-2 px-6 py-3 border rounded-full ${dataSource === 'real'
-            ? 'bg-gradient-to-r from-green-500/20 to-emerald-500/20 border-green-500/40'
-            : 'bg-gradient-to-r from-orange-500/20 to-yellow-500/20 border-orange-500/40'
-            }`}>
-            <div className={`w-2 h-2 rounded-full animate-pulse ${dataSource === 'real' ? 'bg-green-400' : 'bg-orange-400'
-              }`}></div>
-            <span className="text-sm font-bold text-gray-200">
-              {dataSource === 'real' ? '🟢 Live Data' : '🟠 Demo Mode'}
-            </span>
-            {lastUpdated && (
-              <span className="text-xs text-gray-400">
-                • {new Date(lastUpdated).toLocaleString()}
-              </span>
-            )}
-          </div>
-
-          {/* Version Badge */}
-          <div className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-purple-500/20 to-blue-500/20 border border-purple-500/30 rounded-full">
-            <div className="w-2 h-2 bg-purple-400 rounded-full animate-pulse"></div>
-            <span className="text-sm font-bold text-gray-300">
-              Dashboard v2.0 • Game Balancing & Player Segmentation
-            </span>
           </div>
         </div>
       </div>
-    </div>
-  );
+      );
 }
