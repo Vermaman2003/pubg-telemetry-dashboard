@@ -9,15 +9,15 @@ interface WeaponMetaChartProps {
 }
 
 export default function WeaponMetaChart({ weaponStats }: WeaponMetaChartProps) {
-    // Enhanced color palette with better contrast and visibility
+    // High-contrast vibrant colors
     const colors = [
-        '#00ff88', // Bright Cyan-Green
-        '#ff6b35', // Vibrant Orange
-        '#ffc107', // Golden Yellow
-        '#2196f3', // Bright Blue
-        '#e91e63', // Pink
-        '#9c27b0', // Purple
-        '#00e676', // Light Green
+        '#00ff88', // Neon Green
+        '#ff1744', // Neon Red
+        '#ffea00', // Neon Yellow
+        '#00e5ff', // Neon Cyan
+        '#e040fb', // Neon Purple
+        '#ff6d00', // Neon Orange
+        '#76ff03', // Lime Green
     ];
 
     return (
@@ -39,21 +39,35 @@ export default function WeaponMetaChart({ weaponStats }: WeaponMetaChartProps) {
             <ResponsiveContainer width="100%" height={450}>
                 <BarChart
                     data={weaponStats}
-                    margin={{ top: 20, right: 30, left: 20, bottom: 20 }}
+                    margin={{ top: 30, right: 30, left: 20, bottom: 20 }}
                 >
                     <defs>
                         {weaponStats.map((entry, index) => (
-                            <linearGradient key={index} id={`gradient-${index}`} x1="0" y1="0" x2="0" y2="1">
-                                <stop offset="0%" stopColor={colors[index % colors.length]} stopOpacity={1} />
-                                <stop offset="100%" stopColor={colors[index % colors.length]} stopOpacity={0.5} />
-                            </linearGradient>
+                            <React.Fragment key={index}>
+                                <linearGradient id={`gradient-${index}`} x1="0" y1="0" x2="0" y2="1">
+                                    <stop offset="0%" stopColor={colors[index % colors.length]} stopOpacity={1} />
+                                    <stop offset="100%" stopColor={colors[index % colors.length]} stopOpacity={0.6} />
+                                </linearGradient>
+                                <filter id={`glow-${index}`}>
+                                    <feGaussianBlur stdDeviation="3" result="coloredBlur" />
+                                    <feMerge>
+                                        <feMergeNode in="coloredBlur" />
+                                        <feMergeNode in="SourceGraphic" />
+                                    </feMerge>
+                                </filter>
+                            </React.Fragment>
                         ))}
                     </defs>
                     <CartesianGrid strokeDasharray="3 3" stroke="#2a3f3f" opacity={0.3} />
                     <XAxis
                         dataKey="weapon"
                         stroke="#9ca3af"
-                        tick={{ fill: '#e5e7eb', fontWeight: 700, fontSize: 14 }}
+                        tick={{
+                            fill: '#ffffff',
+                            fontWeight: 900,
+                            fontSize: 16,
+                            fontFamily: 'monospace'
+                        }}
                         tickLine={{ stroke: '#9ca3af' }}
                         height={60}
                     />
@@ -63,30 +77,38 @@ export default function WeaponMetaChart({ weaponStats }: WeaponMetaChartProps) {
                             value: 'Average Kills per Match',
                             angle: -90,
                             position: 'insideLeft',
-                            fill: '#ff8c42',
+                            fill: '#ffaa00',
                             fontWeight: 'bold',
-                            fontSize: 14
+                            fontSize: 15
                         }}
-                        tick={{ fill: '#e5e7eb', fontWeight: 600, fontSize: 13 }}
+                        tick={{ fill: '#ffffff', fontWeight: 700, fontSize: 14 }}
                         tickLine={{ stroke: '#9ca3af' }}
                     />
                     <Tooltip
                         contentStyle={{
-                            backgroundColor: 'rgba(10, 14, 20, 0.98)',
-                            border: '2px solid #ff6b35',
+                            backgroundColor: 'rgba(0, 0, 0, 0.95)',
+                            border: '3px solid #ff6b35',
                             borderRadius: '16px',
-                            color: '#e5e7eb',
+                            color: '#ffffff',
                             backdropFilter: 'blur(16px)',
-                            boxShadow: '0 0 40px rgba(255, 107, 53, 0.4)',
-                            padding: '12px 16px'
+                            boxShadow: '0 0 40px rgba(255, 107, 53, 0.6)',
+                            padding: '16px 20px'
                         }}
-                        labelStyle={{ color: '#ff8c42', fontWeight: 'bold', fontSize: '18px', marginBottom: '8px' }}
+                        labelStyle={{
+                            color: '#ffaa00',
+                            fontWeight: 'bold',
+                            fontSize: '20px',
+                            marginBottom: '8px'
+                        }}
                         formatter={(value: number | undefined, name: string | undefined) => {
                             if (value === undefined || name === undefined) return ['N/A', 'Unknown'];
-                            if (name === 'avgKills') return [value.toFixed(2), 'Avg Kills'];
+                            if (name === 'avgKills') return [
+                                <span style={{ color: '#00ff88', fontSize: '18px', fontWeight: 'bold' }}>{value.toFixed(2)}</span>,
+                                'Avg Kills'
+                            ];
                             return [value, name];
                         }}
-                        cursor={{ fill: 'rgba(255, 107, 53, 0.1)' }}
+                        cursor={{ fill: 'rgba(255, 107, 53, 0.15)' }}
                     />
                     <Bar dataKey="avgKills" radius={[16, 16, 0, 0]} maxBarSize={90}>
                         {weaponStats.map((entry, index) => (
@@ -95,6 +117,7 @@ export default function WeaponMetaChart({ weaponStats }: WeaponMetaChartProps) {
                                 fill={`url(#gradient-${index})`}
                                 stroke={colors[index % colors.length]}
                                 strokeWidth={3}
+                                filter={`url(#glow-${index})`}
                             />
                         ))}
                         <LabelList
@@ -103,9 +126,13 @@ export default function WeaponMetaChart({ weaponStats }: WeaponMetaChartProps) {
                             formatter={(value: number) => value.toFixed(1)}
                             style={{
                                 fill: '#ffffff',
-                                fontWeight: 'bold',
-                                fontSize: '14px',
-                                textShadow: '0 0 8px rgba(0, 0, 0, 0.8)'
+                                fontWeight: 900,
+                                fontSize: '18px',
+                                textShadow: '0 0 12px rgba(0, 0, 0, 1), 0 0 24px rgba(0, 0, 0, 0.8)',
+                                fontFamily: 'monospace',
+                                stroke: '#000000',
+                                strokeWidth: 0.5,
+                                paintOrder: 'stroke fill'
                             }}
                         />
                     </Bar>
@@ -119,25 +146,31 @@ export default function WeaponMetaChart({ weaponStats }: WeaponMetaChartProps) {
                     {weaponStats.slice(0, 4).map((stat, index) => (
                         <div
                             key={stat.weapon}
-                            className="group relative bg-gradient-to-br from-gray-800/60 to-gray-900/60 rounded-xl p-5 border-2 hover:border-opacity-100 transition-all hover:scale-105 hover:shadow-lg"
+                            className="group relative bg-gradient-to-br from-gray-800/80 to-gray-900/80 rounded-xl p-5 border-2 hover:border-opacity-100 transition-all hover:scale-105 hover:shadow-xl"
                             style={{
-                                borderColor: `${colors[index % colors.length]}30`,
+                                borderColor: colors[index % colors.length],
+                                boxShadow: `0 0 20px ${colors[index % colors.length]}30`
                             }}
                         >
                             <div
-                                className="absolute top-0 right-0 w-16 h-16 rounded-bl-full opacity-20"
+                                className="absolute top-0 right-0 w-16 h-16 rounded-bl-full opacity-30"
                                 style={{ backgroundColor: colors[index % colors.length] }}
                             ></div>
                             <div
                                 className="text-xl font-black mb-2 font-mono"
-                                style={{ color: colors[index % colors.length] }}
+                                style={{
+                                    color: colors[index % colors.length],
+                                    textShadow: `0 0 10px ${colors[index % colors.length]}80`
+                                }}
                             >
                                 {stat.weapon}
                             </div>
-                            <div className="text-white text-3xl font-bold mb-1">
+                            <div className="text-white text-3xl font-black mb-1" style={{
+                                textShadow: '0 2px 8px rgba(0,0,0,0.5)'
+                            }}>
                                 {stat.avgKills.toFixed(2)}
                             </div>
-                            <div className="text-gray-400 text-xs uppercase tracking-wider">
+                            <div className="text-gray-300 text-xs uppercase tracking-wider font-semibold">
                                 {stat.usage} matches • {stat.totalKills} kills
                             </div>
                         </div>
