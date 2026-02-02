@@ -6,7 +6,7 @@ export default function HeroSection() {
     return (
         <div className="relative overflow-hidden bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 border border-green-500/20 rounded-lg p-8 mb-8">
             {/* Animated background effect */}
-            <div className="absolute inset-0 bg-gradient-to-r from-green-500/5 to-orange-500/5 animate-pulse"></div>
+            <div className="absolute inset-0 bg-gradient-to-r from-green-500/5 to-orange-500/5 animate-pulse-bg"></div>
 
             <div className="relative z-10">
                 <h1 className="text-5xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-orange-400 animate-glow">
