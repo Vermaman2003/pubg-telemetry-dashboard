@@ -89,7 +89,7 @@ export default function DataSourceSelector({
     };
 
     return (
-        <div className="relative w-full sm:w-auto">
+        <div className="relative w-full sm:w-auto z-[100]">
             {/* Trigger Button - Responsive */}
             <button
                 onClick={() => setIsOpen(!isOpen)}
@@ -117,7 +117,7 @@ export default function DataSourceSelector({
                 <>
                     {/* Backdrop */}
                     <div
-                        className="fixed inset-0 z-40 bg-black/20 sm:bg-transparent"
+                        className="fixed inset-0 z-[101] bg-black/20 sm:bg-transparent"
                         onClick={() => setIsOpen(false)}
                     />
 
@@ -128,7 +128,7 @@ export default function DataSourceSelector({
                         bg-gray-900/98 sm:bg-gray-900/95 backdrop-blur-xl 
                         border-t sm:border border-gray-700/50 
                         rounded-t-2xl sm:rounded-xl 
-                        shadow-2xl z-50 overflow-hidden 
+                        shadow-2xl z-[102] overflow-hidden 
                         animate-slide-up max-h-[85vh] sm:max-h-[600px]
                         flex flex-col">
 
@@ -174,7 +174,11 @@ export default function DataSourceSelector({
                                     return (
                                         <button
                                             key={source.id}
-                                            onClick={() => handleSelect(source.id)}
+                                            onClick={(e) => {
+                                                e.stopPropagation();
+                                                handleSelect(source.id);
+                                            }}
+                                            type="button"
                                             className={`w-full px-4 py-3 sm:py-3.5 text-left transition-all 
                                                 border-b border-gray-800/50
                                                 active:scale-[0.98] touch-manipulation
