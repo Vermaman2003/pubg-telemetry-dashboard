@@ -35,9 +35,9 @@ export interface UseTelemetryDataReturn {
     lastUpdated: string | null;
 }
 
-export function useTelemetryData(): UseTelemetryDataReturn {
-    // Use data source hook for automatic real/mock fallback
-    const { matches, isLoading, error, dataSource, lastUpdated } = useDataSource();
+export function useTelemetryData(selectedSource: string = 'live'): UseTelemetryDataReturn {
+    // Use data source hook for automatic real/mock fallback with source selection
+    const { matches, isLoading, error, dataSource, lastUpdated } = useDataSource(selectedSource);
 
     const [selectedZone, setSelectedZone] = useState<string | null>(null);
 

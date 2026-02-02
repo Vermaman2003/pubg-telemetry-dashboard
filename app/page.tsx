@@ -1,6 +1,6 @@
 'use client';
 
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import HeroSection from '@/components/HeroSection';
 import HotDropHeatmap from '@/components/HotDropHeatmap';
 import WeaponMetaChart from '@/components/WeaponMetaChart';
@@ -8,9 +8,23 @@ import WinProbabilityEngine from '@/components/WinProbabilityEngine';
 import WeaponMetaMatrix from '@/components/WeaponMetaMatrix';
 import ArchetypeRadar from '@/components/ArchetypeRadar';
 import LoadingSkeleton from '@/components/LoadingSkeleton';
+import DataSourceSelector from '@/components/DataSourceSelector';
 import { useTelemetryData } from '@/hooks/useTelemetryData';
 
 export default function DashboardPage() {
+  // Data source state with localStorage persistence
+  const [selectedDataSource, setSelectedDataSource] = useState<string>('live');
+
+  // Load saved preference on mount
+  useEffect(() => {
+    try {
+      const saved = localStorage.getItem('pubg_data_source');
+      if (saved) setSelectedDataSource(saved);
+    } catch (err) {
+      console.log('Could not load saved preference');
+    }
+  }, []);
+
   const {
     filteredMatches,
     weaponStats,
@@ -23,7 +37,7 @@ export default function DashboardPage() {
     error,
     dataSource,
     lastUpdated
-  } = useTelemetryData();
+  } = useTelemetryData(selectedDataSource);
 
   if (isLoading) {
     return <LoadingSkeleton />;
@@ -43,8 +57,15 @@ export default function DashboardPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-black p-4 md:p-8">
       <div className="max-w-7xl mx-auto space-y-8">
-        {/* Hero Section */}
-        <HeroSection />
+        {/* Header with Hero and Data Selector */}
+        <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-4">
+          <HeroSection />
+          <DataSourceSelector
+            currentSource={selectedDataSource}
+            onSourceChange={setSelectedDataSource}
+            lastUpdated={lastUpdated}
+          />
+        </div>
 
         {/* Filter Indicator */}
         {selectedZone && (
@@ -96,8 +117,8 @@ export default function DashboardPage() {
         <div className="flex justify-center gap-4 flex-wrap">
           {/* Data Source Badge */}
           <div className={`inline-flex items-center gap-2 px-6 py-3 border rounded-full ${dataSource === 'real'
-              ? 'bg-gradient-to-r from-green-500/20 to-emerald-500/20 border-green-500/40'
-              : 'bg-gradient-to-r from-orange-500/20 to-yellow-500/20 border-orange-500/40'
+            ? 'bg-gradient-to-r from-green-500/20 to-emerald-500/20 border-green-500/40'
+            : 'bg-gradient-to-r from-orange-500/20 to-yellow-500/20 border-orange-500/40'
             }`}>
             <div className={`w-2 h-2 rounded-full animate-pulse ${dataSource === 'real' ? 'bg-green-400' : 'bg-orange-400'
               }`}></div>

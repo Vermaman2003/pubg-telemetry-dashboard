@@ -11,9 +11,10 @@ interface UseDataSourceReturn {
 
 /**
  * Custom hook to load telemetry data with automatic fallback
- * Tries to load real_telemetry.json first, falls back to mock_telemetry.json
+ * Supports multiple data sources: live, historical snapshots, and demo
+ * @param selectedSource - Source ID ('live', date string, or 'mock')
  */
-export function useDataSource(): UseDataSourceReturn {
+export function useDataSource(selectedSource: string = 'live'): UseDataSourceReturn {
     const [matches, setMatches] = useState<Match[]>([]);
     const [isLoading, setIsLoading] = useState(true);
     const [error, setError] = useState<string | null>(null);
@@ -25,32 +26,43 @@ export function useDataSource(): UseDataSourceReturn {
             setIsLoading(true);
             setError(null);
 
+            // Determine file path based on selected source
+            let dataPath = '/mock_telemetry.json'; // Default fallback
+
+            if (selectedSource === 'live') {
+                dataPath = '/real_telemetry.json';
+            } else if (selectedSource === 'mock') {
+                dataPath = '/mock_telemetry.json';
+            } else {
+                // Historical snapshot (date-based ID)
+                dataPath = `/data/archive/${selectedSource}.json`;
+            }
+
             try {
-                // Try real data first
-                console.log('🔍 Attempting to load real PUBG data...');
-                const realResponse = await fetch('/real_telemetry.json');
+                console.log(`🔍 Attempting to load: ${dataPath}`);
+                const response = await fetch(dataPath);
 
-                if (realResponse.ok) {
-                    const realData = await realResponse.json();
+                if (response.ok) {
+                    const data = await response.json();
 
-                    if (realData.matches && realData.matches.length > 0) {
-                        console.log('✅ Real PUBG data loaded:', realData.matches.length, 'matches');
-                        setMatches(realData.matches);
-                        setDataSource('real');
-                        setLastUpdated(realData.metadata?.fetched_at || null);
+                    if (data.matches && data.matches.length > 0) {
+                        console.log(`✅ Loaded ${dataPath}:`, data.matches.length, 'matches');
+                        setMatches(data.matches);
+                        setDataSource(data.metadata?.source || (selectedSource === 'mock' ? 'mock' : 'real'));
+                        setLastUpdated(data.metadata?.fetched_at || null);
                         setIsLoading(false);
                         return;
                     } else {
-                        console.log('⚠️  Real data file exists but is empty');
+                        console.log(`⚠️  ${dataPath} exists but is empty`);
                     }
                 } else {
-                    console.log('⚠️  Real data file not found (404)');
+                    console.log(`⚠️  ${dataPath} not found (${response.status})`);
                 }
             } catch (err) {
-                console.log('⚠️  Error loading real data:', err);
+                console.log(`⚠️  Error loading ${dataPath}:`, err);
             }
 
-            // Fallback to mock data
+            // Fallback to demo data if selected source fails
             try {
                 console.log('📦 Falling back to demo data...');
                 const mockResponse = await fetch('/mock_telemetry.json');
@@ -75,7 +87,7 @@ export function useDataSource(): UseDataSourceReturn {
         }
 
         loadData();
-    }, []);
+    }, [selectedSource]); // Re-load when source changes
 
     return {
         matches,
