@@ -120,7 +120,7 @@ export default function WeaponMetaChart({ weaponStats }: WeaponMetaChartProps) {
                         <LabelList
                             dataKey="avgKills"
                             position="top"
-                            formatter={(value: number) => value.toFixed(1)}
+                            formatter={(value: number | undefined) => value ? value.toFixed(1) : ''}
                             style={{
                                 fill: '#ffffff',
                                 fontWeight: 900,
