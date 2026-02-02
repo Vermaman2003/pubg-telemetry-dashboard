@@ -102,10 +102,7 @@ export default function WeaponMetaChart({ weaponStats }: WeaponMetaChartProps) {
                         }}
                         formatter={(value: number | undefined, name: string | undefined) => {
                             if (value === undefined || name === undefined) return ['N/A', 'Unknown'];
-                            if (name === 'avgKills') return [
-                                <span style={{ color: '#00ff88', fontSize: '18px', fontWeight: 'bold' }}>{value.toFixed(2)}</span>,
-                                'Avg Kills'
-                            ];
+                            if (name === 'avgKills') return [value.toFixed(2), 'Avg Kills'];
                             return [value, name];
                         }}
                         cursor={{ fill: 'rgba(255, 107, 53, 0.15)' }}
