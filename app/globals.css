@@ -10,7 +10,7 @@
 }
 
 body {
-  background: var(--background);
+  background: linear-gradient(135deg, #0a0e14 0%, #1a1f2e 100%);
   color: var(--foreground);
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -21,21 +21,23 @@ body {
 
 /* Custom scrollbar */
 ::-webkit-scrollbar {
-  width: 10px;
-  height: 10px;
+  width: 12px;
+  height: 12px;
 }
 
 ::-webkit-scrollbar-track {
   background: #0a0e14;
+  border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #1a1f2e;
-  border-radius: 5px;
+  background: linear-gradient(180deg, #00ff88, #00dd77);
+  border-radius: 10px;
+  border: 2px solid #0a0e14;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #2a2f3e;
+  background: linear-gradient(180deg, #00ffaa, #00ff88);
 }
 
 /* Glow animation */
@@ -64,16 +66,68 @@ body {
 
   0%,
   100% {
-    opacity: 0.5;
+    opacity: 0.3;
   }
 
   50% {
-    opacity: 0.8;
+    opacity: 0.6;
   }
 }
 
 .animate-pulse-bg {
-  animation: pulse-bg 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  animation: pulse-bg 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Gradient animation */
+@keyframes gradient-x {
+
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+.animate-gradient-x {
+  background-size: 200% 200%;
+  animation: gradient-x 3s ease infinite;
+}
+
+/* Slide in from bottom */
+@keyframes slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-slide-up {
+  animation: slide-up 0.6s ease-out;
+}
+
+/* Float animation */
+@keyframes float {
+
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
 }
 
 /* Custom utilities */
@@ -96,5 +150,10 @@ body {
   .shadow-glow-orange {
     box-shadow: 0 0 20px rgba(255, 107, 53, 0.3),
       0 0 40px rgba(255, 107, 53, 0.1);
+  }
+
+  .backdrop-blur-glass {
+    backdrop-filter: blur(12px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.75);
   }
 }
