@@ -113,6 +113,7 @@ export function useDataSource(selectedSource: string = 'live'): UseDataSourceRet
     };
 
     useEffect(() => {
+        console.log('🔄 useDataSource: selectedSource changed to:', selectedSource);
         loadData();
     }, [selectedSource]); // Re-load when source changes
 

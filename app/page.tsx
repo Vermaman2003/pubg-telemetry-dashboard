@@ -25,6 +25,11 @@ export default function DashboardPage() {
     }
   }, []);
 
+  // Debug: Log when selectedDataSource changes
+  useEffect(() => {
+    console.log('📊 Page.tsx: selectedDataSource changed to:', selectedDataSource);
+  }, [selectedDataSource]);
+
   const {
     filteredMatches,
     weaponStats,

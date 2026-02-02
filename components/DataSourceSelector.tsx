@@ -77,15 +77,22 @@ export default function DataSourceSelector({
     const currentSourceData = sources.find(s => s.id === currentSource) || sources[0];
 
     const handleSelect = (sourceId: string) => {
+        console.log('🎯 DataSourceSelector: handleSelect called with:', sourceId);
+        console.log('   Current source:', currentSource);
+        console.log('   Calling onSourceChange...');
+
         onSourceChange(sourceId);
         setIsOpen(false);
 
         // Save preference to localStorage
         try {
             localStorage.setItem('pubg_data_source', sourceId);
+            console.log('   ✅ Saved to localStorage:', sourceId);
         } catch (err) {
-            console.log('Could not save preference');
+            console.log('   ⚠️ Could not save preference:', err);
         }
+
+        console.log('   🎯 handleSelect complete');
     };
 
     return (
