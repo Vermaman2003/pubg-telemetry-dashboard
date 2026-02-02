@@ -1,0 +1,6504 @@
+{
+  "matches": [
+    {
+      "match_id": "match_001",
+      "landing_zone": {
+        "x": 3592,
+        "y": 2654,
+        "zone_name": "School"
+      },
+      "weapon_used": "Vector",
+      "final_placement": 73,
+      "time_survived": 116,
+      "damage_dealt": 21,
+      "kills": 0
+    },
+    {
+      "match_id": "match_002",
+      "landing_zone": {
+        "x": 6588,
+        "y": 2329,
+        "zone_name": "Military Base"
+      },
+      "weapon_used": "M416",
+      "final_placement": 34,
+      "time_survived": 471,
+      "damage_dealt": 810,
+      "kills": 2
+    },
+    {
+      "match_id": "match_003",
+      "landing_zone": {
+        "x": 4548,
+        "y": 169,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 30,
+      "time_survived": 455,
+      "damage_dealt": 929,
+      "kills": 2
+    },
+    {
+      "match_id": "match_004",
+      "landing_zone": {
+        "x": 3502,
+        "y": 2768,
+        "zone_name": "School"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 77,
+      "time_survived": 114,
+      "damage_dealt": 417,
+      "kills": 1
+    },
+    {
+      "match_id": "match_005",
+      "landing_zone": {
+        "x": 5604,
+        "y": 6912,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "AWM",
+      "final_placement": 74,
+      "time_survived": 51,
+      "damage_dealt": 16,
+      "kills": 0
+    },
+    {
+      "match_id": "match_006",
+      "landing_zone": {
+        "x": 1308,
+        "y": 6585,
+        "zone_name": "Georgopol"
+      },
+      "weapon_used": "M416",
+      "final_placement": 8,
+      "time_survived": 1588,
+      "damage_dealt": 2906,
+      "kills": 6
+    },
+    {
+      "match_id": "match_007",
+      "landing_zone": {
+        "x": 2932,
+        "y": 344,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 10,
+      "time_survived": 1541,
+      "damage_dealt": 1785,
+      "kills": 3
+    },
+    {
+      "match_id": "match_008",
+      "landing_zone": {
+        "x": 5072,
+        "y": 5089,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "UMP45",
+      "final_placement": 81,
+      "time_survived": 89,
+      "damage_dealt": 39,
+      "kills": 0
+    },
+    {
+      "match_id": "match_009",
+      "landing_zone": {
+        "x": 1280,
+        "y": 6736,
+        "zone_name": "Georgopol"
+      },
+      "weapon_used": "UMP45",
+      "final_placement": 82,
+      "time_survived": 22,
+      "damage_dealt": 5,
+      "kills": 0
+    },
+    {
+      "match_id": "match_010",
+      "landing_zone": {
+        "x": 3404,
+        "y": 2544,
+        "zone_name": "School"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 63,
+      "time_survived": 99,
+      "damage_dealt": 28,
+      "kills": 0
+    },
+    {
+      "match_id": "match_011",
+      "landing_zone": {
+        "x": 1515,
+        "y": 6801,
+        "zone_name": "Georgopol"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 99,
+      "time_survived": 38,
+      "damage_dealt": 12,
+      "kills": 0
+    },
+    {
+      "match_id": "match_012",
+      "landing_zone": {
+        "x": 3556,
+        "y": 3057,
+        "zone_name": "School"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 81,
+      "time_survived": 111,
+      "damage_dealt": 415,
+      "kills": 1
+    },
+    {
+      "match_id": "match_013",
+      "landing_zone": {
+        "x": 1382,
+        "y": 6400,
+        "zone_name": "Georgopol"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 72,
+      "time_survived": 81,
+      "damage_dealt": 6,
+      "kills": 0
+    },
+    {
+      "match_id": "match_014",
+      "landing_zone": {
+        "x": 4321,
+        "y": 5170,
+        "zone_name": "Rozhok"
+      },
+      "weapon_used": "UMP45",
+      "final_placement": 1,
+      "time_survived": 1775,
+      "damage_dealt": 1113,
+      "kills": 2
+    },
+    {
+      "match_id": "match_015",
+      "landing_zone": {
+        "x": 4852,
+        "y": 4787,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 96,
+      "time_survived": 15,
+      "damage_dealt": 5,
+      "kills": 0
+    },
+    {
+      "match_id": "match_016",
+      "landing_zone": {
+        "x": 1507,
+        "y": 6514,
+        "zone_name": "Georgopol"
+      },
+      "weapon_used": "M416",
+      "final_placement": 96,
+      "time_survived": 116,
+      "damage_dealt": 402,
+      "kills": 1
+    },
+    {
+      "match_id": "match_017",
+      "landing_zone": {
+        "x": 1302,
+        "y": 6532,
+        "zone_name": "Georgopol"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 79,
+      "time_survived": 27,
+      "damage_dealt": 10,
+      "kills": 0
+    },
+    {
+      "match_id": "match_018",
+      "landing_zone": {
+        "x": 1430,
+        "y": 7566,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 43,
+      "time_survived": 323,
+      "damage_dealt": 446,
+      "kills": 1
+    },
+    {
+      "match_id": "match_019",
+      "landing_zone": {
+        "x": 80,
+        "y": 1472,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 1,
+      "time_survived": 1770,
+      "damage_dealt": 2826,
+      "kills": 6
+    },
+    {
+      "match_id": "match_020",
+      "landing_zone": {
+        "x": 2791,
+        "y": 7533,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 7,
+      "time_survived": 1437,
+      "damage_dealt": 3072,
+      "kills": 6
+    },
+    {
+      "match_id": "match_021",
+      "landing_zone": {
+        "x": 4161,
+        "y": 5448,
+        "zone_name": "Rozhok"
+      },
+      "weapon_used": "UMP45",
+      "final_placement": 81,
+      "time_survived": 39,
+      "damage_dealt": 6,
+      "kills": 0
+    },
+    {
+      "match_id": "match_022",
+      "landing_zone": {
+        "x": 6866,
+        "y": 4403,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 49,
+      "time_survived": 331,
+      "damage_dealt": 502,
+      "kills": 1
+    },
+    {
+      "match_id": "match_023",
+      "landing_zone": {
+        "x": 4709,
+        "y": 2934,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "UMP45",
+      "final_placement": 24,
+      "time_survived": 377,
+      "damage_dealt": 451,
+      "kills": 1
+    },
+    {
+      "match_id": "match_024",
+      "landing_zone": {
+        "x": 4146,
+        "y": 5160,
+        "zone_name": "Rozhok"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 95,
+      "time_survived": 119,
+      "damage_dealt": 40,
+      "kills": 0
+    },
+    {
+      "match_id": "match_025",
+      "landing_zone": {
+        "x": 3090,
+        "y": 1240,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 22,
+      "time_survived": 994,
+      "damage_dealt": 2382,
+      "kills": 5
+    },
+    {
+      "match_id": "match_026",
+      "landing_zone": {
+        "x": 7953,
+        "y": 1730,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "UMP45",
+      "final_placement": 4,
+      "time_survived": 1744,
+      "damage_dealt": 2153,
+      "kills": 5
+    },
+    {
+      "match_id": "match_027",
+      "landing_zone": {
+        "x": 3594,
+        "y": 1221,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 10,
+      "time_survived": 1718,
+      "damage_dealt": 2045,
+      "kills": 5
+    },
+    {
+      "match_id": "match_028",
+      "landing_zone": {
+        "x": 4646,
+        "y": 5140,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "M416",
+      "final_placement": 87,
+      "time_survived": 46,
+      "damage_dealt": 23,
+      "kills": 0
+    },
+    {
+      "match_id": "match_029",
+      "landing_zone": {
+        "x": 4809,
+        "y": 712,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 16,
+      "time_survived": 1185,
+      "damage_dealt": 1397,
+      "kills": 3
+    },
+    {
+      "match_id": "match_030",
+      "landing_zone": {
+        "x": 6506,
+        "y": 2033,
+        "zone_name": "Military Base"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 87,
+      "time_survived": 111,
+      "damage_dealt": 49,
+      "kills": 0
+    },
+    {
+      "match_id": "match_031",
+      "landing_zone": {
+        "x": 614,
+        "y": 7253,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 19,
+      "time_survived": 821,
+      "damage_dealt": 1728,
+      "kills": 4
+    },
+    {
+      "match_id": "match_032",
+      "landing_zone": {
+        "x": 6647,
+        "y": 5968,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "UMP45",
+      "final_placement": 23,
+      "time_survived": 788,
+      "damage_dealt": 869,
+      "kills": 2
+    },
+    {
+      "match_id": "match_033",
+      "landing_zone": {
+        "x": 4729,
+        "y": 4741,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "M416",
+      "final_placement": 84,
+      "time_survived": 34,
+      "damage_dealt": 14,
+      "kills": 0
+    },
+    {
+      "match_id": "match_034",
+      "landing_zone": {
+        "x": 2722,
+        "y": 3492,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 9,
+      "time_survived": 1061,
+      "damage_dealt": 2059,
+      "kills": 4
+    },
+    {
+      "match_id": "match_035",
+      "landing_zone": {
+        "x": 6692,
+        "y": 785,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 18,
+      "time_survived": 1065,
+      "damage_dealt": 1680,
+      "kills": 4
+    },
+    {
+      "match_id": "match_036",
+      "landing_zone": {
+        "x": 3993,
+        "y": 5042,
+        "zone_name": "Rozhok"
+      },
+      "weapon_used": "Vector",
+      "final_placement": 9,
+      "time_survived": 1364,
+      "damage_dealt": 2072,
+      "kills": 4
+    },
+    {
+      "match_id": "match_037",
+      "landing_zone": {
+        "x": 976,
+        "y": 4944,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 23,
+      "time_survived": 665,
+      "damage_dealt": 1294,
+      "kills": 3
+    },
+    {
+      "match_id": "match_038",
+      "landing_zone": {
+        "x": 5612,
+        "y": 6910,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "UMP45",
+      "final_placement": 14,
+      "time_survived": 1034,
+      "damage_dealt": 1923,
+      "kills": 4
+    },
+    {
+      "match_id": "match_039",
+      "landing_zone": {
+        "x": 5106,
+        "y": 4576,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "Vector",
+      "final_placement": 63,
+      "time_survived": 38,
+      "damage_dealt": 4,
+      "kills": 0
+    },
+    {
+      "match_id": "match_040",
+      "landing_zone": {
+        "x": 2453,
+        "y": 772,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 6,
+      "time_survived": 1194,
+      "damage_dealt": 2902,
+      "kills": 6
+    },
+    {
+      "match_id": "match_041",
+      "landing_zone": {
+        "x": 317,
+        "y": 6538,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 24,
+      "time_survived": 661,
+      "damage_dealt": 1051,
+      "kills": 2
+    },
+    {
+      "match_id": "match_042",
+      "landing_zone": {
+        "x": 6356,
+        "y": 2504,
+        "zone_name": "Military Base"
+      },
+      "weapon_used": "UMP45",
+      "final_placement": 6,
+      "time_survived": 1246,
+      "damage_dealt": 1150,
+      "kills": 2
+    },
+    {
+      "match_id": "match_043",
+      "landing_zone": {
+        "x": 1866,
+        "y": 5895,
+        "zone_name": "Georgopol"
+      },
+      "weapon_used": "Vector",
+      "final_placement": 6,
+      "time_survived": 1759,
+      "damage_dealt": 857,
+      "kills": 2
+    },
+    {
+      "match_id": "match_044",
+      "landing_zone": {
+        "x": 4204,
+        "y": 5203,
+        "zone_name": "Rozhok"
+      },
+      "weapon_used": "UMP45",
+      "final_placement": 100,
+      "time_survived": 75,
+      "damage_dealt": 22,
+      "kills": 0
+    },
+    {
+      "match_id": "match_045",
+      "landing_zone": {
+        "x": 835,
+        "y": 888,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 5,
+      "time_survived": 1039,
+      "damage_dealt": 1295,
+      "kills": 3
+    },
+    {
+      "match_id": "match_046",
+      "landing_zone": {
+        "x": 135,
+        "y": 4694,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 24,
+      "time_survived": 917,
+      "damage_dealt": 1817,
+      "kills": 4
+    },
+    {
+      "match_id": "match_047",
+      "landing_zone": {
+        "x": 7172,
+        "y": 234,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 53,
+      "time_survived": 286,
+      "damage_dealt": 499,
+      "kills": 1
+    },
+    {
+      "match_id": "match_048",
+      "landing_zone": {
+        "x": 661,
+        "y": 937,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "UMP45",
+      "final_placement": 10,
+      "time_survived": 1422,
+      "damage_dealt": 2115,
+      "kills": 4
+    },
+    {
+      "match_id": "match_049",
+      "landing_zone": {
+        "x": 5181,
+        "y": 2629,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "UMP45",
+      "final_placement": 56,
+      "time_survived": 392,
+      "damage_dealt": 461,
+      "kills": 1
+    },
+    {
+      "match_id": "match_050",
+      "landing_zone": {
+        "x": 4661,
+        "y": 4707,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "Vector",
+      "final_placement": 73,
+      "time_survived": 16,
+      "damage_dealt": 4,
+      "kills": 0
+    },
+    {
+      "match_id": "match_051",
+      "landing_zone": {
+        "x": 3409,
+        "y": 1156,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "Vector",
+      "final_placement": 25,
+      "time_survived": 658,
+      "damage_dealt": 624,
+      "kills": 1
+    },
+    {
+      "match_id": "match_052",
+      "landing_zone": {
+        "x": 1655,
+        "y": 5161,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 1,
+      "time_survived": 1504,
+      "damage_dealt": 2169,
+      "kills": 4
+    },
+    {
+      "match_id": "match_053",
+      "landing_zone": {
+        "x": 2650,
+        "y": 5340,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "UMP45",
+      "final_placement": 5,
+      "time_survived": 810,
+      "damage_dealt": 1166,
+      "kills": 2
+    },
+    {
+      "match_id": "match_054",
+      "landing_zone": {
+        "x": 4876,
+        "y": 4629,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "M416",
+      "final_placement": 75,
+      "time_survived": 22,
+      "damage_dealt": 2,
+      "kills": 0
+    },
+    {
+      "match_id": "match_055",
+      "landing_zone": {
+        "x": 164,
+        "y": 6991,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 38,
+      "time_survived": 322,
+      "damage_dealt": 890,
+      "kills": 2
+    },
+    {
+      "match_id": "match_056",
+      "landing_zone": {
+        "x": 6673,
+        "y": 5703,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "Vector",
+      "final_placement": 33,
+      "time_survived": 493,
+      "damage_dealt": 409,
+      "kills": 1
+    },
+    {
+      "match_id": "match_057",
+      "landing_zone": {
+        "x": 6370,
+        "y": 521,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "UMP45",
+      "final_placement": 37,
+      "time_survived": 427,
+      "damage_dealt": 610,
+      "kills": 1
+    },
+    {
+      "match_id": "match_058",
+      "landing_zone": {
+        "x": 1478,
+        "y": 6342,
+        "zone_name": "Georgopol"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 95,
+      "time_survived": 70,
+      "damage_dealt": 5,
+      "kills": 0
+    },
+    {
+      "match_id": "match_059",
+      "landing_zone": {
+        "x": 3579,
+        "y": 4632,
+        "zone_name": "Rozhok"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 11,
+      "time_survived": 623,
+      "damage_dealt": 483,
+      "kills": 1
+    },
+    {
+      "match_id": "match_060",
+      "landing_zone": {
+        "x": 654,
+        "y": 6817,
+        "zone_name": "Georgopol"
+      },
+      "weapon_used": "UMP45",
+      "final_placement": 12,
+      "time_survived": 1121,
+      "damage_dealt": 1935,
+      "kills": 4
+    },
+    {
+      "match_id": "match_061",
+      "landing_zone": {
+        "x": 4281,
+        "y": 6485,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 8,
+      "time_survived": 626,
+      "damage_dealt": 996,
+      "kills": 2
+    },
+    {
+      "match_id": "match_062",
+      "landing_zone": {
+        "x": 3176,
+        "y": 6208,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 5,
+      "time_survived": 1722,
+      "damage_dealt": 2927,
+      "kills": 7
+    },
+    {
+      "match_id": "match_063",
+      "landing_zone": {
+        "x": 570,
+        "y": 6658,
+        "zone_name": "Georgopol"
+      },
+      "weapon_used": "M416",
+      "final_placement": 18,
+      "time_survived": 704,
+      "damage_dealt": 1124,
+      "kills": 2
+    },
+    {
+      "match_id": "match_064",
+      "landing_zone": {
+        "x": 3304,
+        "y": 2842,
+        "zone_name": "School"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 65,
+      "time_survived": 86,
+      "damage_dealt": 23,
+      "kills": 0
+    },
+    {
+      "match_id": "match_065",
+      "landing_zone": {
+        "x": 4143,
+        "y": 5487,
+        "zone_name": "Rozhok"
+      },
+      "weapon_used": "M416",
+      "final_placement": 79,
+      "time_survived": 62,
+      "damage_dealt": 25,
+      "kills": 0
+    },
+    {
+      "match_id": "match_066",
+      "landing_zone": {
+        "x": 792,
+        "y": 7492,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "UMP45",
+      "final_placement": 24,
+      "time_survived": 654,
+      "damage_dealt": 1028,
+      "kills": 2
+    },
+    {
+      "match_id": "match_067",
+      "landing_zone": {
+        "x": 4334,
+        "y": 5441,
+        "zone_name": "Rozhok"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 90,
+      "time_survived": 62,
+      "damage_dealt": 0,
+      "kills": 0
+    },
+    {
+      "match_id": "match_068",
+      "landing_zone": {
+        "x": 6517,
+        "y": 1850,
+        "zone_name": "Military Base"
+      },
+      "weapon_used": "M416",
+      "final_placement": 1,
+      "time_survived": 1613,
+      "damage_dealt": 3095,
+      "kills": 6
+    },
+    {
+      "match_id": "match_069",
+      "landing_zone": {
+        "x": 6832,
+        "y": 7864,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 62,
+      "time_survived": 28,
+      "damage_dealt": 12,
+      "kills": 0
+    },
+    {
+      "match_id": "match_070",
+      "landing_zone": {
+        "x": 4346,
+        "y": 5431,
+        "zone_name": "Rozhok"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 71,
+      "time_survived": 24,
+      "damage_dealt": 0,
+      "kills": 0
+    },
+    {
+      "match_id": "match_071",
+      "landing_zone": {
+        "x": 4129,
+        "y": 6444,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "Kar98k",
+      "final_placement": 25,
+      "time_survived": 590,
+      "damage_dealt": 994,
+      "kills": 2
+    },
+    {
+      "match_id": "match_072",
+      "landing_zone": {
+        "x": 3354,
+        "y": 6306,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "UMP45",
+      "final_placement": 20,
+      "time_survived": 1026,
+      "damage_dealt": 1560,
+      "kills": 3
+    },
+    {
+      "match_id": "match_073",
+      "landing_zone": {
+        "x": 5493,
+        "y": 3677,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "Vector",
+      "final_placement": 67,
+      "time_survived": 88,
+      "damage_dealt": 20,
+      "kills": 0
+    },
+    {
+      "match_id": "match_074",
+      "landing_zone": {
+        "x": 5155,
+        "y": 520,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 9,
+      "time_survived": 643,
+      "damage_dealt": 865,
+      "kills": 2
+    },
+    {
+      "match_id": "match_075",
+      "landing_zone": {
+        "x": 6192,
+        "y": 1620,
+        "zone_name": "Military Base"
+      },
+      "weapon_used": "M416",
+      "final_placement": 86,
+      "time_survived": 49,
+      "damage_dealt": 23,
+      "kills": 0
+    },
+    {
+      "match_id": "match_076",
+      "landing_zone": {
+        "x": 117,
+        "y": 2345,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 22,
+      "time_survived": 864,
+      "damage_dealt": 926,
+      "kills": 2
+    },
+    {
+      "match_id": "match_077",
+      "landing_zone": {
+        "x": 7438,
+        "y": 3854,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 68,
+      "time_survived": 58,
+      "damage_dealt": 21,
+      "kills": 0
+    },
+    {
+      "match_id": "match_078",
+      "landing_zone": {
+        "x": 3038,
+        "y": 5829,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 10,
+      "time_survived": 1566,
+      "damage_dealt": 1639,
+      "kills": 3
+    },
+    {
+      "match_id": "match_079",
+      "landing_zone": {
+        "x": 1501,
+        "y": 1990,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 10,
+      "time_survived": 921,
+      "damage_dealt": 1364,
+      "kills": 3
+    },
+    {
+      "match_id": "match_080",
+      "landing_zone": {
+        "x": 3440,
+        "y": 5215,
+        "zone_name": "Rozhok"
+      },
+      "weapon_used": "M416",
+      "final_placement": 10,
+      "time_survived": 1796,
+      "damage_dealt": 2911,
+      "kills": 6
+    },
+    {
+      "match_id": "match_081",
+      "landing_zone": {
+        "x": 3232,
+        "y": 2756,
+        "zone_name": "School"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 78,
+      "time_survived": 57,
+      "damage_dealt": 26,
+      "kills": 0
+    },
+    {
+      "match_id": "match_082",
+      "landing_zone": {
+        "x": 1509,
+        "y": 6479,
+        "zone_name": "Georgopol"
+      },
+      "weapon_used": "M416",
+      "final_placement": 75,
+      "time_survived": 36,
+      "damage_dealt": 6,
+      "kills": 0
+    },
+    {
+      "match_id": "match_083",
+      "landing_zone": {
+        "x": 6069,
+        "y": 1914,
+        "zone_name": "Military Base"
+      },
+      "weapon_used": "M416",
+      "final_placement": 86,
+      "time_survived": 33,
+      "damage_dealt": 15,
+      "kills": 0
+    },
+    {
+      "match_id": "match_084",
+      "landing_zone": {
+        "x": 1730,
+        "y": 6242,
+        "zone_name": "Georgopol"
+      },
+      "weapon_used": "M416",
+      "final_placement": 99,
+      "time_survived": 30,
+      "damage_dealt": 10,
+      "kills": 0
+    },
+    {
+      "match_id": "match_085",
+      "landing_zone": {
+        "x": 4799,
+        "y": 4863,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 1,
+      "time_survived": 1554,
+      "damage_dealt": 1766,
+      "kills": 3
+    },
+    {
+      "match_id": "match_086",
+      "landing_zone": {
+        "x": 7503,
+        "y": 5471,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 44,
+      "time_survived": 237,
+      "damage_dealt": 472,
+      "kills": 1
+    },
+    {
+      "match_id": "match_087",
+      "landing_zone": {
+        "x": 1474,
+        "y": 6352,
+        "zone_name": "Georgopol"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 21,
+      "time_survived": 319,
+      "damage_dealt": 444,
+      "kills": 1
+    },
+    {
+      "match_id": "match_088",
+      "landing_zone": {
+        "x": 3539,
+        "y": 5525,
+        "zone_name": "Rozhok"
+      },
+      "weapon_used": "Kar98k",
+      "final_placement": 76,
+      "time_survived": 58,
+      "damage_dealt": 19,
+      "kills": 0
+    },
+    {
+      "match_id": "match_089",
+      "landing_zone": {
+        "x": 6364,
+        "y": 6175,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 4,
+      "time_survived": 1353,
+      "damage_dealt": 1507,
+      "kills": 3
+    },
+    {
+      "match_id": "match_090",
+      "landing_zone": {
+        "x": 4669,
+        "y": 4860,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "M416",
+      "final_placement": 52,
+      "time_survived": 522,
+      "damage_dealt": 939,
+      "kills": 2
+    },
+    {
+      "match_id": "match_091",
+      "landing_zone": {
+        "x": 2850,
+        "y": 3536,
+        "zone_name": "School"
+      },
+      "weapon_used": "M416",
+      "final_placement": 9,
+      "time_survived": 841,
+      "damage_dealt": 1304,
+      "kills": 3
+    },
+    {
+      "match_id": "match_092",
+      "landing_zone": {
+        "x": 3804,
+        "y": 6299,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 63,
+      "time_survived": 72,
+      "damage_dealt": 0,
+      "kills": 0
+    },
+    {
+      "match_id": "match_093",
+      "landing_zone": {
+        "x": 4428,
+        "y": 1648,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 91,
+      "time_survived": 50,
+      "damage_dealt": 21,
+      "kills": 0
+    },
+    {
+      "match_id": "match_094",
+      "landing_zone": {
+        "x": 3492,
+        "y": 2819,
+        "zone_name": "School"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 71,
+      "time_survived": 28,
+      "damage_dealt": 1,
+      "kills": 0
+    },
+    {
+      "match_id": "match_095",
+      "landing_zone": {
+        "x": 2691,
+        "y": 3501,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "UMP45",
+      "final_placement": 10,
+      "time_survived": 1459,
+      "damage_dealt": 2248,
+      "kills": 4
+    },
+    {
+      "match_id": "match_096",
+      "landing_zone": {
+        "x": 5523,
+        "y": 176,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 38,
+      "time_survived": 567,
+      "damage_dealt": 1334,
+      "kills": 3
+    },
+    {
+      "match_id": "match_097",
+      "landing_zone": {
+        "x": 5734,
+        "y": 6485,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 22,
+      "time_survived": 777,
+      "damage_dealt": 885,
+      "kills": 2
+    },
+    {
+      "match_id": "match_098",
+      "landing_zone": {
+        "x": 4186,
+        "y": 1022,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 7,
+      "time_survived": 1343,
+      "damage_dealt": 2896,
+      "kills": 7
+    },
+    {
+      "match_id": "match_099",
+      "landing_zone": {
+        "x": 1537,
+        "y": 6746,
+        "zone_name": "Georgopol"
+      },
+      "weapon_used": "UMP45",
+      "final_placement": 62,
+      "time_survived": 104,
+      "damage_dealt": 2,
+      "kills": 0
+    },
+    {
+      "match_id": "match_100",
+      "landing_zone": {
+        "x": 6490,
+        "y": 1976,
+        "zone_name": "Military Base"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 71,
+      "time_survived": 60,
+      "damage_dealt": 23,
+      "kills": 0
+    },
+    {
+      "match_id": "match_101",
+      "landing_zone": {
+        "x": 4971,
+        "y": 3991,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "M416",
+      "final_placement": 6,
+      "time_survived": 600,
+      "damage_dealt": 1367,
+      "kills": 3
+    },
+    {
+      "match_id": "match_102",
+      "landing_zone": {
+        "x": 5838,
+        "y": 6662,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 40,
+      "time_survived": 471,
+      "damage_dealt": 1209,
+      "kills": 3
+    },
+    {
+      "match_id": "match_103",
+      "landing_zone": {
+        "x": 6458,
+        "y": 2053,
+        "zone_name": "Military Base"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 68,
+      "time_survived": 34,
+      "damage_dealt": 12,
+      "kills": 0
+    },
+    {
+      "match_id": "match_104",
+      "landing_zone": {
+        "x": 6464,
+        "y": 6060,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 12,
+      "time_survived": 902,
+      "damage_dealt": 1337,
+      "kills": 3
+    },
+    {
+      "match_id": "match_105",
+      "landing_zone": {
+        "x": 4779,
+        "y": 4829,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 7,
+      "time_survived": 623,
+      "damage_dealt": 996,
+      "kills": 2
+    },
+    {
+      "match_id": "match_106",
+      "landing_zone": {
+        "x": 4962,
+        "y": 4680,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "M416",
+      "final_placement": 83,
+      "time_survived": 96,
+      "damage_dealt": 46,
+      "kills": 0
+    },
+    {
+      "match_id": "match_107",
+      "landing_zone": {
+        "x": 4796,
+        "y": 4783,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 70,
+      "time_survived": 52,
+      "damage_dealt": 12,
+      "kills": 0
+    },
+    {
+      "match_id": "match_108",
+      "landing_zone": {
+        "x": 3713,
+        "y": 2592,
+        "zone_name": "School"
+      },
+      "weapon_used": "Vector",
+      "final_placement": 98,
+      "time_survived": 27,
+      "damage_dealt": 8,
+      "kills": 0
+    },
+    {
+      "match_id": "match_109",
+      "landing_zone": {
+        "x": 4572,
+        "y": 5057,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "Vector",
+      "final_placement": 79,
+      "time_survived": 114,
+      "damage_dealt": 56,
+      "kills": 0
+    },
+    {
+      "match_id": "match_110",
+      "landing_zone": {
+        "x": 1519,
+        "y": 6512,
+        "zone_name": "Georgopol"
+      },
+      "weapon_used": "M416",
+      "final_placement": 93,
+      "time_survived": 103,
+      "damage_dealt": 31,
+      "kills": 0
+    },
+    {
+      "match_id": "match_111",
+      "landing_zone": {
+        "x": 4675,
+        "y": 4672,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "UMP45",
+      "final_placement": 74,
+      "time_survived": 117,
+      "damage_dealt": 3,
+      "kills": 0
+    },
+    {
+      "match_id": "match_112",
+      "landing_zone": {
+        "x": 3389,
+        "y": 2956,
+        "zone_name": "School"
+      },
+      "weapon_used": "UMP45",
+      "final_placement": 7,
+      "time_survived": 658,
+      "damage_dealt": 610,
+      "kills": 1
+    },
+    {
+      "match_id": "match_113",
+      "landing_zone": {
+        "x": 6278,
+        "y": 2118,
+        "zone_name": "Military Base"
+      },
+      "weapon_used": "Kar98k",
+      "final_placement": 3,
+      "time_survived": 1748,
+      "damage_dealt": 1871,
+      "kills": 3
+    },
+    {
+      "match_id": "match_114",
+      "landing_zone": {
+        "x": 2148,
+        "y": 2335,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 1,
+      "time_survived": 1446,
+      "damage_dealt": 2120,
+      "kills": 5
+    },
+    {
+      "match_id": "match_115",
+      "landing_zone": {
+        "x": 13,
+        "y": 4304,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "Kar98k",
+      "final_placement": 96,
+      "time_survived": 103,
+      "damage_dealt": 4,
+      "kills": 0
+    },
+    {
+      "match_id": "match_116",
+      "landing_zone": {
+        "x": 192,
+        "y": 6478,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "Vector",
+      "final_placement": 2,
+      "time_survived": 1480,
+      "damage_dealt": 1470,
+      "kills": 3
+    },
+    {
+      "match_id": "match_117",
+      "landing_zone": {
+        "x": 5948,
+        "y": 6028,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 5,
+      "time_survived": 1682,
+      "damage_dealt": 3471,
+      "kills": 7
+    },
+    {
+      "match_id": "match_118",
+      "landing_zone": {
+        "x": 4916,
+        "y": 4571,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 81,
+      "time_survived": 54,
+      "damage_dealt": 6,
+      "kills": 0
+    },
+    {
+      "match_id": "match_119",
+      "landing_zone": {
+        "x": 6445,
+        "y": 2456,
+        "zone_name": "Military Base"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 92,
+      "time_survived": 87,
+      "damage_dealt": 13,
+      "kills": 0
+    },
+    {
+      "match_id": "match_120",
+      "landing_zone": {
+        "x": 1490,
+        "y": 6484,
+        "zone_name": "Georgopol"
+      },
+      "weapon_used": "UMP45",
+      "final_placement": 80,
+      "time_survived": 103,
+      "damage_dealt": 15,
+      "kills": 0
+    },
+    {
+      "match_id": "match_121",
+      "landing_zone": {
+        "x": 5906,
+        "y": 5113,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 12,
+      "time_survived": 1134,
+      "damage_dealt": 2193,
+      "kills": 5
+    },
+    {
+      "match_id": "match_122",
+      "landing_zone": {
+        "x": 3374,
+        "y": 5942,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 55,
+      "time_survived": 486,
+      "damage_dealt": 856,
+      "kills": 2
+    },
+    {
+      "match_id": "match_123",
+      "landing_zone": {
+        "x": 3967,
+        "y": 5435,
+        "zone_name": "Rozhok"
+      },
+      "weapon_used": "M416",
+      "final_placement": 23,
+      "time_survived": 770,
+      "damage_dealt": 1890,
+      "kills": 4
+    },
+    {
+      "match_id": "match_124",
+      "landing_zone": {
+        "x": 1801,
+        "y": 6251,
+        "zone_name": "Georgopol"
+      },
+      "weapon_used": "UMP45",
+      "final_placement": 62,
+      "time_survived": 14,
+      "damage_dealt": 7,
+      "kills": 0
+    },
+    {
+      "match_id": "match_125",
+      "landing_zone": {
+        "x": 4890,
+        "y": 1488,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "Kar98k",
+      "final_placement": 12,
+      "time_survived": 622,
+      "damage_dealt": 1850,
+      "kills": 4
+    },
+    {
+      "match_id": "match_126",
+      "landing_zone": {
+        "x": 6335,
+        "y": 960,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "UMP45",
+      "final_placement": 43,
+      "time_survived": 591,
+      "damage_dealt": 956,
+      "kills": 2
+    },
+    {
+      "match_id": "match_127",
+      "landing_zone": {
+        "x": 4187,
+        "y": 5210,
+        "zone_name": "Rozhok"
+      },
+      "weapon_used": "UMP45",
+      "final_placement": 72,
+      "time_survived": 70,
+      "damage_dealt": 18,
+      "kills": 0
+    },
+    {
+      "match_id": "match_128",
+      "landing_zone": {
+        "x": 1715,
+        "y": 6288,
+        "zone_name": "Georgopol"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 2,
+      "time_survived": 1766,
+      "damage_dealt": 925,
+      "kills": 2
+    },
+    {
+      "match_id": "match_129",
+      "landing_zone": {
+        "x": 2068,
+        "y": 7574,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 55,
+      "time_survived": 485,
+      "damage_dealt": 555,
+      "kills": 1
+    },
+    {
+      "match_id": "match_130",
+      "landing_zone": {
+        "x": 1057,
+        "y": 5430,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 7,
+      "time_survived": 1423,
+      "damage_dealt": 1713,
+      "kills": 3
+    },
+    {
+      "match_id": "match_131",
+      "landing_zone": {
+        "x": 4017,
+        "y": 7233,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 20,
+      "time_survived": 1017,
+      "damage_dealt": 2050,
+      "kills": 4
+    },
+    {
+      "match_id": "match_132",
+      "landing_zone": {
+        "x": 1064,
+        "y": 1342,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "Vector",
+      "final_placement": 53,
+      "time_survived": 542,
+      "damage_dealt": 541,
+      "kills": 1
+    },
+    {
+      "match_id": "match_133",
+      "landing_zone": {
+        "x": 6254,
+        "y": 6664,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 9,
+      "time_survived": 1039,
+      "damage_dealt": 1715,
+      "kills": 4
+    },
+    {
+      "match_id": "match_134",
+      "landing_zone": {
+        "x": 5756,
+        "y": 5437,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 6,
+      "time_survived": 1432,
+      "damage_dealt": 2158,
+      "kills": 4
+    },
+    {
+      "match_id": "match_135",
+      "landing_zone": {
+        "x": 4905,
+        "y": 3396,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 10,
+      "time_survived": 920,
+      "damage_dealt": 1541,
+      "kills": 3
+    },
+    {
+      "match_id": "match_136",
+      "landing_zone": {
+        "x": 3067,
+        "y": 2190,
+        "zone_name": "School"
+      },
+      "weapon_used": "Kar98k",
+      "final_placement": 45,
+      "time_survived": 232,
+      "damage_dealt": 852,
+      "kills": 2
+    },
+    {
+      "match_id": "match_137",
+      "landing_zone": {
+        "x": 6754,
+        "y": 3692,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 1,
+      "time_survived": 1696,
+      "damage_dealt": 2719,
+      "kills": 6
+    },
+    {
+      "match_id": "match_138",
+      "landing_zone": {
+        "x": 3235,
+        "y": 119,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "AWM",
+      "final_placement": 71,
+      "time_survived": 56,
+      "damage_dealt": 17,
+      "kills": 0
+    },
+    {
+      "match_id": "match_139",
+      "landing_zone": {
+        "x": 4238,
+        "y": 5404,
+        "zone_name": "Rozhok"
+      },
+      "weapon_used": "Vector",
+      "final_placement": 86,
+      "time_survived": 95,
+      "damage_dealt": 6,
+      "kills": 0
+    },
+    {
+      "match_id": "match_140",
+      "landing_zone": {
+        "x": 1515,
+        "y": 6637,
+        "zone_name": "Georgopol"
+      },
+      "weapon_used": "UMP45",
+      "final_placement": 5,
+      "time_survived": 724,
+      "damage_dealt": 972,
+      "kills": 2
+    },
+    {
+      "match_id": "match_141",
+      "landing_zone": {
+        "x": 3187,
+        "y": 80,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 3,
+      "time_survived": 1617,
+      "damage_dealt": 2033,
+      "kills": 5
+    },
+    {
+      "match_id": "match_142",
+      "landing_zone": {
+        "x": 6567,
+        "y": 1872,
+        "zone_name": "Military Base"
+      },
+      "weapon_used": "UMP45",
+      "final_placement": 88,
+      "time_survived": 43,
+      "damage_dealt": 15,
+      "kills": 0
+    },
+    {
+      "match_id": "match_143",
+      "landing_zone": {
+        "x": 4317,
+        "y": 7614,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 26,
+      "time_survived": 469,
+      "damage_dealt": 1301,
+      "kills": 3
+    },
+    {
+      "match_id": "match_144",
+      "landing_zone": {
+        "x": 4884,
+        "y": 976,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "UMP45",
+      "final_placement": 93,
+      "time_survived": 24,
+      "damage_dealt": 5,
+      "kills": 0
+    },
+    {
+      "match_id": "match_145",
+      "landing_zone": {
+        "x": 3343,
+        "y": 4708,
+        "zone_name": "Rozhok"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 3,
+      "time_survived": 1576,
+      "damage_dealt": 1357,
+      "kills": 3
+    },
+    {
+      "match_id": "match_146",
+      "landing_zone": {
+        "x": 6500,
+        "y": 2000,
+        "zone_name": "Military Base"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 82,
+      "time_survived": 31,
+      "damage_dealt": 4,
+      "kills": 0
+    },
+    {
+      "match_id": "match_147",
+      "landing_zone": {
+        "x": 6629,
+        "y": 2230,
+        "zone_name": "Military Base"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 48,
+      "time_survived": 532,
+      "damage_dealt": 1062,
+      "kills": 2
+    },
+    {
+      "match_id": "match_148",
+      "landing_zone": {
+        "x": 3377,
+        "y": 2836,
+        "zone_name": "School"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 62,
+      "time_survived": 91,
+      "damage_dealt": 2,
+      "kills": 0
+    },
+    {
+      "match_id": "match_149",
+      "landing_zone": {
+        "x": 3586,
+        "y": 7634,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 10,
+      "time_survived": 1676,
+      "damage_dealt": 1968,
+      "kills": 4
+    },
+    {
+      "match_id": "match_150",
+      "landing_zone": {
+        "x": 3753,
+        "y": 2753,
+        "zone_name": "School"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 86,
+      "time_survived": 11,
+      "damage_dealt": 4,
+      "kills": 0
+    },
+    {
+      "match_id": "match_151",
+      "landing_zone": {
+        "x": 6569,
+        "y": 5478,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "Kar98k",
+      "final_placement": 3,
+      "time_survived": 1361,
+      "damage_dealt": 3928,
+      "kills": 9
+    },
+    {
+      "match_id": "match_152",
+      "landing_zone": {
+        "x": 5120,
+        "y": 4679,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "M416",
+      "final_placement": 97,
+      "time_survived": 109,
+      "damage_dealt": 27,
+      "kills": 0
+    },
+    {
+      "match_id": "match_153",
+      "landing_zone": {
+        "x": 1296,
+        "y": 6724,
+        "zone_name": "Georgopol"
+      },
+      "weapon_used": "M416",
+      "final_placement": 65,
+      "time_survived": 114,
+      "damage_dealt": 414,
+      "kills": 1
+    },
+    {
+      "match_id": "match_154",
+      "landing_zone": {
+        "x": 7038,
+        "y": 7451,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 62,
+      "time_survived": 90,
+      "damage_dealt": 404,
+      "kills": 1
+    },
+    {
+      "match_id": "match_155",
+      "landing_zone": {
+        "x": 1564,
+        "y": 6191,
+        "zone_name": "Georgopol"
+      },
+      "weapon_used": "M416",
+      "final_placement": 96,
+      "time_survived": 56,
+      "damage_dealt": 27,
+      "kills": 0
+    },
+    {
+      "match_id": "match_156",
+      "landing_zone": {
+        "x": 2106,
+        "y": 5302,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "UMP45",
+      "final_placement": 67,
+      "time_survived": 84,
+      "damage_dealt": 38,
+      "kills": 0
+    },
+    {
+      "match_id": "match_157",
+      "landing_zone": {
+        "x": 6440,
+        "y": 7651,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 76,
+      "time_survived": 13,
+      "damage_dealt": 1,
+      "kills": 0
+    },
+    {
+      "match_id": "match_158",
+      "landing_zone": {
+        "x": 4589,
+        "y": 4799,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 7,
+      "time_survived": 1142,
+      "damage_dealt": 2757,
+      "kills": 6
+    },
+    {
+      "match_id": "match_159",
+      "landing_zone": {
+        "x": 5175,
+        "y": 3686,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 25,
+      "time_survived": 761,
+      "damage_dealt": 1740,
+      "kills": 4
+    },
+    {
+      "match_id": "match_160",
+      "landing_zone": {
+        "x": 4588,
+        "y": 7777,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 7,
+      "time_survived": 1514,
+      "damage_dealt": 3298,
+      "kills": 7
+    },
+    {
+      "match_id": "match_161",
+      "landing_zone": {
+        "x": 5502,
+        "y": 313,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 3,
+      "time_survived": 1222,
+      "damage_dealt": 3280,
+      "kills": 7
+    },
+    {
+      "match_id": "match_162",
+      "landing_zone": {
+        "x": 6939,
+        "y": 1189,
+        "zone_name": "Military Base"
+      },
+      "weapon_used": "M416",
+      "final_placement": 13,
+      "time_survived": 968,
+      "damage_dealt": 2275,
+      "kills": 5
+    },
+    {
+      "match_id": "match_163",
+      "landing_zone": {
+        "x": 6576,
+        "y": 5001,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 18,
+      "time_survived": 965,
+      "damage_dealt": 1157,
+      "kills": 2
+    },
+    {
+      "match_id": "match_164",
+      "landing_zone": {
+        "x": 4964,
+        "y": 3825,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "Kar98k",
+      "final_placement": 5,
+      "time_survived": 1294,
+      "damage_dealt": 2221,
+      "kills": 5
+    },
+    {
+      "match_id": "match_165",
+      "landing_zone": {
+        "x": 6427,
+        "y": 1974,
+        "zone_name": "Military Base"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 10,
+      "time_survived": 1092,
+      "damage_dealt": 2072,
+      "kills": 4
+    },
+    {
+      "match_id": "match_166",
+      "landing_zone": {
+        "x": 3977,
+        "y": 5219,
+        "zone_name": "Rozhok"
+      },
+      "weapon_used": "Vector",
+      "final_placement": 92,
+      "time_survived": 21,
+      "damage_dealt": 10,
+      "kills": 0
+    },
+    {
+      "match_id": "match_167",
+      "landing_zone": {
+        "x": 854,
+        "y": 7793,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 21,
+      "time_survived": 365,
+      "damage_dealt": 572,
+      "kills": 1
+    },
+    {
+      "match_id": "match_168",
+      "landing_zone": {
+        "x": 6410,
+        "y": 6346,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 60,
+      "time_survived": 472,
+      "damage_dealt": 1008,
+      "kills": 2
+    },
+    {
+      "match_id": "match_169",
+      "landing_zone": {
+        "x": 4732,
+        "y": 4974,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 90,
+      "time_survived": 68,
+      "damage_dealt": 32,
+      "kills": 0
+    },
+    {
+      "match_id": "match_170",
+      "landing_zone": {
+        "x": 4576,
+        "y": 4326,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "AWM",
+      "final_placement": 13,
+      "time_survived": 1084,
+      "damage_dealt": 3543,
+      "kills": 8
+    },
+    {
+      "match_id": "match_171",
+      "landing_zone": {
+        "x": 1969,
+        "y": 6072,
+        "zone_name": "Georgopol"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 4,
+      "time_survived": 1535,
+      "damage_dealt": 3339,
+      "kills": 7
+    },
+    {
+      "match_id": "match_172",
+      "landing_zone": {
+        "x": 1442,
+        "y": 3662,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "Kar98k",
+      "final_placement": 17,
+      "time_survived": 641,
+      "damage_dealt": 1494,
+      "kills": 3
+    },
+    {
+      "match_id": "match_173",
+      "landing_zone": {
+        "x": 6742,
+        "y": 1793,
+        "zone_name": "Military Base"
+      },
+      "weapon_used": "M416",
+      "final_placement": 11,
+      "time_survived": 896,
+      "damage_dealt": 1074,
+      "kills": 2
+    },
+    {
+      "match_id": "match_174",
+      "landing_zone": {
+        "x": 5004,
+        "y": 4852,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 77,
+      "time_survived": 47,
+      "damage_dealt": 3,
+      "kills": 0
+    },
+    {
+      "match_id": "match_175",
+      "landing_zone": {
+        "x": 2439,
+        "y": 4477,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "UMP45",
+      "final_placement": 25,
+      "time_survived": 232,
+      "damage_dealt": 20,
+      "kills": 0
+    },
+    {
+      "match_id": "match_176",
+      "landing_zone": {
+        "x": 3931,
+        "y": 1659,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 6,
+      "time_survived": 1656,
+      "damage_dealt": 2179,
+      "kills": 4
+    },
+    {
+      "match_id": "match_177",
+      "landing_zone": {
+        "x": 1678,
+        "y": 6731,
+        "zone_name": "Georgopol"
+      },
+      "weapon_used": "M416",
+      "final_placement": 61,
+      "time_survived": 65,
+      "damage_dealt": 12,
+      "kills": 0
+    },
+    {
+      "match_id": "match_178",
+      "landing_zone": {
+        "x": 4269,
+        "y": 5264,
+        "zone_name": "Rozhok"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 95,
+      "time_survived": 106,
+      "damage_dealt": 49,
+      "kills": 0
+    },
+    {
+      "match_id": "match_179",
+      "landing_zone": {
+        "x": 5970,
+        "y": 1111,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 53,
+      "time_survived": 532,
+      "damage_dealt": 905,
+      "kills": 2
+    },
+    {
+      "match_id": "match_180",
+      "landing_zone": {
+        "x": 4727,
+        "y": 2899,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "UMP45",
+      "final_placement": 2,
+      "time_survived": 1725,
+      "damage_dealt": 1943,
+      "kills": 3
+    },
+    {
+      "match_id": "match_181",
+      "landing_zone": {
+        "x": 4200,
+        "y": 5199,
+        "zone_name": "Rozhok"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 6,
+      "time_survived": 1188,
+      "damage_dealt": 2077,
+      "kills": 4
+    },
+    {
+      "match_id": "match_182",
+      "landing_zone": {
+        "x": 2328,
+        "y": 6572,
+        "zone_name": "Georgopol"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 4,
+      "time_survived": 1272,
+      "damage_dealt": 1387,
+      "kills": 3
+    },
+    {
+      "match_id": "match_183",
+      "landing_zone": {
+        "x": 1629,
+        "y": 6704,
+        "zone_name": "Georgopol"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 72,
+      "time_survived": 80,
+      "damage_dealt": 35,
+      "kills": 0
+    },
+    {
+      "match_id": "match_184",
+      "landing_zone": {
+        "x": 7540,
+        "y": 2751,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 17,
+      "time_survived": 858,
+      "damage_dealt": 1126,
+      "kills": 2
+    },
+    {
+      "match_id": "match_185",
+      "landing_zone": {
+        "x": 1759,
+        "y": 2478,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 69,
+      "time_survived": 35,
+      "damage_dealt": 6,
+      "kills": 0
+    },
+    {
+      "match_id": "match_186",
+      "landing_zone": {
+        "x": 6773,
+        "y": 2032,
+        "zone_name": "Military Base"
+      },
+      "weapon_used": "M416",
+      "final_placement": 13,
+      "time_survived": 708,
+      "damage_dealt": 816,
+      "kills": 2
+    },
+    {
+      "match_id": "match_187",
+      "landing_zone": {
+        "x": 5385,
+        "y": 6646,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 4,
+      "time_survived": 1343,
+      "damage_dealt": 2333,
+      "kills": 5
+    },
+    {
+      "match_id": "match_188",
+      "landing_zone": {
+        "x": 2357,
+        "y": 3473,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 42,
+      "time_survived": 491,
+      "damage_dealt": 638,
+      "kills": 1
+    },
+    {
+      "match_id": "match_189",
+      "landing_zone": {
+        "x": 2600,
+        "y": 5491,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 58,
+      "time_survived": 497,
+      "damage_dealt": 1286,
+      "kills": 3
+    },
+    {
+      "match_id": "match_190",
+      "landing_zone": {
+        "x": 3333,
+        "y": 2568,
+        "zone_name": "School"
+      },
+      "weapon_used": "M416",
+      "final_placement": 14,
+      "time_survived": 1074,
+      "damage_dealt": 1456,
+      "kills": 3
+    },
+    {
+      "match_id": "match_191",
+      "landing_zone": {
+        "x": 2450,
+        "y": 5953,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 38,
+      "time_survived": 387,
+      "damage_dealt": 835,
+      "kills": 2
+    },
+    {
+      "match_id": "match_192",
+      "landing_zone": {
+        "x": 7067,
+        "y": 6002,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 67,
+      "time_survived": 41,
+      "damage_dealt": 4,
+      "kills": 0
+    },
+    {
+      "match_id": "match_193",
+      "landing_zone": {
+        "x": 2777,
+        "y": 3086,
+        "zone_name": "School"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 62,
+      "time_survived": 11,
+      "damage_dealt": 5,
+      "kills": 0
+    },
+    {
+      "match_id": "match_194",
+      "landing_zone": {
+        "x": 6194,
+        "y": 284,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "UMP45",
+      "final_placement": 86,
+      "time_survived": 44,
+      "damage_dealt": 0,
+      "kills": 0
+    },
+    {
+      "match_id": "match_195",
+      "landing_zone": {
+        "x": 769,
+        "y": 3090,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 92,
+      "time_survived": 80,
+      "damage_dealt": 33,
+      "kills": 0
+    },
+    {
+      "match_id": "match_196",
+      "landing_zone": {
+        "x": 4805,
+        "y": 4860,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 68,
+      "time_survived": 84,
+      "damage_dealt": 4,
+      "kills": 0
+    },
+    {
+      "match_id": "match_197",
+      "landing_zone": {
+        "x": 2962,
+        "y": 2128,
+        "zone_name": "School"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 41,
+      "time_survived": 221,
+      "damage_dealt": 413,
+      "kills": 1
+    },
+    {
+      "match_id": "match_198",
+      "landing_zone": {
+        "x": 5625,
+        "y": 85,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 38,
+      "time_survived": 411,
+      "damage_dealt": 827,
+      "kills": 2
+    },
+    {
+      "match_id": "match_199",
+      "landing_zone": {
+        "x": 4787,
+        "y": 4838,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "UMP45",
+      "final_placement": 35,
+      "time_survived": 579,
+      "damage_dealt": 557,
+      "kills": 1
+    },
+    {
+      "match_id": "match_200",
+      "landing_zone": {
+        "x": 5053,
+        "y": 4982,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "Vector",
+      "final_placement": 81,
+      "time_survived": 28,
+      "damage_dealt": 14,
+      "kills": 0
+    },
+    {
+      "match_id": "match_201",
+      "landing_zone": {
+        "x": 6543,
+        "y": 2024,
+        "zone_name": "Military Base"
+      },
+      "weapon_used": "UMP45",
+      "final_placement": 10,
+      "time_survived": 1277,
+      "damage_dealt": 2638,
+      "kills": 5
+    },
+    {
+      "match_id": "match_202",
+      "landing_zone": {
+        "x": 4166,
+        "y": 1949,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 28,
+      "time_survived": 208,
+      "damage_dealt": 472,
+      "kills": 1
+    },
+    {
+      "match_id": "match_203",
+      "landing_zone": {
+        "x": 5947,
+        "y": 4492,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "UMP45",
+      "final_placement": 2,
+      "time_survived": 1687,
+      "damage_dealt": 1512,
+      "kills": 3
+    },
+    {
+      "match_id": "match_204",
+      "landing_zone": {
+        "x": 4823,
+        "y": 4912,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 99,
+      "time_survived": 44,
+      "damage_dealt": 0,
+      "kills": 0
+    },
+    {
+      "match_id": "match_205",
+      "landing_zone": {
+        "x": 4094,
+        "y": 5187,
+        "zone_name": "Rozhok"
+      },
+      "weapon_used": "AWM",
+      "final_placement": 76,
+      "time_survived": 112,
+      "damage_dealt": 409,
+      "kills": 1
+    },
+    {
+      "match_id": "match_206",
+      "landing_zone": {
+        "x": 7202,
+        "y": 1222,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 8,
+      "time_survived": 1544,
+      "damage_dealt": 1841,
+      "kills": 4
+    },
+    {
+      "match_id": "match_207",
+      "landing_zone": {
+        "x": 6332,
+        "y": 2294,
+        "zone_name": "Military Base"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 18,
+      "time_survived": 939,
+      "damage_dealt": 835,
+      "kills": 2
+    },
+    {
+      "match_id": "match_208",
+      "landing_zone": {
+        "x": 6354,
+        "y": 2767,
+        "zone_name": "Military Base"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 11,
+      "time_survived": 681,
+      "damage_dealt": 1278,
+      "kills": 3
+    },
+    {
+      "match_id": "match_209",
+      "landing_zone": {
+        "x": 642,
+        "y": 1485,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 9,
+      "time_survived": 609,
+      "damage_dealt": 1204,
+      "kills": 3
+    },
+    {
+      "match_id": "match_210",
+      "landing_zone": {
+        "x": 1999,
+        "y": 6296,
+        "zone_name": "Georgopol"
+      },
+      "weapon_used": "UMP45",
+      "final_placement": 65,
+      "time_survived": 31,
+      "damage_dealt": 15,
+      "kills": 0
+    },
+    {
+      "match_id": "match_211",
+      "landing_zone": {
+        "x": 534,
+        "y": 7149,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 7,
+      "time_survived": 1483,
+      "damage_dealt": 2221,
+      "kills": 4
+    },
+    {
+      "match_id": "match_212",
+      "landing_zone": {
+        "x": 4200,
+        "y": 5202,
+        "zone_name": "Rozhok"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 79,
+      "time_survived": 40,
+      "damage_dealt": 5,
+      "kills": 0
+    },
+    {
+      "match_id": "match_213",
+      "landing_zone": {
+        "x": 6696,
+        "y": 1877,
+        "zone_name": "Military Base"
+      },
+      "weapon_used": "M416",
+      "final_placement": 64,
+      "time_survived": 114,
+      "damage_dealt": 32,
+      "kills": 0
+    },
+    {
+      "match_id": "match_214",
+      "landing_zone": {
+        "x": 4169,
+        "y": 5171,
+        "zone_name": "Rozhok"
+      },
+      "weapon_used": "M416",
+      "final_placement": 6,
+      "time_survived": 1203,
+      "damage_dealt": 2143,
+      "kills": 5
+    },
+    {
+      "match_id": "match_215",
+      "landing_zone": {
+        "x": 4258,
+        "y": 5006,
+        "zone_name": "Rozhok"
+      },
+      "weapon_used": "M416",
+      "final_placement": 7,
+      "time_survived": 1334,
+      "damage_dealt": 2010,
+      "kills": 4
+    },
+    {
+      "match_id": "match_216",
+      "landing_zone": {
+        "x": 6471,
+        "y": 2110,
+        "zone_name": "Military Base"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 80,
+      "time_survived": 24,
+      "damage_dealt": 3,
+      "kills": 0
+    },
+    {
+      "match_id": "match_217",
+      "landing_zone": {
+        "x": 3744,
+        "y": 7370,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 3,
+      "time_survived": 1600,
+      "damage_dealt": 2851,
+      "kills": 6
+    },
+    {
+      "match_id": "match_218",
+      "landing_zone": {
+        "x": 1450,
+        "y": 6708,
+        "zone_name": "Georgopol"
+      },
+      "weapon_used": "M416",
+      "final_placement": 98,
+      "time_survived": 76,
+      "damage_dealt": 9,
+      "kills": 0
+    },
+    {
+      "match_id": "match_219",
+      "landing_zone": {
+        "x": 6471,
+        "y": 1954,
+        "zone_name": "Military Base"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 95,
+      "time_survived": 84,
+      "damage_dealt": 2,
+      "kills": 0
+    },
+    {
+      "match_id": "match_220",
+      "landing_zone": {
+        "x": 1238,
+        "y": 6320,
+        "zone_name": "Georgopol"
+      },
+      "weapon_used": "M416",
+      "final_placement": 4,
+      "time_survived": 1245,
+      "damage_dealt": 1701,
+      "kills": 3
+    },
+    {
+      "match_id": "match_221",
+      "landing_zone": {
+        "x": 3526,
+        "y": 2758,
+        "zone_name": "School"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 98,
+      "time_survived": 115,
+      "damage_dealt": 55,
+      "kills": 0
+    },
+    {
+      "match_id": "match_222",
+      "landing_zone": {
+        "x": 428,
+        "y": 3362,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "AWM",
+      "final_placement": 15,
+      "time_survived": 971,
+      "damage_dealt": 3177,
+      "kills": 7
+    },
+    {
+      "match_id": "match_223",
+      "landing_zone": {
+        "x": 6210,
+        "y": 2060,
+        "zone_name": "Military Base"
+      },
+      "weapon_used": "M416",
+      "final_placement": 75,
+      "time_survived": 98,
+      "damage_dealt": 23,
+      "kills": 0
+    },
+    {
+      "match_id": "match_224",
+      "landing_zone": {
+        "x": 4624,
+        "y": 5050,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 96,
+      "time_survived": 53,
+      "damage_dealt": 22,
+      "kills": 0
+    },
+    {
+      "match_id": "match_225",
+      "landing_zone": {
+        "x": 2528,
+        "y": 7830,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 89,
+      "time_survived": 105,
+      "damage_dealt": 18,
+      "kills": 0
+    },
+    {
+      "match_id": "match_226",
+      "landing_zone": {
+        "x": 3472,
+        "y": 2779,
+        "zone_name": "School"
+      },
+      "weapon_used": "UMP45",
+      "final_placement": 15,
+      "time_survived": 826,
+      "damage_dealt": 1630,
+      "kills": 4
+    },
+    {
+      "match_id": "match_227",
+      "landing_zone": {
+        "x": 1565,
+        "y": 6475,
+        "zone_name": "Georgopol"
+      },
+      "weapon_used": "M416",
+      "final_placement": 65,
+      "time_survived": 35,
+      "damage_dealt": 2,
+      "kills": 0
+    },
+    {
+      "match_id": "match_228",
+      "landing_zone": {
+        "x": 3520,
+        "y": 2765,
+        "zone_name": "School"
+      },
+      "weapon_used": "Kar98k",
+      "final_placement": 20,
+      "time_survived": 738,
+      "damage_dealt": 1627,
+      "kills": 4
+    },
+    {
+      "match_id": "match_229",
+      "landing_zone": {
+        "x": 4134,
+        "y": 5079,
+        "zone_name": "Rozhok"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 10,
+      "time_survived": 1701,
+      "damage_dealt": 2213,
+      "kills": 4
+    },
+    {
+      "match_id": "match_230",
+      "landing_zone": {
+        "x": 1859,
+        "y": 6479,
+        "zone_name": "Georgopol"
+      },
+      "weapon_used": "M416",
+      "final_placement": 91,
+      "time_survived": 86,
+      "damage_dealt": 7,
+      "kills": 0
+    },
+    {
+      "match_id": "match_231",
+      "landing_zone": {
+        "x": 5569,
+        "y": 4165,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 15,
+      "time_survived": 956,
+      "damage_dealt": 1424,
+      "kills": 3
+    },
+    {
+      "match_id": "match_232",
+      "landing_zone": {
+        "x": 3482,
+        "y": 2757,
+        "zone_name": "School"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 60,
+      "time_survived": 36,
+      "damage_dealt": 2,
+      "kills": 0
+    },
+    {
+      "match_id": "match_233",
+      "landing_zone": {
+        "x": 6469,
+        "y": 2160,
+        "zone_name": "Military Base"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 99,
+      "time_survived": 30,
+      "damage_dealt": 12,
+      "kills": 0
+    },
+    {
+      "match_id": "match_234",
+      "landing_zone": {
+        "x": 3591,
+        "y": 3064,
+        "zone_name": "School"
+      },
+      "weapon_used": "M416",
+      "final_placement": 67,
+      "time_survived": 64,
+      "damage_dealt": 8,
+      "kills": 0
+    },
+    {
+      "match_id": "match_235",
+      "landing_zone": {
+        "x": 7476,
+        "y": 1873,
+        "zone_name": "Military Base"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 2,
+      "time_survived": 1581,
+      "damage_dealt": 3339,
+      "kills": 7
+    },
+    {
+      "match_id": "match_236",
+      "landing_zone": {
+        "x": 3845,
+        "y": 3820,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 28,
+      "time_survived": 120,
+      "damage_dealt": 5,
+      "kills": 0
+    },
+    {
+      "match_id": "match_237",
+      "landing_zone": {
+        "x": 5394,
+        "y": 7381,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 8,
+      "time_survived": 1521,
+      "damage_dealt": 2382,
+      "kills": 5
+    },
+    {
+      "match_id": "match_238",
+      "landing_zone": {
+        "x": 170,
+        "y": 3157,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 17,
+      "time_survived": 921,
+      "damage_dealt": 2113,
+      "kills": 5
+    },
+    {
+      "match_id": "match_239",
+      "landing_zone": {
+        "x": 5846,
+        "y": 488,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "UMP45",
+      "final_placement": 90,
+      "time_survived": 61,
+      "damage_dealt": 26,
+      "kills": 0
+    },
+    {
+      "match_id": "match_240",
+      "landing_zone": {
+        "x": 4831,
+        "y": 4898,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "Kar98k",
+      "final_placement": 82,
+      "time_survived": 46,
+      "damage_dealt": 11,
+      "kills": 0
+    },
+    {
+      "match_id": "match_241",
+      "landing_zone": {
+        "x": 3099,
+        "y": 5048,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 10,
+      "time_survived": 1792,
+      "damage_dealt": 2449,
+      "kills": 4
+    },
+    {
+      "match_id": "match_242",
+      "landing_zone": {
+        "x": 4249,
+        "y": 5139,
+        "zone_name": "Rozhok"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 39,
+      "time_survived": 447,
+      "damage_dealt": 931,
+      "kills": 2
+    },
+    {
+      "match_id": "match_243",
+      "landing_zone": {
+        "x": 4661,
+        "y": 5074,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "M416",
+      "final_placement": 65,
+      "time_survived": 116,
+      "damage_dealt": 26,
+      "kills": 0
+    },
+    {
+      "match_id": "match_244",
+      "landing_zone": {
+        "x": 2381,
+        "y": 3314,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 5,
+      "time_survived": 1044,
+      "damage_dealt": 1288,
+      "kills": 2
+    },
+    {
+      "match_id": "match_245",
+      "landing_zone": {
+        "x": 3955,
+        "y": 1855,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 15,
+      "time_survived": 902,
+      "damage_dealt": 1638,
+      "kills": 4
+    },
+    {
+      "match_id": "match_246",
+      "landing_zone": {
+        "x": 6651,
+        "y": 1673,
+        "zone_name": "Military Base"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 65,
+      "time_survived": 81,
+      "damage_dealt": 17,
+      "kills": 0
+    },
+    {
+      "match_id": "match_247",
+      "landing_zone": {
+        "x": 6603,
+        "y": 7304,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 44,
+      "time_survived": 423,
+      "damage_dealt": 886,
+      "kills": 2
+    },
+    {
+      "match_id": "match_248",
+      "landing_zone": {
+        "x": 4900,
+        "y": 4837,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "M416",
+      "final_placement": 74,
+      "time_survived": 108,
+      "damage_dealt": 413,
+      "kills": 1
+    },
+    {
+      "match_id": "match_249",
+      "landing_zone": {
+        "x": 3503,
+        "y": 2776,
+        "zone_name": "School"
+      },
+      "weapon_used": "Kar98k",
+      "final_placement": 83,
+      "time_survived": 83,
+      "damage_dealt": 441,
+      "kills": 1
+    },
+    {
+      "match_id": "match_250",
+      "landing_zone": {
+        "x": 3242,
+        "y": 6098,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 33,
+      "time_survived": 231,
+      "damage_dealt": 41,
+      "kills": 0
+    },
+    {
+      "match_id": "match_251",
+      "landing_zone": {
+        "x": 3561,
+        "y": 3033,
+        "zone_name": "School"
+      },
+      "weapon_used": "AWM",
+      "final_placement": 61,
+      "time_survived": 17,
+      "damage_dealt": 8,
+      "kills": 0
+    },
+    {
+      "match_id": "match_252",
+      "landing_zone": {
+        "x": 7414,
+        "y": 7794,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 6,
+      "time_survived": 1339,
+      "damage_dealt": 2596,
+      "kills": 5
+    },
+    {
+      "match_id": "match_253",
+      "landing_zone": {
+        "x": 4579,
+        "y": 6243,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 14,
+      "time_survived": 834,
+      "damage_dealt": 1209,
+      "kills": 2
+    },
+    {
+      "match_id": "match_254",
+      "landing_zone": {
+        "x": 6517,
+        "y": 1987,
+        "zone_name": "Military Base"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 61,
+      "time_survived": 34,
+      "damage_dealt": 12,
+      "kills": 0
+    },
+    {
+      "match_id": "match_255",
+      "landing_zone": {
+        "x": 6875,
+        "y": 2134,
+        "zone_name": "Military Base"
+      },
+      "weapon_used": "Vector",
+      "final_placement": 68,
+      "time_survived": 113,
+      "damage_dealt": 34,
+      "kills": 0
+    },
+    {
+      "match_id": "match_256",
+      "landing_zone": {
+        "x": 1630,
+        "y": 6189,
+        "zone_name": "Georgopol"
+      },
+      "weapon_used": "AWM",
+      "final_placement": 65,
+      "time_survived": 105,
+      "damage_dealt": 424,
+      "kills": 1
+    },
+    {
+      "match_id": "match_257",
+      "landing_zone": {
+        "x": 6941,
+        "y": 2208,
+        "zone_name": "Military Base"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 58,
+      "time_survived": 345,
+      "damage_dealt": 543,
+      "kills": 1
+    },
+    {
+      "match_id": "match_258",
+      "landing_zone": {
+        "x": 5215,
+        "y": 1179,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 19,
+      "time_survived": 944,
+      "damage_dealt": 2178,
+      "kills": 5
+    },
+    {
+      "match_id": "match_259",
+      "landing_zone": {
+        "x": 3884,
+        "y": 1264,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 95,
+      "time_survived": 37,
+      "damage_dealt": 10,
+      "kills": 0
+    },
+    {
+      "match_id": "match_260",
+      "landing_zone": {
+        "x": 3304,
+        "y": 2774,
+        "zone_name": "School"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 6,
+      "time_survived": 1405,
+      "damage_dealt": 1580,
+      "kills": 3
+    },
+    {
+      "match_id": "match_261",
+      "landing_zone": {
+        "x": 1495,
+        "y": 6694,
+        "zone_name": "Georgopol"
+      },
+      "weapon_used": "M416",
+      "final_placement": 93,
+      "time_survived": 94,
+      "damage_dealt": 2,
+      "kills": 0
+    },
+    {
+      "match_id": "match_262",
+      "landing_zone": {
+        "x": 4455,
+        "y": 366,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "Kar98k",
+      "final_placement": 7,
+      "time_survived": 712,
+      "damage_dealt": 1765,
+      "kills": 4
+    },
+    {
+      "match_id": "match_263",
+      "landing_zone": {
+        "x": 1394,
+        "y": 5950,
+        "zone_name": "Georgopol"
+      },
+      "weapon_used": "M416",
+      "final_placement": 20,
+      "time_survived": 512,
+      "damage_dealt": 1395,
+      "kills": 3
+    },
+    {
+      "match_id": "match_264",
+      "landing_zone": {
+        "x": 3230,
+        "y": 7742,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 39,
+      "time_survived": 467,
+      "damage_dealt": 968,
+      "kills": 2
+    },
+    {
+      "match_id": "match_265",
+      "landing_zone": {
+        "x": 3514,
+        "y": 2788,
+        "zone_name": "School"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 66,
+      "time_survived": 10,
+      "damage_dealt": 3,
+      "kills": 0
+    },
+    {
+      "match_id": "match_266",
+      "landing_zone": {
+        "x": 1520,
+        "y": 3298,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 10,
+      "time_survived": 1552,
+      "damage_dealt": 1903,
+      "kills": 4
+    },
+    {
+      "match_id": "match_267",
+      "landing_zone": {
+        "x": 7071,
+        "y": 44,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "Kar98k",
+      "final_placement": 6,
+      "time_survived": 1472,
+      "damage_dealt": 2907,
+      "kills": 7
+    },
+    {
+      "match_id": "match_268",
+      "landing_zone": {
+        "x": 5341,
+        "y": 2940,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 14,
+      "time_survived": 1189,
+      "damage_dealt": 2138,
+      "kills": 5
+    },
+    {
+      "match_id": "match_269",
+      "landing_zone": {
+        "x": 5144,
+        "y": 4860,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "AWM",
+      "final_placement": 87,
+      "time_survived": 66,
+      "damage_dealt": 4,
+      "kills": 0
+    },
+    {
+      "match_id": "match_270",
+      "landing_zone": {
+        "x": 3309,
+        "y": 2943,
+        "zone_name": "School"
+      },
+      "weapon_used": "Vector",
+      "final_placement": 66,
+      "time_survived": 56,
+      "damage_dealt": 3,
+      "kills": 0
+    },
+    {
+      "match_id": "match_271",
+      "landing_zone": {
+        "x": 3423,
+        "y": 3518,
+        "zone_name": "School"
+      },
+      "weapon_used": "UMP45",
+      "final_placement": 74,
+      "time_survived": 35,
+      "damage_dealt": 13,
+      "kills": 0
+    },
+    {
+      "match_id": "match_272",
+      "landing_zone": {
+        "x": 4583,
+        "y": 4957,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 70,
+      "time_survived": 42,
+      "damage_dealt": 16,
+      "kills": 0
+    },
+    {
+      "match_id": "match_273",
+      "landing_zone": {
+        "x": 3216,
+        "y": 6686,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "UMP45",
+      "final_placement": 4,
+      "time_survived": 1695,
+      "damage_dealt": 1245,
+      "kills": 2
+    },
+    {
+      "match_id": "match_274",
+      "landing_zone": {
+        "x": 5544,
+        "y": 3729,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "UMP45",
+      "final_placement": 1,
+      "time_survived": 1268,
+      "damage_dealt": 2251,
+      "kills": 5
+    },
+    {
+      "match_id": "match_275",
+      "landing_zone": {
+        "x": 310,
+        "y": 1658,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "UMP45",
+      "final_placement": 100,
+      "time_survived": 24,
+      "damage_dealt": 11,
+      "kills": 0
+    },
+    {
+      "match_id": "match_276",
+      "landing_zone": {
+        "x": 4666,
+        "y": 3591,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 25,
+      "time_survived": 1126,
+      "damage_dealt": 3059,
+      "kills": 7
+    },
+    {
+      "match_id": "match_277",
+      "landing_zone": {
+        "x": 2340,
+        "y": 157,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "UMP45",
+      "final_placement": 12,
+      "time_survived": 703,
+      "damage_dealt": 952,
+      "kills": 2
+    },
+    {
+      "match_id": "match_278",
+      "landing_zone": {
+        "x": 2530,
+        "y": 177,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "AWM",
+      "final_placement": 9,
+      "time_survived": 1011,
+      "damage_dealt": 4187,
+      "kills": 10
+    },
+    {
+      "match_id": "match_279",
+      "landing_zone": {
+        "x": 4416,
+        "y": 5247,
+        "zone_name": "Rozhok"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 7,
+      "time_survived": 1757,
+      "damage_dealt": 3275,
+      "kills": 6
+    },
+    {
+      "match_id": "match_280",
+      "landing_zone": {
+        "x": 4592,
+        "y": 4544,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 97,
+      "time_survived": 109,
+      "damage_dealt": 454,
+      "kills": 1
+    },
+    {
+      "match_id": "match_281",
+      "landing_zone": {
+        "x": 3149,
+        "y": 1824,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "UMP45",
+      "final_placement": 1,
+      "time_survived": 1627,
+      "damage_dealt": 1892,
+      "kills": 3
+    },
+    {
+      "match_id": "match_282",
+      "landing_zone": {
+        "x": 4493,
+        "y": 1060,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 88,
+      "time_survived": 117,
+      "damage_dealt": 17,
+      "kills": 0
+    },
+    {
+      "match_id": "match_283",
+      "landing_zone": {
+        "x": 1014,
+        "y": 6007,
+        "zone_name": "Georgopol"
+      },
+      "weapon_used": "UMP45",
+      "final_placement": 22,
+      "time_survived": 708,
+      "damage_dealt": 651,
+      "kills": 1
+    },
+    {
+      "match_id": "match_284",
+      "landing_zone": {
+        "x": 6330,
+        "y": 5229,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 9,
+      "time_survived": 663,
+      "damage_dealt": 620,
+      "kills": 1
+    },
+    {
+      "match_id": "match_285",
+      "landing_zone": {
+        "x": 5373,
+        "y": 7398,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 6,
+      "time_survived": 1749,
+      "damage_dealt": 3047,
+      "kills": 7
+    },
+    {
+      "match_id": "match_286",
+      "landing_zone": {
+        "x": 4222,
+        "y": 5180,
+        "zone_name": "Rozhok"
+      },
+      "weapon_used": "M416",
+      "final_placement": 3,
+      "time_survived": 1532,
+      "damage_dealt": 2966,
+      "kills": 6
+    },
+    {
+      "match_id": "match_287",
+      "landing_zone": {
+        "x": 1216,
+        "y": 6690,
+        "zone_name": "Georgopol"
+      },
+      "weapon_used": "M416",
+      "final_placement": 86,
+      "time_survived": 57,
+      "damage_dealt": 2,
+      "kills": 0
+    },
+    {
+      "match_id": "match_288",
+      "landing_zone": {
+        "x": 4498,
+        "y": 6024,
+        "zone_name": "Rozhok"
+      },
+      "weapon_used": "M416",
+      "final_placement": 5,
+      "time_survived": 1081,
+      "damage_dealt": 2506,
+      "kills": 5
+    },
+    {
+      "match_id": "match_289",
+      "landing_zone": {
+        "x": 4627,
+        "y": 6085,
+        "zone_name": "Rozhok"
+      },
+      "weapon_used": "UMP45",
+      "final_placement": 23,
+      "time_survived": 226,
+      "damage_dealt": 504,
+      "kills": 1
+    },
+    {
+      "match_id": "match_290",
+      "landing_zone": {
+        "x": 23,
+        "y": 3831,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 72,
+      "time_survived": 47,
+      "damage_dealt": 7,
+      "kills": 0
+    },
+    {
+      "match_id": "match_291",
+      "landing_zone": {
+        "x": 1474,
+        "y": 6596,
+        "zone_name": "Georgopol"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 98,
+      "time_survived": 48,
+      "damage_dealt": 22,
+      "kills": 0
+    },
+    {
+      "match_id": "match_292",
+      "landing_zone": {
+        "x": 3163,
+        "y": 405,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "UMP45",
+      "final_placement": 8,
+      "time_survived": 1364,
+      "damage_dealt": 1800,
+      "kills": 3
+    },
+    {
+      "match_id": "match_293",
+      "landing_zone": {
+        "x": 4574,
+        "y": 4489,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 3,
+      "time_survived": 1207,
+      "damage_dealt": 2520,
+      "kills": 6
+    },
+    {
+      "match_id": "match_294",
+      "landing_zone": {
+        "x": 6900,
+        "y": 72,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 24,
+      "time_survived": 229,
+      "damage_dealt": 401,
+      "kills": 1
+    },
+    {
+      "match_id": "match_295",
+      "landing_zone": {
+        "x": 4200,
+        "y": 5200,
+        "zone_name": "Rozhok"
+      },
+      "weapon_used": "M416",
+      "final_placement": 64,
+      "time_survived": 22,
+      "damage_dealt": 9,
+      "kills": 0
+    },
+    {
+      "match_id": "match_296",
+      "landing_zone": {
+        "x": 1944,
+        "y": 3750,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "Kar98k",
+      "final_placement": 6,
+      "time_survived": 1357,
+      "damage_dealt": 2651,
+      "kills": 6
+    },
+    {
+      "match_id": "match_297",
+      "landing_zone": {
+        "x": 7076,
+        "y": 5723,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "UMP45",
+      "final_placement": 53,
+      "time_survived": 444,
+      "damage_dealt": 448,
+      "kills": 1
+    },
+    {
+      "match_id": "match_298",
+      "landing_zone": {
+        "x": 7867,
+        "y": 5601,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 9,
+      "time_survived": 1000,
+      "damage_dealt": 1380,
+      "kills": 3
+    },
+    {
+      "match_id": "match_299",
+      "landing_zone": {
+        "x": 4660,
+        "y": 4754,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "Kar98k",
+      "final_placement": 65,
+      "time_survived": 30,
+      "damage_dealt": 3,
+      "kills": 0
+    },
+    {
+      "match_id": "match_300",
+      "landing_zone": {
+        "x": 1278,
+        "y": 6459,
+        "zone_name": "Georgopol"
+      },
+      "weapon_used": "UMP45",
+      "final_placement": 83,
+      "time_survived": 47,
+      "damage_dealt": 13,
+      "kills": 0
+    },
+    {
+      "match_id": "match_301",
+      "landing_zone": {
+        "x": 4726,
+        "y": 1362,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 22,
+      "time_survived": 432,
+      "damage_dealt": 886,
+      "kills": 2
+    },
+    {
+      "match_id": "match_302",
+      "landing_zone": {
+        "x": 1517,
+        "y": 6469,
+        "zone_name": "Georgopol"
+      },
+      "weapon_used": "M416",
+      "final_placement": 98,
+      "time_survived": 90,
+      "damage_dealt": 405,
+      "kills": 1
+    },
+    {
+      "match_id": "match_303",
+      "landing_zone": {
+        "x": 1730,
+        "y": 5844,
+        "zone_name": "Georgopol"
+      },
+      "weapon_used": "M416",
+      "final_placement": 3,
+      "time_survived": 1710,
+      "damage_dealt": 2532,
+      "kills": 5
+    },
+    {
+      "match_id": "match_304",
+      "landing_zone": {
+        "x": 2506,
+        "y": 1825,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "UMP45",
+      "final_placement": 6,
+      "time_survived": 1134,
+      "damage_dealt": 1753,
+      "kills": 4
+    },
+    {
+      "match_id": "match_305",
+      "landing_zone": {
+        "x": 4986,
+        "y": 459,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 91,
+      "time_survived": 81,
+      "damage_dealt": 20,
+      "kills": 0
+    },
+    {
+      "match_id": "match_306",
+      "landing_zone": {
+        "x": 1192,
+        "y": 6509,
+        "zone_name": "Georgopol"
+      },
+      "weapon_used": "M416",
+      "final_placement": 71,
+      "time_survived": 14,
+      "damage_dealt": 4,
+      "kills": 0
+    },
+    {
+      "match_id": "match_307",
+      "landing_zone": {
+        "x": 6958,
+        "y": 7578,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 7,
+      "time_survived": 1751,
+      "damage_dealt": 2790,
+      "kills": 5
+    },
+    {
+      "match_id": "match_308",
+      "landing_zone": {
+        "x": 2425,
+        "y": 2398,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "UMP45",
+      "final_placement": 10,
+      "time_survived": 1707,
+      "damage_dealt": 1241,
+      "kills": 3
+    },
+    {
+      "match_id": "match_309",
+      "landing_zone": {
+        "x": 3515,
+        "y": 2772,
+        "zone_name": "School"
+      },
+      "weapon_used": "UMP45",
+      "final_placement": 33,
+      "time_survived": 426,
+      "damage_dealt": 807,
+      "kills": 2
+    },
+    {
+      "match_id": "match_310",
+      "landing_zone": {
+        "x": 2362,
+        "y": 3884,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "Vector",
+      "final_placement": 10,
+      "time_survived": 869,
+      "damage_dealt": 840,
+      "kills": 2
+    },
+    {
+      "match_id": "match_311",
+      "landing_zone": {
+        "x": 6502,
+        "y": 1642,
+        "zone_name": "Military Base"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 93,
+      "time_survived": 74,
+      "damage_dealt": 3,
+      "kills": 0
+    },
+    {
+      "match_id": "match_312",
+      "landing_zone": {
+        "x": 3473,
+        "y": 2860,
+        "zone_name": "School"
+      },
+      "weapon_used": "M416",
+      "final_placement": 13,
+      "time_survived": 679,
+      "damage_dealt": 841,
+      "kills": 2
+    },
+    {
+      "match_id": "match_313",
+      "landing_zone": {
+        "x": 3653,
+        "y": 2679,
+        "zone_name": "School"
+      },
+      "weapon_used": "Kar98k",
+      "final_placement": 85,
+      "time_survived": 119,
+      "damage_dealt": 44,
+      "kills": 0
+    },
+    {
+      "match_id": "match_314",
+      "landing_zone": {
+        "x": 4513,
+        "y": 5762,
+        "zone_name": "Rozhok"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 95,
+      "time_survived": 36,
+      "damage_dealt": 13,
+      "kills": 0
+    },
+    {
+      "match_id": "match_315",
+      "landing_zone": {
+        "x": 6768,
+        "y": 2728,
+        "zone_name": "Military Base"
+      },
+      "weapon_used": "M416",
+      "final_placement": 16,
+      "time_survived": 1042,
+      "damage_dealt": 1852,
+      "kills": 4
+    },
+    {
+      "match_id": "match_316",
+      "landing_zone": {
+        "x": 6517,
+        "y": 5595,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "UMP45",
+      "final_placement": 2,
+      "time_survived": 1535,
+      "damage_dealt": 1299,
+      "kills": 3
+    },
+    {
+      "match_id": "match_317",
+      "landing_zone": {
+        "x": 2067,
+        "y": 5131,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 3,
+      "time_survived": 1757,
+      "damage_dealt": 1624,
+      "kills": 3
+    },
+    {
+      "match_id": "match_318",
+      "landing_zone": {
+        "x": 4034,
+        "y": 2394,
+        "zone_name": "School"
+      },
+      "weapon_used": "UMP45",
+      "final_placement": 5,
+      "time_survived": 901,
+      "damage_dealt": 1211,
+      "kills": 3
+    },
+    {
+      "match_id": "match_319",
+      "landing_zone": {
+        "x": 4854,
+        "y": 4421,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "Kar98k",
+      "final_placement": 70,
+      "time_survived": 21,
+      "damage_dealt": 8,
+      "kills": 0
+    },
+    {
+      "match_id": "match_320",
+      "landing_zone": {
+        "x": 1925,
+        "y": 675,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 14,
+      "time_survived": 756,
+      "damage_dealt": 1967,
+      "kills": 4
+    },
+    {
+      "match_id": "match_321",
+      "landing_zone": {
+        "x": 3197,
+        "y": 2401,
+        "zone_name": "School"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 21,
+      "time_survived": 969,
+      "damage_dealt": 1207,
+      "kills": 3
+    },
+    {
+      "match_id": "match_322",
+      "landing_zone": {
+        "x": 2388,
+        "y": 3781,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 14,
+      "time_survived": 1159,
+      "damage_dealt": 1542,
+      "kills": 3
+    },
+    {
+      "match_id": "match_323",
+      "landing_zone": {
+        "x": 3932,
+        "y": 5507,
+        "zone_name": "Rozhok"
+      },
+      "weapon_used": "M416",
+      "final_placement": 13,
+      "time_survived": 736,
+      "damage_dealt": 835,
+      "kills": 2
+    },
+    {
+      "match_id": "match_324",
+      "landing_zone": {
+        "x": 1614,
+        "y": 6313,
+        "zone_name": "Georgopol"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 76,
+      "time_survived": 69,
+      "damage_dealt": 24,
+      "kills": 0
+    },
+    {
+      "match_id": "match_325",
+      "landing_zone": {
+        "x": 1501,
+        "y": 6503,
+        "zone_name": "Georgopol"
+      },
+      "weapon_used": "M416",
+      "final_placement": 72,
+      "time_survived": 38,
+      "damage_dealt": 9,
+      "kills": 0
+    },
+    {
+      "match_id": "match_326",
+      "landing_zone": {
+        "x": 5147,
+        "y": 6360,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 9,
+      "time_survived": 1682,
+      "damage_dealt": 2264,
+      "kills": 4
+    },
+    {
+      "match_id": "match_327",
+      "landing_zone": {
+        "x": 4531,
+        "y": 4950,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "Vector",
+      "final_placement": 56,
+      "time_survived": 533,
+      "damage_dealt": 1037,
+      "kills": 2
+    },
+    {
+      "match_id": "match_328",
+      "landing_zone": {
+        "x": 4528,
+        "y": 7217,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 4,
+      "time_survived": 1516,
+      "damage_dealt": 2963,
+      "kills": 6
+    },
+    {
+      "match_id": "match_329",
+      "landing_zone": {
+        "x": 3474,
+        "y": 2701,
+        "zone_name": "School"
+      },
+      "weapon_used": "UMP45",
+      "final_placement": 63,
+      "time_survived": 98,
+      "damage_dealt": 14,
+      "kills": 0
+    },
+    {
+      "match_id": "match_330",
+      "landing_zone": {
+        "x": 427,
+        "y": 795,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 8,
+      "time_survived": 1076,
+      "damage_dealt": 1685,
+      "kills": 3
+    },
+    {
+      "match_id": "match_331",
+      "landing_zone": {
+        "x": 1505,
+        "y": 1908,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "Vector",
+      "final_placement": 5,
+      "time_survived": 1661,
+      "damage_dealt": 1966,
+      "kills": 4
+    },
+    {
+      "match_id": "match_332",
+      "landing_zone": {
+        "x": 6374,
+        "y": 2144,
+        "zone_name": "Military Base"
+      },
+      "weapon_used": "M416",
+      "final_placement": 73,
+      "time_survived": 61,
+      "damage_dealt": 15,
+      "kills": 0
+    },
+    {
+      "match_id": "match_333",
+      "landing_zone": {
+        "x": 1179,
+        "y": 6645,
+        "zone_name": "Georgopol"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 95,
+      "time_survived": 65,
+      "damage_dealt": 14,
+      "kills": 0
+    },
+    {
+      "match_id": "match_334",
+      "landing_zone": {
+        "x": 3582,
+        "y": 2812,
+        "zone_name": "School"
+      },
+      "weapon_used": "Kar98k",
+      "final_placement": 98,
+      "time_survived": 117,
+      "damage_dealt": 452,
+      "kills": 1
+    },
+    {
+      "match_id": "match_335",
+      "landing_zone": {
+        "x": 6408,
+        "y": 5245,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 67,
+      "time_survived": 59,
+      "damage_dealt": 16,
+      "kills": 0
+    },
+    {
+      "match_id": "match_336",
+      "landing_zone": {
+        "x": 538,
+        "y": 5896,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 48,
+      "time_survived": 446,
+      "damage_dealt": 466,
+      "kills": 1
+    },
+    {
+      "match_id": "match_337",
+      "landing_zone": {
+        "x": 7652,
+        "y": 6044,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 42,
+      "time_survived": 438,
+      "damage_dealt": 946,
+      "kills": 2
+    },
+    {
+      "match_id": "match_338",
+      "landing_zone": {
+        "x": 5880,
+        "y": 7576,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "UMP45",
+      "final_placement": 22,
+      "time_survived": 917,
+      "damage_dealt": 2003,
+      "kills": 4
+    },
+    {
+      "match_id": "match_339",
+      "landing_zone": {
+        "x": 7376,
+        "y": 6471,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 14,
+      "time_survived": 1073,
+      "damage_dealt": 1259,
+      "kills": 2
+    },
+    {
+      "match_id": "match_340",
+      "landing_zone": {
+        "x": 4551,
+        "y": 4662,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 46,
+      "time_survived": 571,
+      "damage_dealt": 818,
+      "kills": 2
+    },
+    {
+      "match_id": "match_341",
+      "landing_zone": {
+        "x": 2999,
+        "y": 4746,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 13,
+      "time_survived": 726,
+      "damage_dealt": 1883,
+      "kills": 4
+    },
+    {
+      "match_id": "match_342",
+      "landing_zone": {
+        "x": 3562,
+        "y": 2945,
+        "zone_name": "School"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 51,
+      "time_survived": 429,
+      "damage_dealt": 967,
+      "kills": 2
+    },
+    {
+      "match_id": "match_343",
+      "landing_zone": {
+        "x": 3113,
+        "y": 6173,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "AWM",
+      "final_placement": 4,
+      "time_survived": 1286,
+      "damage_dealt": 2570,
+      "kills": 6
+    },
+    {
+      "match_id": "match_344",
+      "landing_zone": {
+        "x": 7075,
+        "y": 5091,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "UMP45",
+      "final_placement": 10,
+      "time_survived": 1458,
+      "damage_dealt": 1584,
+      "kills": 3
+    },
+    {
+      "match_id": "match_345",
+      "landing_zone": {
+        "x": 4978,
+        "y": 5133,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 83,
+      "time_survived": 29,
+      "damage_dealt": 7,
+      "kills": 0
+    },
+    {
+      "match_id": "match_346",
+      "landing_zone": {
+        "x": 7422,
+        "y": 7514,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 38,
+      "time_survived": 318,
+      "damage_dealt": 468,
+      "kills": 1
+    },
+    {
+      "match_id": "match_347",
+      "landing_zone": {
+        "x": 7325,
+        "y": 1702,
+        "zone_name": "Military Base"
+      },
+      "weapon_used": "M416",
+      "final_placement": 66,
+      "time_survived": 89,
+      "damage_dealt": 17,
+      "kills": 0
+    },
+    {
+      "match_id": "match_348",
+      "landing_zone": {
+        "x": 5248,
+        "y": 1049,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 12,
+      "time_survived": 1107,
+      "damage_dealt": 1633,
+      "kills": 4
+    },
+    {
+      "match_id": "match_349",
+      "landing_zone": {
+        "x": 4804,
+        "y": 4487,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "Vector",
+      "final_placement": 93,
+      "time_survived": 113,
+      "damage_dealt": 45,
+      "kills": 0
+    },
+    {
+      "match_id": "match_350",
+      "landing_zone": {
+        "x": 514,
+        "y": 2020,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 7,
+      "time_survived": 1705,
+      "damage_dealt": 2533,
+      "kills": 6
+    },
+    {
+      "match_id": "match_351",
+      "landing_zone": {
+        "x": 5658,
+        "y": 3264,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 29,
+      "time_survived": 483,
+      "damage_dealt": 989,
+      "kills": 2
+    },
+    {
+      "match_id": "match_352",
+      "landing_zone": {
+        "x": 468,
+        "y": 5572,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 5,
+      "time_survived": 1734,
+      "damage_dealt": 2162,
+      "kills": 5
+    },
+    {
+      "match_id": "match_353",
+      "landing_zone": {
+        "x": 6495,
+        "y": 2085,
+        "zone_name": "Military Base"
+      },
+      "weapon_used": "Kar98k",
+      "final_placement": 66,
+      "time_survived": 60,
+      "damage_dealt": 15,
+      "kills": 0
+    },
+    {
+      "match_id": "match_354",
+      "landing_zone": {
+        "x": 5045,
+        "y": 1107,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "UMP45",
+      "final_placement": 4,
+      "time_survived": 1277,
+      "damage_dealt": 2465,
+      "kills": 5
+    },
+    {
+      "match_id": "match_355",
+      "landing_zone": {
+        "x": 4342,
+        "y": 2412,
+        "zone_name": "School"
+      },
+      "weapon_used": "M416",
+      "final_placement": 22,
+      "time_survived": 914,
+      "damage_dealt": 1473,
+      "kills": 3
+    },
+    {
+      "match_id": "match_356",
+      "landing_zone": {
+        "x": 4814,
+        "y": 4793,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 7,
+      "time_survived": 1694,
+      "damage_dealt": 3230,
+      "kills": 7
+    },
+    {
+      "match_id": "match_357",
+      "landing_zone": {
+        "x": 4885,
+        "y": 4927,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 2,
+      "time_survived": 1595,
+      "damage_dealt": 2864,
+      "kills": 6
+    },
+    {
+      "match_id": "match_358",
+      "landing_zone": {
+        "x": 3452,
+        "y": 2751,
+        "zone_name": "School"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 87,
+      "time_survived": 84,
+      "damage_dealt": 29,
+      "kills": 0
+    },
+    {
+      "match_id": "match_359",
+      "landing_zone": {
+        "x": 2233,
+        "y": 6539,
+        "zone_name": "Georgopol"
+      },
+      "weapon_used": "M416",
+      "final_placement": 11,
+      "time_survived": 1134,
+      "damage_dealt": 1951,
+      "kills": 4
+    },
+    {
+      "match_id": "match_360",
+      "landing_zone": {
+        "x": 3496,
+        "y": 2852,
+        "zone_name": "School"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 66,
+      "time_survived": 15,
+      "damage_dealt": 2,
+      "kills": 0
+    },
+    {
+      "match_id": "match_361",
+      "landing_zone": {
+        "x": 5386,
+        "y": 6598,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "Vector",
+      "final_placement": 40,
+      "time_survived": 584,
+      "damage_dealt": 585,
+      "kills": 1
+    },
+    {
+      "match_id": "match_362",
+      "landing_zone": {
+        "x": 7917,
+        "y": 3515,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 9,
+      "time_survived": 1530,
+      "damage_dealt": 1757,
+      "kills": 4
+    },
+    {
+      "match_id": "match_363",
+      "landing_zone": {
+        "x": 2412,
+        "y": 7317,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 32,
+      "time_survived": 317,
+      "damage_dealt": 462,
+      "kills": 1
+    },
+    {
+      "match_id": "match_364",
+      "landing_zone": {
+        "x": 376,
+        "y": 4245,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "Vector",
+      "final_placement": 16,
+      "time_survived": 965,
+      "damage_dealt": 1957,
+      "kills": 4
+    },
+    {
+      "match_id": "match_365",
+      "landing_zone": {
+        "x": 2084,
+        "y": 7345,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "UMP45",
+      "final_placement": 17,
+      "time_survived": 1077,
+      "damage_dealt": 1319,
+      "kills": 2
+    },
+    {
+      "match_id": "match_366",
+      "landing_zone": {
+        "x": 2746,
+        "y": 1001,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 22,
+      "time_survived": 720,
+      "damage_dealt": 990,
+      "kills": 2
+    },
+    {
+      "match_id": "match_367",
+      "landing_zone": {
+        "x": 4194,
+        "y": 1361,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "UMP45",
+      "final_placement": 76,
+      "time_survived": 64,
+      "damage_dealt": 16,
+      "kills": 0
+    },
+    {
+      "match_id": "match_368",
+      "landing_zone": {
+        "x": 3404,
+        "y": 3066,
+        "zone_name": "School"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 83,
+      "time_survived": 28,
+      "damage_dealt": 5,
+      "kills": 0
+    },
+    {
+      "match_id": "match_369",
+      "landing_zone": {
+        "x": 5317,
+        "y": 913,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 18,
+      "time_survived": 988,
+      "damage_dealt": 2011,
+      "kills": 5
+    },
+    {
+      "match_id": "match_370",
+      "landing_zone": {
+        "x": 3324,
+        "y": 4937,
+        "zone_name": "Rozhok"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 18,
+      "time_survived": 1005,
+      "damage_dealt": 1584,
+      "kills": 3
+    },
+    {
+      "match_id": "match_371",
+      "landing_zone": {
+        "x": 4910,
+        "y": 4569,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 3,
+      "time_survived": 1496,
+      "damage_dealt": 2177,
+      "kills": 4
+    },
+    {
+      "match_id": "match_372",
+      "landing_zone": {
+        "x": 3320,
+        "y": 3013,
+        "zone_name": "School"
+      },
+      "weapon_used": "M416",
+      "final_placement": 98,
+      "time_survived": 95,
+      "damage_dealt": 4,
+      "kills": 0
+    },
+    {
+      "match_id": "match_373",
+      "landing_zone": {
+        "x": 1601,
+        "y": 6547,
+        "zone_name": "Georgopol"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 74,
+      "time_survived": 34,
+      "damage_dealt": 15,
+      "kills": 0
+    },
+    {
+      "match_id": "match_374",
+      "landing_zone": {
+        "x": 7218,
+        "y": 4509,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 8,
+      "time_survived": 1658,
+      "damage_dealt": 1794,
+      "kills": 3
+    },
+    {
+      "match_id": "match_375",
+      "landing_zone": {
+        "x": 5525,
+        "y": 3939,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 9,
+      "time_survived": 1211,
+      "damage_dealt": 2769,
+      "kills": 6
+    },
+    {
+      "match_id": "match_376",
+      "landing_zone": {
+        "x": 3428,
+        "y": 2286,
+        "zone_name": "School"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 9,
+      "time_survived": 915,
+      "damage_dealt": 2018,
+      "kills": 4
+    },
+    {
+      "match_id": "match_377",
+      "landing_zone": {
+        "x": 6712,
+        "y": 1215,
+        "zone_name": "Military Base"
+      },
+      "weapon_used": "M416",
+      "final_placement": 40,
+      "time_survived": 369,
+      "damage_dealt": 837,
+      "kills": 2
+    },
+    {
+      "match_id": "match_378",
+      "landing_zone": {
+        "x": 3850,
+        "y": 2900,
+        "zone_name": "School"
+      },
+      "weapon_used": "Vector",
+      "final_placement": 4,
+      "time_survived": 1334,
+      "damage_dealt": 1289,
+      "kills": 2
+    },
+    {
+      "match_id": "match_379",
+      "landing_zone": {
+        "x": 3629,
+        "y": 4325,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "UMP45",
+      "final_placement": 10,
+      "time_survived": 1308,
+      "damage_dealt": 866,
+      "kills": 2
+    },
+    {
+      "match_id": "match_380",
+      "landing_zone": {
+        "x": 6497,
+        "y": 1992,
+        "zone_name": "Military Base"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 76,
+      "time_survived": 91,
+      "damage_dealt": 32,
+      "kills": 0
+    },
+    {
+      "match_id": "match_381",
+      "landing_zone": {
+        "x": 4691,
+        "y": 6676,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "Vector",
+      "final_placement": 17,
+      "time_survived": 853,
+      "damage_dealt": 1160,
+      "kills": 2
+    },
+    {
+      "match_id": "match_382",
+      "landing_zone": {
+        "x": 7505,
+        "y": 904,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 3,
+      "time_survived": 1304,
+      "damage_dealt": 3048,
+      "kills": 6
+    },
+    {
+      "match_id": "match_383",
+      "landing_zone": {
+        "x": 2763,
+        "y": 6081,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 53,
+      "time_survived": 455,
+      "damage_dealt": 423,
+      "kills": 1
+    },
+    {
+      "match_id": "match_384",
+      "landing_zone": {
+        "x": 3035,
+        "y": 5191,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "Vector",
+      "final_placement": 14,
+      "time_survived": 663,
+      "damage_dealt": 611,
+      "kills": 1
+    },
+    {
+      "match_id": "match_385",
+      "landing_zone": {
+        "x": 6194,
+        "y": 2064,
+        "zone_name": "Military Base"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 94,
+      "time_survived": 15,
+      "damage_dealt": 5,
+      "kills": 0
+    },
+    {
+      "match_id": "match_386",
+      "landing_zone": {
+        "x": 4132,
+        "y": 4923,
+        "zone_name": "Rozhok"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 76,
+      "time_survived": 110,
+      "damage_dealt": 40,
+      "kills": 0
+    },
+    {
+      "match_id": "match_387",
+      "landing_zone": {
+        "x": 4111,
+        "y": 5308,
+        "zone_name": "Rozhok"
+      },
+      "weapon_used": "UMP45",
+      "final_placement": 86,
+      "time_survived": 54,
+      "damage_dealt": 18,
+      "kills": 0
+    },
+    {
+      "match_id": "match_388",
+      "landing_zone": {
+        "x": 6687,
+        "y": 1882,
+        "zone_name": "Military Base"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 98,
+      "time_survived": 109,
+      "damage_dealt": 446,
+      "kills": 1
+    },
+    {
+      "match_id": "match_389",
+      "landing_zone": {
+        "x": 4783,
+        "y": 4557,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 91,
+      "time_survived": 63,
+      "damage_dealt": 16,
+      "kills": 0
+    },
+    {
+      "match_id": "match_390",
+      "landing_zone": {
+        "x": 1799,
+        "y": 6664,
+        "zone_name": "Georgopol"
+      },
+      "weapon_used": "UMP45",
+      "final_placement": 70,
+      "time_survived": 44,
+      "damage_dealt": 9,
+      "kills": 0
+    },
+    {
+      "match_id": "match_391",
+      "landing_zone": {
+        "x": 3283,
+        "y": 2849,
+        "zone_name": "School"
+      },
+      "weapon_used": "M416",
+      "final_placement": 54,
+      "time_survived": 300,
+      "damage_dealt": 948,
+      "kills": 2
+    },
+    {
+      "match_id": "match_392",
+      "landing_zone": {
+        "x": 1318,
+        "y": 6174,
+        "zone_name": "Georgopol"
+      },
+      "weapon_used": "Vector",
+      "final_placement": 9,
+      "time_survived": 1376,
+      "damage_dealt": 2188,
+      "kills": 4
+    },
+    {
+      "match_id": "match_393",
+      "landing_zone": {
+        "x": 5895,
+        "y": 2487,
+        "zone_name": "Military Base"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 20,
+      "time_survived": 1083,
+      "damage_dealt": 1058,
+      "kills": 2
+    },
+    {
+      "match_id": "match_394",
+      "landing_zone": {
+        "x": 4557,
+        "y": 3075,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 3,
+      "time_survived": 1789,
+      "damage_dealt": 2063,
+      "kills": 5
+    },
+    {
+      "match_id": "match_395",
+      "landing_zone": {
+        "x": 1441,
+        "y": 6246,
+        "zone_name": "Georgopol"
+      },
+      "weapon_used": "UMP45",
+      "final_placement": 95,
+      "time_survived": 65,
+      "damage_dealt": 2,
+      "kills": 0
+    },
+    {
+      "match_id": "match_396",
+      "landing_zone": {
+        "x": 6801,
+        "y": 228,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 3,
+      "time_survived": 1225,
+      "damage_dealt": 2634,
+      "kills": 6
+    },
+    {
+      "match_id": "match_397",
+      "landing_zone": {
+        "x": 7732,
+        "y": 2844,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "AWM",
+      "final_placement": 31,
+      "time_survived": 503,
+      "damage_dealt": 1277,
+      "kills": 3
+    },
+    {
+      "match_id": "match_398",
+      "landing_zone": {
+        "x": 657,
+        "y": 5461,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 73,
+      "time_survived": 55,
+      "damage_dealt": 23,
+      "kills": 0
+    },
+    {
+      "match_id": "match_399",
+      "landing_zone": {
+        "x": 468,
+        "y": 2363,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "UMP45",
+      "final_placement": 1,
+      "time_survived": 1532,
+      "damage_dealt": 2139,
+      "kills": 4
+    },
+    {
+      "match_id": "match_400",
+      "landing_zone": {
+        "x": 1470,
+        "y": 1194,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 45,
+      "time_survived": 552,
+      "damage_dealt": 674,
+      "kills": 1
+    },
+    {
+      "match_id": "match_401",
+      "landing_zone": {
+        "x": 1853,
+        "y": 6406,
+        "zone_name": "Georgopol"
+      },
+      "weapon_used": "M416",
+      "final_placement": 78,
+      "time_survived": 25,
+      "damage_dealt": 4,
+      "kills": 0
+    },
+    {
+      "match_id": "match_402",
+      "landing_zone": {
+        "x": 4298,
+        "y": 5261,
+        "zone_name": "Rozhok"
+      },
+      "weapon_used": "Vector",
+      "final_placement": 97,
+      "time_survived": 31,
+      "damage_dealt": 10,
+      "kills": 0
+    },
+    {
+      "match_id": "match_403",
+      "landing_zone": {
+        "x": 6744,
+        "y": 2096,
+        "zone_name": "Military Base"
+      },
+      "weapon_used": "Vector",
+      "final_placement": 83,
+      "time_survived": 91,
+      "damage_dealt": 24,
+      "kills": 0
+    },
+    {
+      "match_id": "match_404",
+      "landing_zone": {
+        "x": 803,
+        "y": 361,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 99,
+      "time_survived": 112,
+      "damage_dealt": 32,
+      "kills": 0
+    },
+    {
+      "match_id": "match_405",
+      "landing_zone": {
+        "x": 110,
+        "y": 6041,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "UMP45",
+      "final_placement": 2,
+      "time_survived": 1736,
+      "damage_dealt": 1926,
+      "kills": 3
+    },
+    {
+      "match_id": "match_406",
+      "landing_zone": {
+        "x": 7587,
+        "y": 6458,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "Vector",
+      "final_placement": 7,
+      "time_survived": 1230,
+      "damage_dealt": 2104,
+      "kills": 4
+    },
+    {
+      "match_id": "match_407",
+      "landing_zone": {
+        "x": 3543,
+        "y": 2688,
+        "zone_name": "School"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 97,
+      "time_survived": 59,
+      "damage_dealt": 17,
+      "kills": 0
+    },
+    {
+      "match_id": "match_408",
+      "landing_zone": {
+        "x": 7005,
+        "y": 6681,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 16,
+      "time_survived": 938,
+      "damage_dealt": 2574,
+      "kills": 6
+    },
+    {
+      "match_id": "match_409",
+      "landing_zone": {
+        "x": 1332,
+        "y": 2910,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 13,
+      "time_survived": 627,
+      "damage_dealt": 1228,
+      "kills": 3
+    },
+    {
+      "match_id": "match_410",
+      "landing_zone": {
+        "x": 1108,
+        "y": 3949,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 5,
+      "time_survived": 1257,
+      "damage_dealt": 2940,
+      "kills": 6
+    },
+    {
+      "match_id": "match_411",
+      "landing_zone": {
+        "x": 1196,
+        "y": 4472,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 5,
+      "time_survived": 1796,
+      "damage_dealt": 2474,
+      "kills": 4
+    },
+    {
+      "match_id": "match_412",
+      "landing_zone": {
+        "x": 4517,
+        "y": 5485,
+        "zone_name": "Rozhok"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 1,
+      "time_survived": 1604,
+      "damage_dealt": 2083,
+      "kills": 4
+    },
+    {
+      "match_id": "match_413",
+      "landing_zone": {
+        "x": 3475,
+        "y": 2802,
+        "zone_name": "School"
+      },
+      "weapon_used": "M416",
+      "final_placement": 7,
+      "time_survived": 1536,
+      "damage_dealt": 3340,
+      "kills": 7
+    },
+    {
+      "match_id": "match_414",
+      "landing_zone": {
+        "x": 4261,
+        "y": 5548,
+        "zone_name": "Rozhok"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 22,
+      "time_survived": 1114,
+      "damage_dealt": 1437,
+      "kills": 3
+    },
+    {
+      "match_id": "match_415",
+      "landing_zone": {
+        "x": 767,
+        "y": 596,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 2,
+      "time_survived": 1476,
+      "damage_dealt": 3191,
+      "kills": 7
+    },
+    {
+      "match_id": "match_416",
+      "landing_zone": {
+        "x": 1026,
+        "y": 790,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 20,
+      "time_survived": 545,
+      "damage_dealt": 1269,
+      "kills": 3
+    },
+    {
+      "match_id": "match_417",
+      "landing_zone": {
+        "x": 5075,
+        "y": 4716,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "Vector",
+      "final_placement": 3,
+      "time_survived": 1461,
+      "damage_dealt": 1487,
+      "kills": 2
+    },
+    {
+      "match_id": "match_418",
+      "landing_zone": {
+        "x": 4350,
+        "y": 5369,
+        "zone_name": "Rozhok"
+      },
+      "weapon_used": "Vector",
+      "final_placement": 61,
+      "time_survived": 86,
+      "damage_dealt": 5,
+      "kills": 0
+    },
+    {
+      "match_id": "match_419",
+      "landing_zone": {
+        "x": 4764,
+        "y": 3646,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 10,
+      "time_survived": 826,
+      "damage_dealt": 1373,
+      "kills": 3
+    },
+    {
+      "match_id": "match_420",
+      "landing_zone": {
+        "x": 8,
+        "y": 5230,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 24,
+      "time_survived": 639,
+      "damage_dealt": 1018,
+      "kills": 2
+    },
+    {
+      "match_id": "match_421",
+      "landing_zone": {
+        "x": 2939,
+        "y": 2255,
+        "zone_name": "School"
+      },
+      "weapon_used": "M416",
+      "final_placement": 16,
+      "time_survived": 1017,
+      "damage_dealt": 2385,
+      "kills": 5
+    },
+    {
+      "match_id": "match_422",
+      "landing_zone": {
+        "x": 7477,
+        "y": 123,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 25,
+      "time_survived": 1122,
+      "damage_dealt": 2014,
+      "kills": 5
+    },
+    {
+      "match_id": "match_423",
+      "landing_zone": {
+        "x": 6784,
+        "y": 2012,
+        "zone_name": "Military Base"
+      },
+      "weapon_used": "M416",
+      "final_placement": 1,
+      "time_survived": 1288,
+      "damage_dealt": 1732,
+      "kills": 4
+    },
+    {
+      "match_id": "match_424",
+      "landing_zone": {
+        "x": 3207,
+        "y": 3947,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 18,
+      "time_survived": 871,
+      "damage_dealt": 1607,
+      "kills": 3
+    },
+    {
+      "match_id": "match_425",
+      "landing_zone": {
+        "x": 1863,
+        "y": 2194,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 49,
+      "time_survived": 529,
+      "damage_dealt": 422,
+      "kills": 1
+    },
+    {
+      "match_id": "match_426",
+      "landing_zone": {
+        "x": 952,
+        "y": 6802,
+        "zone_name": "Georgopol"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 15,
+      "time_survived": 1150,
+      "damage_dealt": 2114,
+      "kills": 5
+    },
+    {
+      "match_id": "match_427",
+      "landing_zone": {
+        "x": 4746,
+        "y": 5241,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "AWM",
+      "final_placement": 2,
+      "time_survived": 1223,
+      "damage_dealt": 4109,
+      "kills": 10
+    },
+    {
+      "match_id": "match_428",
+      "landing_zone": {
+        "x": 4146,
+        "y": 5391,
+        "zone_name": "Rozhok"
+      },
+      "weapon_used": "M416",
+      "final_placement": 60,
+      "time_survived": 109,
+      "damage_dealt": 48,
+      "kills": 0
+    },
+    {
+      "match_id": "match_429",
+      "landing_zone": {
+        "x": 44,
+        "y": 3779,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 5,
+      "time_survived": 1410,
+      "damage_dealt": 3097,
+      "kills": 6
+    },
+    {
+      "match_id": "match_430",
+      "landing_zone": {
+        "x": 4986,
+        "y": 4750,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 84,
+      "time_survived": 23,
+      "damage_dealt": 10,
+      "kills": 0
+    },
+    {
+      "match_id": "match_431",
+      "landing_zone": {
+        "x": 1558,
+        "y": 6683,
+        "zone_name": "Georgopol"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 86,
+      "time_survived": 33,
+      "damage_dealt": 2,
+      "kills": 0
+    },
+    {
+      "match_id": "match_432",
+      "landing_zone": {
+        "x": 4689,
+        "y": 4697,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "M416",
+      "final_placement": 90,
+      "time_survived": 36,
+      "damage_dealt": 1,
+      "kills": 0
+    },
+    {
+      "match_id": "match_433",
+      "landing_zone": {
+        "x": 4659,
+        "y": 4790,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "UMP45",
+      "final_placement": 89,
+      "time_survived": 98,
+      "damage_dealt": 48,
+      "kills": 0
+    },
+    {
+      "match_id": "match_434",
+      "landing_zone": {
+        "x": 2369,
+        "y": 1745,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 11,
+      "time_survived": 1182,
+      "damage_dealt": 1898,
+      "kills": 4
+    },
+    {
+      "match_id": "match_435",
+      "landing_zone": {
+        "x": 3349,
+        "y": 2643,
+        "zone_name": "School"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 74,
+      "time_survived": 29,
+      "damage_dealt": 8,
+      "kills": 0
+    },
+    {
+      "match_id": "match_436",
+      "landing_zone": {
+        "x": 2318,
+        "y": 7659,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 3,
+      "time_survived": 1795,
+      "damage_dealt": 3260,
+      "kills": 6
+    },
+    {
+      "match_id": "match_437",
+      "landing_zone": {
+        "x": 1180,
+        "y": 5111,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 4,
+      "time_survived": 1515,
+      "damage_dealt": 2619,
+      "kills": 5
+    },
+    {
+      "match_id": "match_438",
+      "landing_zone": {
+        "x": 7248,
+        "y": 4405,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 15,
+      "time_survived": 821,
+      "damage_dealt": 2156,
+      "kills": 5
+    },
+    {
+      "match_id": "match_439",
+      "landing_zone": {
+        "x": 153,
+        "y": 952,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "UMP45",
+      "final_placement": 93,
+      "time_survived": 62,
+      "damage_dealt": 17,
+      "kills": 0
+    },
+    {
+      "match_id": "match_440",
+      "landing_zone": {
+        "x": 4952,
+        "y": 644,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 7,
+      "time_survived": 1168,
+      "damage_dealt": 1274,
+      "kills": 2
+    },
+    {
+      "match_id": "match_441",
+      "landing_zone": {
+        "x": 3562,
+        "y": 2776,
+        "zone_name": "School"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 5,
+      "time_survived": 1135,
+      "damage_dealt": 2063,
+      "kills": 4
+    },
+    {
+      "match_id": "match_442",
+      "landing_zone": {
+        "x": 4787,
+        "y": 1477,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 5,
+      "time_survived": 681,
+      "damage_dealt": 1449,
+      "kills": 3
+    },
+    {
+      "match_id": "match_443",
+      "landing_zone": {
+        "x": 6133,
+        "y": 1415,
+        "zone_name": "Military Base"
+      },
+      "weapon_used": "AWM",
+      "final_placement": 7,
+      "time_survived": 1668,
+      "damage_dealt": 4773,
+      "kills": 10
+    },
+    {
+      "match_id": "match_444",
+      "landing_zone": {
+        "x": 7359,
+        "y": 1704,
+        "zone_name": "Military Base"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 7,
+      "time_survived": 1248,
+      "damage_dealt": 1708,
+      "kills": 3
+    },
+    {
+      "match_id": "match_445",
+      "landing_zone": {
+        "x": 3288,
+        "y": 2905,
+        "zone_name": "School"
+      },
+      "weapon_used": "UMP45",
+      "final_placement": 2,
+      "time_survived": 1566,
+      "damage_dealt": 2230,
+      "kills": 5
+    },
+    {
+      "match_id": "match_446",
+      "landing_zone": {
+        "x": 4166,
+        "y": 5176,
+        "zone_name": "Rozhok"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 68,
+      "time_survived": 53,
+      "damage_dealt": 17,
+      "kills": 0
+    },
+    {
+      "match_id": "match_447",
+      "landing_zone": {
+        "x": 6354,
+        "y": 2072,
+        "zone_name": "Military Base"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 13,
+      "time_survived": 837,
+      "damage_dealt": 1605,
+      "kills": 4
+    },
+    {
+      "match_id": "match_448",
+      "landing_zone": {
+        "x": 4092,
+        "y": 6865,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 2,
+      "time_survived": 1317,
+      "damage_dealt": 2507,
+      "kills": 6
+    },
+    {
+      "match_id": "match_449",
+      "landing_zone": {
+        "x": 7544,
+        "y": 3644,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 13,
+      "time_survived": 1006,
+      "damage_dealt": 1837,
+      "kills": 4
+    },
+    {
+      "match_id": "match_450",
+      "landing_zone": {
+        "x": 7350,
+        "y": 6216,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 44,
+      "time_survived": 192,
+      "damage_dealt": 77,
+      "kills": 0
+    },
+    {
+      "match_id": "match_451",
+      "landing_zone": {
+        "x": 4928,
+        "y": 3091,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 86,
+      "time_survived": 55,
+      "damage_dealt": 18,
+      "kills": 0
+    },
+    {
+      "match_id": "match_452",
+      "landing_zone": {
+        "x": 1464,
+        "y": 6354,
+        "zone_name": "Georgopol"
+      },
+      "weapon_used": "M416",
+      "final_placement": 61,
+      "time_survived": 79,
+      "damage_dealt": 23,
+      "kills": 0
+    },
+    {
+      "match_id": "match_453",
+      "landing_zone": {
+        "x": 7100,
+        "y": 217,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "AWM",
+      "final_placement": 9,
+      "time_survived": 783,
+      "damage_dealt": 2420,
+      "kills": 6
+    },
+    {
+      "match_id": "match_454",
+      "landing_zone": {
+        "x": 4394,
+        "y": 5079,
+        "zone_name": "Rozhok"
+      },
+      "weapon_used": "Vector",
+      "final_placement": 66,
+      "time_survived": 49,
+      "damage_dealt": 22,
+      "kills": 0
+    },
+    {
+      "match_id": "match_455",
+      "landing_zone": {
+        "x": 4035,
+        "y": 5091,
+        "zone_name": "Rozhok"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 95,
+      "time_survived": 80,
+      "damage_dealt": 34,
+      "kills": 0
+    },
+    {
+      "match_id": "match_456",
+      "landing_zone": {
+        "x": 7660,
+        "y": 1996,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 92,
+      "time_survived": 80,
+      "damage_dealt": 37,
+      "kills": 0
+    },
+    {
+      "match_id": "match_457",
+      "landing_zone": {
+        "x": 1106,
+        "y": 5868,
+        "zone_name": "Georgopol"
+      },
+      "weapon_used": "M416",
+      "final_placement": 31,
+      "time_survived": 510,
+      "damage_dealt": 995,
+      "kills": 2
+    },
+    {
+      "match_id": "match_458",
+      "landing_zone": {
+        "x": 4336,
+        "y": 5134,
+        "zone_name": "Rozhok"
+      },
+      "weapon_used": "M416",
+      "final_placement": 74,
+      "time_survived": 37,
+      "damage_dealt": 10,
+      "kills": 0
+    },
+    {
+      "match_id": "match_459",
+      "landing_zone": {
+        "x": 2630,
+        "y": 4104,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 7,
+      "time_survived": 784,
+      "damage_dealt": 1162,
+      "kills": 2
+    },
+    {
+      "match_id": "match_460",
+      "landing_zone": {
+        "x": 5738,
+        "y": 5694,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 36,
+      "time_survived": 327,
+      "damage_dealt": 479,
+      "kills": 1
+    },
+    {
+      "match_id": "match_461",
+      "landing_zone": {
+        "x": 4032,
+        "y": 6649,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 1,
+      "time_survived": 1457,
+      "damage_dealt": 2576,
+      "kills": 5
+    },
+    {
+      "match_id": "match_462",
+      "landing_zone": {
+        "x": 4371,
+        "y": 5446,
+        "zone_name": "Rozhok"
+      },
+      "weapon_used": "UMP45",
+      "final_placement": 70,
+      "time_survived": 70,
+      "damage_dealt": 26,
+      "kills": 0
+    },
+    {
+      "match_id": "match_463",
+      "landing_zone": {
+        "x": 6495,
+        "y": 2031,
+        "zone_name": "Military Base"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 3,
+      "time_survived": 1638,
+      "damage_dealt": 2254,
+      "kills": 4
+    },
+    {
+      "match_id": "match_464",
+      "landing_zone": {
+        "x": 3066,
+        "y": 3755,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 25,
+      "time_survived": 990,
+      "damage_dealt": 2281,
+      "kills": 5
+    },
+    {
+      "match_id": "match_465",
+      "landing_zone": {
+        "x": 6353,
+        "y": 5616,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "Kar98k",
+      "final_placement": 5,
+      "time_survived": 1587,
+      "damage_dealt": 3664,
+      "kills": 9
+    },
+    {
+      "match_id": "match_466",
+      "landing_zone": {
+        "x": 418,
+        "y": 5028,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 38,
+      "time_survived": 330,
+      "damage_dealt": 500,
+      "kills": 1
+    },
+    {
+      "match_id": "match_467",
+      "landing_zone": {
+        "x": 7343,
+        "y": 3655,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 55,
+      "time_survived": 362,
+      "damage_dealt": 833,
+      "kills": 2
+    },
+    {
+      "match_id": "match_468",
+      "landing_zone": {
+        "x": 6856,
+        "y": 812,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 18,
+      "time_survived": 1152,
+      "damage_dealt": 2218,
+      "kills": 5
+    },
+    {
+      "match_id": "match_469",
+      "landing_zone": {
+        "x": 7222,
+        "y": 2127,
+        "zone_name": "Military Base"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 60,
+      "time_survived": 288,
+      "damage_dealt": 520,
+      "kills": 1
+    },
+    {
+      "match_id": "match_470",
+      "landing_zone": {
+        "x": 6702,
+        "y": 5799,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 55,
+      "time_survived": 531,
+      "damage_dealt": 990,
+      "kills": 2
+    },
+    {
+      "match_id": "match_471",
+      "landing_zone": {
+        "x": 4464,
+        "y": 7787,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 96,
+      "time_survived": 91,
+      "damage_dealt": 41,
+      "kills": 0
+    },
+    {
+      "match_id": "match_472",
+      "landing_zone": {
+        "x": 1301,
+        "y": 6452,
+        "zone_name": "Georgopol"
+      },
+      "weapon_used": "M416",
+      "final_placement": 75,
+      "time_survived": 119,
+      "damage_dealt": 435,
+      "kills": 1
+    },
+    {
+      "match_id": "match_473",
+      "landing_zone": {
+        "x": 334,
+        "y": 2240,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 7,
+      "time_survived": 1614,
+      "damage_dealt": 1338,
+      "kills": 3
+    },
+    {
+      "match_id": "match_474",
+      "landing_zone": {
+        "x": 4865,
+        "y": 4446,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "M416",
+      "final_placement": 77,
+      "time_survived": 49,
+      "damage_dealt": 9,
+      "kills": 0
+    },
+    {
+      "match_id": "match_475",
+      "landing_zone": {
+        "x": 1216,
+        "y": 6343,
+        "zone_name": "Georgopol"
+      },
+      "weapon_used": "M416",
+      "final_placement": 66,
+      "time_survived": 44,
+      "damage_dealt": 19,
+      "kills": 0
+    },
+    {
+      "match_id": "match_476",
+      "landing_zone": {
+        "x": 469,
+        "y": 4249,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 5,
+      "time_survived": 1368,
+      "damage_dealt": 1656,
+      "kills": 3
+    },
+    {
+      "match_id": "match_477",
+      "landing_zone": {
+        "x": 6959,
+        "y": 1993,
+        "zone_name": "Military Base"
+      },
+      "weapon_used": "UMP45",
+      "final_placement": 97,
+      "time_survived": 96,
+      "damage_dealt": 24,
+      "kills": 0
+    },
+    {
+      "match_id": "match_478",
+      "landing_zone": {
+        "x": 35,
+        "y": 1836,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 42,
+      "time_survived": 227,
+      "damage_dealt": 468,
+      "kills": 1
+    },
+    {
+      "match_id": "match_479",
+      "landing_zone": {
+        "x": 6206,
+        "y": 5327,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 20,
+      "time_survived": 883,
+      "damage_dealt": 2036,
+      "kills": 4
+    },
+    {
+      "match_id": "match_480",
+      "landing_zone": {
+        "x": 4212,
+        "y": 5112,
+        "zone_name": "Rozhok"
+      },
+      "weapon_used": "Vector",
+      "final_placement": 94,
+      "time_survived": 57,
+      "damage_dealt": 14,
+      "kills": 0
+    },
+    {
+      "match_id": "match_481",
+      "landing_zone": {
+        "x": 6386,
+        "y": 2076,
+        "zone_name": "Military Base"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 1,
+      "time_survived": 1349,
+      "damage_dealt": 2687,
+      "kills": 6
+    },
+    {
+      "match_id": "match_482",
+      "landing_zone": {
+        "x": 4630,
+        "y": 7241,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 9,
+      "time_survived": 1671,
+      "damage_dealt": 1933,
+      "kills": 4
+    },
+    {
+      "match_id": "match_483",
+      "landing_zone": {
+        "x": 4227,
+        "y": 5093,
+        "zone_name": "Rozhok"
+      },
+      "weapon_used": "M416",
+      "final_placement": 60,
+      "time_survived": 88,
+      "damage_dealt": 427,
+      "kills": 1
+    },
+    {
+      "match_id": "match_484",
+      "landing_zone": {
+        "x": 4083,
+        "y": 5157,
+        "zone_name": "Rozhok"
+      },
+      "weapon_used": "Vector",
+      "final_placement": 71,
+      "time_survived": 47,
+      "damage_dealt": 5,
+      "kills": 0
+    },
+    {
+      "match_id": "match_485",
+      "landing_zone": {
+        "x": 5371,
+        "y": 5447,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "Vector",
+      "final_placement": 16,
+      "time_survived": 836,
+      "damage_dealt": 1032,
+      "kills": 2
+    },
+    {
+      "match_id": "match_486",
+      "landing_zone": {
+        "x": 3476,
+        "y": 2548,
+        "zone_name": "School"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 99,
+      "time_survived": 55,
+      "damage_dealt": 14,
+      "kills": 0
+    },
+    {
+      "match_id": "match_487",
+      "landing_zone": {
+        "x": 4814,
+        "y": 4816,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "M416",
+      "final_placement": 83,
+      "time_survived": 60,
+      "damage_dealt": 4,
+      "kills": 0
+    },
+    {
+      "match_id": "match_488",
+      "landing_zone": {
+        "x": 3431,
+        "y": 292,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 1,
+      "time_survived": 1621,
+      "damage_dealt": 3195,
+      "kills": 7
+    },
+    {
+      "match_id": "match_489",
+      "landing_zone": {
+        "x": 3341,
+        "y": 7987,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 3,
+      "time_survived": 1309,
+      "damage_dealt": 1812,
+      "kills": 3
+    },
+    {
+      "match_id": "match_490",
+      "landing_zone": {
+        "x": 3585,
+        "y": 2770,
+        "zone_name": "School"
+      },
+      "weapon_used": "Kar98k",
+      "final_placement": 47,
+      "time_survived": 456,
+      "damage_dealt": 922,
+      "kills": 2
+    },
+    {
+      "match_id": "match_491",
+      "landing_zone": {
+        "x": 4789,
+        "y": 4766,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "Kar98k",
+      "final_placement": 5,
+      "time_survived": 1288,
+      "damage_dealt": 2199,
+      "kills": 5
+    },
+    {
+      "match_id": "match_492",
+      "landing_zone": {
+        "x": 4885,
+        "y": 4955,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 97,
+      "time_survived": 92,
+      "damage_dealt": 29,
+      "kills": 0
+    },
+    {
+      "match_id": "match_493",
+      "landing_zone": {
+        "x": 4500,
+        "y": 4594,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 6,
+      "time_survived": 1520,
+      "damage_dealt": 2264,
+      "kills": 5
+    },
+    {
+      "match_id": "match_494",
+      "landing_zone": {
+        "x": 5508,
+        "y": 103,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 86,
+      "time_survived": 12,
+      "damage_dealt": 5,
+      "kills": 0
+    },
+    {
+      "match_id": "match_495",
+      "landing_zone": {
+        "x": 2444,
+        "y": 2557,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "AKM",
+      "final_placement": 4,
+      "time_survived": 1770,
+      "damage_dealt": 1888,
+      "kills": 3
+    },
+    {
+      "match_id": "match_496",
+      "landing_zone": {
+        "x": 4225,
+        "y": 5178,
+        "zone_name": "Rozhok"
+      },
+      "weapon_used": "UMP45",
+      "final_placement": 98,
+      "time_survived": 83,
+      "damage_dealt": 18,
+      "kills": 0
+    },
+    {
+      "match_id": "match_497",
+      "landing_zone": {
+        "x": 4696,
+        "y": 4216,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "M416",
+      "final_placement": 27,
+      "time_survived": 458,
+      "damage_dealt": 984,
+      "kills": 2
+    },
+    {
+      "match_id": "match_498",
+      "landing_zone": {
+        "x": 3006,
+        "y": 5100,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 2,
+      "time_survived": 1405,
+      "damage_dealt": 1484,
+      "kills": 3
+    },
+    {
+      "match_id": "match_499",
+      "landing_zone": {
+        "x": 6238,
+        "y": 2016,
+        "zone_name": "Military Base"
+      },
+      "weapon_used": "SCAR-L",
+      "final_placement": 70,
+      "time_survived": 17,
+      "damage_dealt": 7,
+      "kills": 0
+    },
+    {
+      "match_id": "match_500",
+      "landing_zone": {
+        "x": 5760,
+        "y": 5214,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "final_placement": 1,
+      "time_survived": 1606,
+      "damage_dealt": 2330,
+      "kills": 5
+    }
+  ]
+}
