@@ -43,7 +43,8 @@ export default function WeaponMetaChart({ weaponStats }: WeaponMetaChartProps) {
                             color: '#e5e7eb',
                         }}
                         labelStyle={{ color: '#00ff88', fontWeight: 'bold' }}
-                        formatter={(value: number, name: string) => {
+                        formatter={(value: number | undefined, name: string) => {
+                            if (value === undefined) return ['N/A', name];
                             if (name === 'avgKills') return [value.toFixed(2), 'Avg Kills'];
                             return [value, name];
                         }}
