@@ -1,7 +1,7 @@
 // Custom hook for v2.0 Telemetry Data Management
 // Handles data loading, filtering, and computed analytics
 
-import { useState, useEffect, useMemo } from 'react';
+import { useState, useMemo } from 'react';
 import { Match, TelemetryData, WeaponStat, ZoneStat, WeaponMetric, ArchetypeStats } from '@/lib/types';
 import {
     calculateWeaponStats,
@@ -9,6 +9,7 @@ import {
     calculateWeaponMetrics,
     calculateArchetypeStats
 } from '@/lib/dataUtils';
+import { useDataSource } from './useDataSource';
 
 export interface UseTelemetryDataReturn {
     // Data
@@ -28,39 +29,17 @@ export interface UseTelemetryDataReturn {
     // Loading State
     isLoading: boolean;
     error: string | null;
+
+    // Data Source Metadata
+    dataSource: 'real' | 'mock';
+    lastUpdated: string | null;
 }
 
 export function useTelemetryData(): UseTelemetryDataReturn {
-    const [matches, setMatches] = useState<Match[]>([]);
-    const [isLoading, setIsLoading] = useState(true);
-    const [error, setError] = useState<string | null>(null);
+    // Use data source hook for automatic real/mock fallback
+    const { matches, isLoading, error, dataSource, lastUpdated } = useDataSource();
+
     const [selectedZone, setSelectedZone] = useState<string | null>(null);
-
-    // Load data on mount
-    useEffect(() => {
-        async function loadData() {
-            try {
-                setIsLoading(true);
-                const response = await fetch('/mock_telemetry.json');
-
-                if (!response.ok) {
-                    throw new Error('Failed to load telemetry data');
-                }
-
-                const data: TelemetryData = await response.json();
-                setMatches(data.matches);
-                setError(null);
-            } catch (err) {
-                const errorMessage = err instanceof Error ? err.message : 'Unknown error';
-                setError(errorMessage);
-                console.error('Error loading telemetry data:', err);
-            } finally {
-                setIsLoading(false);
-            }
-        }
-
-        loadData();
-    }, []);
 
     // Filtered matches based on selected zone
     const filteredMatches = useMemo(() => {
@@ -97,6 +76,8 @@ export function useTelemetryData(): UseTelemetryDataReturn {
         selectedZone,
         setSelectedZone,
         isLoading,
-        error
+        error,
+        dataSource,
+        lastUpdated
     };
 }

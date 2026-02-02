@@ -1,0 +1,5501 @@
+{
+  "matches": [
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_0",
+      "landing_zone": {
+        "x": 3058,
+        "y": 4224,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 435,
+      "damage_dealt": 154,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2051,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.11918947241109627
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_1",
+      "landing_zone": {
+        "x": 7205,
+        "y": 3254,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 48,
+      "damage_dealt": 183,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2469,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.14909195562001287
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_2",
+      "landing_zone": {
+        "x": 7128,
+        "y": 3266,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 99,
+      "damage_dealt": 70,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1407,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.11539965401972815
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_3",
+      "landing_zone": {
+        "x": 7153,
+        "y": 3205,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 532,
+      "damage_dealt": 114,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1170,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.24768106804849926
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_4",
+      "landing_zone": {
+        "x": 6311,
+        "y": 4338,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 443,
+      "damage_dealt": 87,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2616,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.3428398466207844
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_5",
+      "landing_zone": {
+        "x": 5567,
+        "y": 3145,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 181,
+      "damage_dealt": 106,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1437,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.14308832122244636
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_6",
+      "landing_zone": {
+        "x": 6305,
+        "y": 4341,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 439,
+      "damage_dealt": 35,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2609,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.16652443767265476
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_7",
+      "landing_zone": {
+        "x": 6280,
+        "y": 4265,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 37,
+      "damage_dealt": 182,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1278,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.25928482077592885
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_8",
+      "landing_zone": {
+        "x": 6328,
+        "y": 4316,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 462,
+      "damage_dealt": 106,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1487,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.18160064993134695
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_9",
+      "landing_zone": {
+        "x": 6328,
+        "y": 4297,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 283,
+      "damage_dealt": 191,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3064,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.2653988507651217
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_10",
+      "landing_zone": {
+        "x": 6324,
+        "y": 4390,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 169,
+      "damage_dealt": 115,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2776,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.2625323524897044
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_11",
+      "landing_zone": {
+        "x": 6310,
+        "y": 4294,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 584,
+      "damage_dealt": 153,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1057,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.3225996100380893
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_12",
+      "landing_zone": {
+        "x": 1011,
+        "y": 2473,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 150,
+      "damage_dealt": 91,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3227,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.16245457714604686
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_13",
+      "landing_zone": {
+        "x": 928,
+        "y": 2364,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 76,
+      "damage_dealt": 52,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2786,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.1844876841441893
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_14",
+      "landing_zone": {
+        "x": 913,
+        "y": 2364,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 579,
+      "damage_dealt": 22,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1793,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.3160835348083374
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_15",
+      "landing_zone": {
+        "x": 4828,
+        "y": 3128,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 120,
+      "damage_dealt": 103,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3867,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.08425862425077182
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_16",
+      "landing_zone": {
+        "x": 4292,
+        "y": 3895,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 123,
+      "damage_dealt": 105,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3558,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.3273308473985131
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_17",
+      "landing_zone": {
+        "x": 4305,
+        "y": 3909,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 69,
+      "damage_dealt": 128,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3474,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.3122737676335358
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_18",
+      "landing_zone": {
+        "x": 4303,
+        "y": 3903,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 255,
+      "damage_dealt": 34,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1709,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.19082973087316552
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_19",
+      "landing_zone": {
+        "x": 4244,
+        "y": 3913,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 402,
+      "damage_dealt": 40,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3109,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.19873232993208906
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_20",
+      "landing_zone": {
+        "x": 4670,
+        "y": 3124,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 347,
+      "damage_dealt": 106,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2548,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.1918044272089287
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_21",
+      "landing_zone": {
+        "x": 4503,
+        "y": 2420,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 440,
+      "damage_dealt": 170,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1371,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.30099821979497604
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_22",
+      "landing_zone": {
+        "x": 4499,
+        "y": 2442,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 538,
+      "damage_dealt": 96,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3043,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.07173111049388685
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_23",
+      "landing_zone": {
+        "x": 4657,
+        "y": 3156,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 208,
+      "damage_dealt": 74,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2263,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.1342747637684128
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_24",
+      "landing_zone": {
+        "x": 968,
+        "y": 2403,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 212,
+      "damage_dealt": 47,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2846,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.08955620358853306
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_25",
+      "landing_zone": {
+        "x": 4450,
+        "y": 2438,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 260,
+      "damage_dealt": 97,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1479,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.06941935024340293
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_26",
+      "landing_zone": {
+        "x": 3443,
+        "y": 4135,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 503,
+      "damage_dealt": 37,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3527,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.17100930154047617
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_27",
+      "landing_zone": {
+        "x": 3159,
+        "y": 3564,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 295,
+      "damage_dealt": 117,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3080,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.15384677307055517
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_28",
+      "landing_zone": {
+        "x": 3435,
+        "y": 4133,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 423,
+      "damage_dealt": 141,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2282,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.2247615592438338
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_29",
+      "landing_zone": {
+        "x": 3162,
+        "y": 3586,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 493,
+      "damage_dealt": 62,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2625,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.12469114389353933
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_30",
+      "landing_zone": {
+        "x": 3445,
+        "y": 4134,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 258,
+      "damage_dealt": 67,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3038,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.12489139470375957
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_31",
+      "landing_zone": {
+        "x": 3085,
+        "y": 3501,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 310,
+      "damage_dealt": 41,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2067,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.30573680266646863
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_32",
+      "landing_zone": {
+        "x": 3463,
+        "y": 4132,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 15,
+      "damage_dealt": 91,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3120,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.16159485564829162
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_33",
+      "landing_zone": {
+        "x": 2855,
+        "y": 3667,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 460,
+      "damage_dealt": 149,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1758,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.09663280790469989
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_34",
+      "landing_zone": {
+        "x": 2979,
+        "y": 4172,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 263,
+      "damage_dealt": 19,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2234,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.3433810363815659
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_35",
+      "landing_zone": {
+        "x": 2993,
+        "y": 4210,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 57,
+      "damage_dealt": 104,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2146,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.31571653908889163
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_36",
+      "landing_zone": {
+        "x": 2844,
+        "y": 3665,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 225,
+      "damage_dealt": 155,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1327,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.11553192367441853
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_37",
+      "landing_zone": {
+        "x": 3102,
+        "y": 3489,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 158,
+      "damage_dealt": 183,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3016,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.15959678455339882
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_38",
+      "landing_zone": {
+        "x": 3105,
+        "y": 4258,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 120,
+      "damage_dealt": 98,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3346,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.12561401653521947
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_39",
+      "landing_zone": {
+        "x": 2827,
+        "y": 3668,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 385,
+      "damage_dealt": 24,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3558,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.15919616614864898
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_40",
+      "landing_zone": {
+        "x": 3040,
+        "y": 4273,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 178,
+      "damage_dealt": 93,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2569,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.06311375706454529
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_41",
+      "landing_zone": {
+        "x": 3158,
+        "y": 3582,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 507,
+      "damage_dealt": 35,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1683,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.12318644221819437
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_42",
+      "landing_zone": {
+        "x": 3101,
+        "y": 3629,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 475,
+      "damage_dealt": 155,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3007,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.1704411444167026
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_43",
+      "landing_zone": {
+        "x": 886,
+        "y": 2393,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 455,
+      "damage_dealt": 120,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1808,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.08922791218402831
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_44",
+      "landing_zone": {
+        "x": 3104,
+        "y": 3493,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 336,
+      "damage_dealt": 60,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2710,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.31395531265130155
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_45",
+      "landing_zone": {
+        "x": 4943,
+        "y": 4545,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 465,
+      "damage_dealt": 56,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1772,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.24961694466807327
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_46",
+      "landing_zone": {
+        "x": 2852,
+        "y": 3620,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 426,
+      "damage_dealt": 85,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1009,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.2593028594616079
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_47",
+      "landing_zone": {
+        "x": 4913,
+        "y": 4907,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 80,
+      "damage_dealt": 164,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1318,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.14128720836831513
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_48",
+      "landing_zone": {
+        "x": 2994,
+        "y": 4282,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 559,
+      "damage_dealt": 196,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2221,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.0692860305207194
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_49",
+      "landing_zone": {
+        "x": 3094,
+        "y": 3491,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 545,
+      "damage_dealt": 54,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1949,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.18815283686969442
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_50",
+      "landing_zone": {
+        "x": 2497,
+        "y": 4122,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 2,
+      "damage_dealt": 56,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2833,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.14792614666292353
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_51",
+      "landing_zone": {
+        "x": 2915,
+        "y": 3671,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 211,
+      "damage_dealt": 190,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1592,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.3063394184978667
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_52",
+      "landing_zone": {
+        "x": 4883,
+        "y": 4906,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 172,
+      "damage_dealt": 15,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1685,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.30358239848651675
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_53",
+      "landing_zone": {
+        "x": 3106,
+        "y": 3492,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 226,
+      "damage_dealt": 109,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3653,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.19213441107156776
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_54",
+      "landing_zone": {
+        "x": 4929,
+        "y": 4895,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 381,
+      "damage_dealt": 139,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3408,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.05765273584701569
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_55",
+      "landing_zone": {
+        "x": 4890,
+        "y": 4901,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 366,
+      "damage_dealt": 115,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2007,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.2884748068726244
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_56",
+      "landing_zone": {
+        "x": 4872,
+        "y": 4902,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 142,
+      "damage_dealt": 9,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2314,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.2064698730281908
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_57",
+      "landing_zone": {
+        "x": 3108,
+        "y": 4244,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 330,
+      "damage_dealt": 7,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2098,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.24014560108221195
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_58",
+      "landing_zone": {
+        "x": 4916,
+        "y": 4885,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 252,
+      "damage_dealt": 118,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2266,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.2230161134834049
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_59",
+      "landing_zone": {
+        "x": 2980,
+        "y": 4277,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 437,
+      "damage_dealt": 189,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3748,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.2110020282396981
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_60",
+      "landing_zone": {
+        "x": 3075,
+        "y": 3497,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 10,
+      "damage_dealt": 14,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2557,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.30282230460528153
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_61",
+      "landing_zone": {
+        "x": 4969,
+        "y": 4556,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 15,
+      "damage_dealt": 101,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1651,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.11011739702614158
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_62",
+      "landing_zone": {
+        "x": 4844,
+        "y": 4939,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 570,
+      "damage_dealt": 41,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3034,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.06921712169068706
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_63",
+      "landing_zone": {
+        "x": 3076,
+        "y": 3478,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 184,
+      "damage_dealt": 131,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2739,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.08139978953365007
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_64",
+      "landing_zone": {
+        "x": 2511,
+        "y": 4105,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 19,
+      "damage_dealt": 63,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1752,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.17581416234939118
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_65",
+      "landing_zone": {
+        "x": 3081,
+        "y": 3456,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 549,
+      "damage_dealt": 113,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1242,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.051832246767005645
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_66",
+      "landing_zone": {
+        "x": 2823,
+        "y": 3635,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 196,
+      "damage_dealt": 64,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1571,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.08420017361747636
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_67",
+      "landing_zone": {
+        "x": 2984,
+        "y": 4279,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 403,
+      "damage_dealt": 105,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1298,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.24634451640951904
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_68",
+      "landing_zone": {
+        "x": 2434,
+        "y": 4088,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 140,
+      "damage_dealt": 48,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1022,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.15099457380849762
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_69",
+      "landing_zone": {
+        "x": 3094,
+        "y": 4236,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 261,
+      "damage_dealt": 57,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1405,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.12756752553170764
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_70",
+      "landing_zone": {
+        "x": 2999,
+        "y": 4283,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 179,
+      "damage_dealt": 91,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1491,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.25740582004734286
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_71",
+      "landing_zone": {
+        "x": 4873,
+        "y": 4920,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 494,
+      "damage_dealt": 82,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2983,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.266636418585115
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_72",
+      "landing_zone": {
+        "x": 2563,
+        "y": 4125,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 549,
+      "damage_dealt": 179,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3778,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.18745061174091832
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_73",
+      "landing_zone": {
+        "x": 2437,
+        "y": 2527,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 205,
+      "damage_dealt": 136,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1422,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.22461557178007907
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_74",
+      "landing_zone": {
+        "x": 2420,
+        "y": 2502,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 253,
+      "damage_dealt": 47,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2213,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.15585969239786518
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_75",
+      "landing_zone": {
+        "x": 4890,
+        "y": 5010,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 197,
+      "damage_dealt": 171,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1988,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.1927366928501429
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_76",
+      "landing_zone": {
+        "x": 4997,
+        "y": 4958,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 360,
+      "damage_dealt": 184,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1089,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.2661079143526323
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_77",
+      "landing_zone": {
+        "x": 2496,
+        "y": 2395,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 462,
+      "damage_dealt": 37,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2711,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.1813811929164687
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_78",
+      "landing_zone": {
+        "x": 4940,
+        "y": 4921,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 226,
+      "damage_dealt": 43,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3645,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.20210606858201535
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_79",
+      "landing_zone": {
+        "x": 2535,
+        "y": 2499,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 316,
+      "damage_dealt": 155,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2856,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.25145254883390833
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_80",
+      "landing_zone": {
+        "x": 4940,
+        "y": 4968,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 575,
+      "damage_dealt": 113,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3346,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.2883392230483353
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_81",
+      "landing_zone": {
+        "x": 4939,
+        "y": 4521,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 463,
+      "damage_dealt": 33,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2207,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.3385871672729983
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_82",
+      "landing_zone": {
+        "x": 2423,
+        "y": 2499,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 375,
+      "damage_dealt": 93,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3070,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.05864140525858888
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_83",
+      "landing_zone": {
+        "x": 2525,
+        "y": 2487,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 536,
+      "damage_dealt": 189,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2017,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.3329150134767221
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_84",
+      "landing_zone": {
+        "x": 5057,
+        "y": 5048,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 111,
+      "damage_dealt": 124,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1312,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.2795489905262224
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_85",
+      "landing_zone": {
+        "x": 5062,
+        "y": 5073,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 478,
+      "damage_dealt": 121,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3550,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.29965011602874275
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_86",
+      "landing_zone": {
+        "x": 970,
+        "y": 3768,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 56,
+      "damage_dealt": 16,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2971,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.16477267525854372
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_87",
+      "landing_zone": {
+        "x": 1847,
+        "y": 4669,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 477,
+      "damage_dealt": 194,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1359,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.0837704922057106
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_88",
+      "landing_zone": {
+        "x": 2503,
+        "y": 2433,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 359,
+      "damage_dealt": 134,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3734,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.2745334083704676
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_89",
+      "landing_zone": {
+        "x": 968,
+        "y": 3771,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 327,
+      "damage_dealt": 6,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1958,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.20901589077622656
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_90",
+      "landing_zone": {
+        "x": 971,
+        "y": 3762,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 175,
+      "damage_dealt": 114,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1368,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.18255626997526375
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_91",
+      "landing_zone": {
+        "x": 2444,
+        "y": 2528,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 521,
+      "damage_dealt": 104,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2736,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.23978445723895037
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_92",
+      "landing_zone": {
+        "x": 980,
+        "y": 2419,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 354,
+      "damage_dealt": 25,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2207,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.30155178207941125
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_93",
+      "landing_zone": {
+        "x": 975,
+        "y": 2412,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 470,
+      "damage_dealt": 147,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2784,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.06385328151006023
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_94",
+      "landing_zone": {
+        "x": 1788,
+        "y": 5662,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 64,
+      "damage_dealt": 133,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3536,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.20954839823621868
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_95",
+      "landing_zone": {
+        "x": 1870,
+        "y": 5718,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 450,
+      "damage_dealt": 150,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1300,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.26153457340461855
+    },
+    {
+      "match_id": "711b1662-7096-4098-a269-b162d7d016bf_96",
+      "landing_zone": {
+        "x": 1819,
+        "y": 5782,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 517,
+      "damage_dealt": 141,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2277,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.10452464018080412
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_0",
+      "landing_zone": {
+        "x": 6579,
+        "y": 5042,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 492,
+      "damage_dealt": 158,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3628,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.0743883407336781
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_1",
+      "landing_zone": {
+        "x": 5856,
+        "y": 4681,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 149,
+      "damage_dealt": 78,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1247,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.11380200430362611
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_2",
+      "landing_zone": {
+        "x": 5989,
+        "y": 5809,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 591,
+      "damage_dealt": 118,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1154,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.2601908726124093
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_3",
+      "landing_zone": {
+        "x": 4552,
+        "y": 4158,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 472,
+      "damage_dealt": 53,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3791,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.3085145078014147
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_4",
+      "landing_zone": {
+        "x": 4679,
+        "y": 4592,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 188,
+      "damage_dealt": 60,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3417,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.31774184934817185
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_5",
+      "landing_zone": {
+        "x": 4576,
+        "y": 4742,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 35,
+      "damage_dealt": 93,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1191,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.0584250650692916
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_6",
+      "landing_zone": {
+        "x": 4699,
+        "y": 4125,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 421,
+      "damage_dealt": 139,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2892,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.18483299756967114
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_7",
+      "landing_zone": {
+        "x": 4373,
+        "y": 4704,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 495,
+      "damage_dealt": 180,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1905,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.24060965354411473
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_8",
+      "landing_zone": {
+        "x": 4301,
+        "y": 4132,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 154,
+      "damage_dealt": 184,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2124,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.20540703311190522
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_9",
+      "landing_zone": {
+        "x": 4285,
+        "y": 4491,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 351,
+      "damage_dealt": 126,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3322,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.13961042757615932
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_10",
+      "landing_zone": {
+        "x": 5499,
+        "y": 3834,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 114,
+      "damage_dealt": 91,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3241,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.2812681837123696
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_11",
+      "landing_zone": {
+        "x": 4057,
+        "y": 4721,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 382,
+      "damage_dealt": 153,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2985,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.051824251840906825
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_12",
+      "landing_zone": {
+        "x": 3983,
+        "y": 4027,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 297,
+      "damage_dealt": 131,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3487,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.052182421093057534
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_13",
+      "landing_zone": {
+        "x": 3836,
+        "y": 4109,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 430,
+      "damage_dealt": 71,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3293,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.20720760061707777
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_14",
+      "landing_zone": {
+        "x": 3767,
+        "y": 4643,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 183,
+      "damage_dealt": 31,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1735,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.08645746422536185
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_15",
+      "landing_zone": {
+        "x": 6155,
+        "y": 3714,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 171,
+      "damage_dealt": 161,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2119,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.3016266513019297
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_16",
+      "landing_zone": {
+        "x": 3541,
+        "y": 3944,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 591,
+      "damage_dealt": 94,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1443,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.22592365128988107
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_17",
+      "landing_zone": {
+        "x": 3555,
+        "y": 4088,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 547,
+      "damage_dealt": 70,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2780,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.20466573400695748
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_18",
+      "landing_zone": {
+        "x": 3329,
+        "y": 4384,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 51,
+      "damage_dealt": 163,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1454,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.19628270445605434
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_19",
+      "landing_zone": {
+        "x": 3623,
+        "y": 4923,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 481,
+      "damage_dealt": 167,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3369,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.06440983280232097
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_20",
+      "landing_zone": {
+        "x": 3382,
+        "y": 3987,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 36,
+      "damage_dealt": 121,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2583,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.09549485089894945
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_21",
+      "landing_zone": {
+        "x": 3590,
+        "y": 4027,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 370,
+      "damage_dealt": 150,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3870,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.22455595859855998
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_22",
+      "landing_zone": {
+        "x": 3751,
+        "y": 4656,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 563,
+      "damage_dealt": 128,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3481,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.22201529992806018
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_23",
+      "landing_zone": {
+        "x": 4227,
+        "y": 3473,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 247,
+      "damage_dealt": 138,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3693,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.2621588254816174
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_24",
+      "landing_zone": {
+        "x": 3167,
+        "y": 3932,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 96,
+      "damage_dealt": 79,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3390,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.2843815306179654
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_25",
+      "landing_zone": {
+        "x": 3259,
+        "y": 3963,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 574,
+      "damage_dealt": 67,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3302,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.2673552630831425
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_26",
+      "landing_zone": {
+        "x": 3704,
+        "y": 3554,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 394,
+      "damage_dealt": 52,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2423,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.2899800604513916
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_27",
+      "landing_zone": {
+        "x": 4317,
+        "y": 3337,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 305,
+      "damage_dealt": 36,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1251,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.1849301451164574
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_28",
+      "landing_zone": {
+        "x": 3945,
+        "y": 3458,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 422,
+      "damage_dealt": 171,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1853,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.10562418307720789
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_29",
+      "landing_zone": {
+        "x": 3845,
+        "y": 3476,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 406,
+      "damage_dealt": 37,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2777,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.16313314074577512
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_30",
+      "landing_zone": {
+        "x": 3145,
+        "y": 4451,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 317,
+      "damage_dealt": 138,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1752,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.09661345060664722
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_31",
+      "landing_zone": {
+        "x": 3012,
+        "y": 3340,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 365,
+      "damage_dealt": 99,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3250,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.3288540855863624
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_32",
+      "landing_zone": {
+        "x": 3090,
+        "y": 3451,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 422,
+      "damage_dealt": 92,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2406,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.0864213186318607
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_33",
+      "landing_zone": {
+        "x": 3440,
+        "y": 3179,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 339,
+      "damage_dealt": 74,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3798,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.16374907875099864
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_34",
+      "landing_zone": {
+        "x": 3326,
+        "y": 3182,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 431,
+      "damage_dealt": 187,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3284,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.29487704252805014
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_35",
+      "landing_zone": {
+        "x": 2761,
+        "y": 3912,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 368,
+      "damage_dealt": 179,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2024,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.16886090315471103
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_36",
+      "landing_zone": {
+        "x": 2885,
+        "y": 4359,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 159,
+      "damage_dealt": 129,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1856,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.10514454720340194
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_37",
+      "landing_zone": {
+        "x": 2667,
+        "y": 3278,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 308,
+      "damage_dealt": 20,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2452,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.18567314794895895
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_38",
+      "landing_zone": {
+        "x": 2584,
+        "y": 3802,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 341,
+      "damage_dealt": 86,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2543,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.06479050988982953
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_39",
+      "landing_zone": {
+        "x": 3417,
+        "y": 3016,
+        "zone_name": "School"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 572,
+      "damage_dealt": 110,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3012,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.19949633655234522
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_40",
+      "landing_zone": {
+        "x": 3077,
+        "y": 3174,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 256,
+      "damage_dealt": 14,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2398,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.26484724475264193
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_41",
+      "landing_zone": {
+        "x": 2350,
+        "y": 3506,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 567,
+      "damage_dealt": 190,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1223,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.3481119213478723
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_42",
+      "landing_zone": {
+        "x": 4452,
+        "y": 3247,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 444,
+      "damage_dealt": 126,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3685,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.21608128530252096
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_43",
+      "landing_zone": {
+        "x": 2430,
+        "y": 4223,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 326,
+      "damage_dealt": 1,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1216,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.29729552017082156
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_44",
+      "landing_zone": {
+        "x": 3421,
+        "y": 3096,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 122,
+      "damage_dealt": 120,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1509,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.18519949335518232
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_45",
+      "landing_zone": {
+        "x": 3533,
+        "y": 5064,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 423,
+      "damage_dealt": 118,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2229,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.3213061272448114
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_46",
+      "landing_zone": {
+        "x": 2337,
+        "y": 4087,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 149,
+      "damage_dealt": 122,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2256,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.09596545636309295
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_47",
+      "landing_zone": {
+        "x": 2883,
+        "y": 2959,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 147,
+      "damage_dealt": 73,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1515,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.09302719038189775
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_48",
+      "landing_zone": {
+        "x": 2322,
+        "y": 4078,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 356,
+      "damage_dealt": 164,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3219,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.07767276431230401
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_49",
+      "landing_zone": {
+        "x": 4178,
+        "y": 3179,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 179,
+      "damage_dealt": 18,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2282,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.10580438874446876
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_50",
+      "landing_zone": {
+        "x": 2164,
+        "y": 3513,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 492,
+      "damage_dealt": 145,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1136,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.1687359877200888
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_51",
+      "landing_zone": {
+        "x": 3845,
+        "y": 2908,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 134,
+      "damage_dealt": 86,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2121,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.32064564597349515
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_52",
+      "landing_zone": {
+        "x": 2084,
+        "y": 3533,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 427,
+      "damage_dealt": 22,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3153,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.247670375982118
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_53",
+      "landing_zone": {
+        "x": 2226,
+        "y": 3859,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 596,
+      "damage_dealt": 97,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2297,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.22493811037613454
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_54",
+      "landing_zone": {
+        "x": 2129,
+        "y": 3841,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 224,
+      "damage_dealt": 23,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3933,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.07220358586484281
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_55",
+      "landing_zone": {
+        "x": 2955,
+        "y": 4906,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 187,
+      "damage_dealt": 124,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3738,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.1927659917958851
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_56",
+      "landing_zone": {
+        "x": 4273,
+        "y": 3873,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 22,
+      "damage_dealt": 82,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2900,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.23852246150356105
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_57",
+      "landing_zone": {
+        "x": 2051,
+        "y": 4022,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 308,
+      "damage_dealt": 48,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2131,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.1648540589409181
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_58",
+      "landing_zone": {
+        "x": 2028,
+        "y": 4007,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 584,
+      "damage_dealt": 28,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2371,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.2632122333250514
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_59",
+      "landing_zone": {
+        "x": 2802,
+        "y": 2651,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 426,
+      "damage_dealt": 88,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1983,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.26943034909444696
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_60",
+      "landing_zone": {
+        "x": 2927,
+        "y": 4855,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 58,
+      "damage_dealt": 72,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3126,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.24244114759279134
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_61",
+      "landing_zone": {
+        "x": 1960,
+        "y": 2865,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 299,
+      "damage_dealt": 163,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2165,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.05287291079623693
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_62",
+      "landing_zone": {
+        "x": 2432,
+        "y": 2761,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 52,
+      "damage_dealt": 85,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2140,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.07333312073946555
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_63",
+      "landing_zone": {
+        "x": 1638,
+        "y": 3321,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 20,
+      "damage_dealt": 48,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1994,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.18673620832450688
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_64",
+      "landing_zone": {
+        "x": 2110,
+        "y": 2672,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 3,
+      "damage_dealt": 149,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2429,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.3028590887146743
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_65",
+      "landing_zone": {
+        "x": 1958,
+        "y": 2741,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 314,
+      "damage_dealt": 184,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1454,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.2280569654157102
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_66",
+      "landing_zone": {
+        "x": 2121,
+        "y": 4551,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 564,
+      "damage_dealt": 39,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3108,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.05453146132137461
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_67",
+      "landing_zone": {
+        "x": 1634,
+        "y": 3938,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 169,
+      "damage_dealt": 54,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1599,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.32423535573659035
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_68",
+      "landing_zone": {
+        "x": 3546,
+        "y": 2845,
+        "zone_name": "School"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 286,
+      "damage_dealt": 192,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3536,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.12441756358833345
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_69",
+      "landing_zone": {
+        "x": 1788,
+        "y": 3013,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 502,
+      "damage_dealt": 5,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1742,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.08776082782214015
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_70",
+      "landing_zone": {
+        "x": 2124,
+        "y": 2644,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 322,
+      "damage_dealt": 55,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1041,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.24363816813635436
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_71",
+      "landing_zone": {
+        "x": 1424,
+        "y": 3102,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 566,
+      "damage_dealt": 195,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1121,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.08513436829447135
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_72",
+      "landing_zone": {
+        "x": 1729,
+        "y": 2892,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 393,
+      "damage_dealt": 159,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2816,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.20596456735015378
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_73",
+      "landing_zone": {
+        "x": 2247,
+        "y": 2478,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 540,
+      "damage_dealt": 190,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2681,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.19237122205746904
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_74",
+      "landing_zone": {
+        "x": 1473,
+        "y": 3222,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 220,
+      "damage_dealt": 125,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3015,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.07025557279946174
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_75",
+      "landing_zone": {
+        "x": 2197,
+        "y": 2852,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 113,
+      "damage_dealt": 73,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2457,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.3179941967594101
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_76",
+      "landing_zone": {
+        "x": 1467,
+        "y": 2881,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 202,
+      "damage_dealt": 131,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2175,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.22269905709046767
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_77",
+      "landing_zone": {
+        "x": 2163,
+        "y": 2419,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 228,
+      "damage_dealt": 32,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2620,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.29234319053236824
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_78",
+      "landing_zone": {
+        "x": 1330,
+        "y": 3816,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 440,
+      "damage_dealt": 63,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2182,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.26241694608297805
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_79",
+      "landing_zone": {
+        "x": 1446,
+        "y": 4047,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 424,
+      "damage_dealt": 50,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1465,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.09726371125175917
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_80",
+      "landing_zone": {
+        "x": 1307,
+        "y": 2948,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 401,
+      "damage_dealt": 7,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1025,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.2867624903028561
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_81",
+      "landing_zone": {
+        "x": 1441,
+        "y": 4041,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 235,
+      "damage_dealt": 48,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1090,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.2298228711028879
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_82",
+      "landing_zone": {
+        "x": 1253,
+        "y": 3444,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 60,
+      "damage_dealt": 22,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1765,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.18377681652495753
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_83",
+      "landing_zone": {
+        "x": 1482,
+        "y": 2710,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 319,
+      "damage_dealt": 58,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3359,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.2539968970482359
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_84",
+      "landing_zone": {
+        "x": 2353,
+        "y": 4718,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 343,
+      "damage_dealt": 142,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1899,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.061916104974080025
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_85",
+      "landing_zone": {
+        "x": 1727,
+        "y": 2223,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 372,
+      "damage_dealt": 82,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1507,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.056300856302187535
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_86",
+      "landing_zone": {
+        "x": 1944,
+        "y": 2357,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 225,
+      "damage_dealt": 134,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2048,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.0796200594809966
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_87",
+      "landing_zone": {
+        "x": 1104,
+        "y": 3352,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 193,
+      "damage_dealt": 135,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1865,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.3460521089259739
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_88",
+      "landing_zone": {
+        "x": 1326,
+        "y": 2861,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 505,
+      "damage_dealt": 106,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2288,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.32341166928002724
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_89",
+      "landing_zone": {
+        "x": 1103,
+        "y": 3754,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 285,
+      "damage_dealt": 82,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1481,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.11452870754713203
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_90",
+      "landing_zone": {
+        "x": 1102,
+        "y": 2820,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 168,
+      "damage_dealt": 4,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3704,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.3156057502729485
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_91",
+      "landing_zone": {
+        "x": 1351,
+        "y": 2097,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 231,
+      "damage_dealt": 54,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1586,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.22307786581943911
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_92",
+      "landing_zone": {
+        "x": 1313,
+        "y": 2092,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 22,
+      "damage_dealt": 7,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1055,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.16847465159629668
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_93",
+      "landing_zone": {
+        "x": 1307,
+        "y": 2094,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 239,
+      "damage_dealt": 49,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2526,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.08426447795875609
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_94",
+      "landing_zone": {
+        "x": 1500,
+        "y": 2081,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 253,
+      "damage_dealt": 93,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1890,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.16676536202427245
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_95",
+      "landing_zone": {
+        "x": 1818,
+        "y": 2114,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 485,
+      "damage_dealt": 187,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2939,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.10702809536930509
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_96",
+      "landing_zone": {
+        "x": 1398,
+        "y": 4278,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 70,
+      "damage_dealt": 38,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1156,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.346811848368383
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_97",
+      "landing_zone": {
+        "x": 1047,
+        "y": 1752,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 316,
+      "damage_dealt": 47,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3655,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.30819728683652897
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_98",
+      "landing_zone": {
+        "x": 1595,
+        "y": 1895,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 80,
+      "damage_dealt": 92,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2677,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.08666272783243917
+    },
+    {
+      "match_id": "0d6e4f10-953d-4c3a-b94d-fda17e9379f0_99",
+      "landing_zone": {
+        "x": 1744,
+        "y": 2292,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 399,
+      "damage_dealt": 196,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3112,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.2791521369779861
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_0",
+      "landing_zone": {
+        "x": 1862,
+        "y": 5762,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 406,
+      "damage_dealt": 105,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2264,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.08380605025488597
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_1",
+      "landing_zone": {
+        "x": 1871,
+        "y": 5748,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 192,
+      "damage_dealt": 180,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2947,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.17087554169918015
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_2",
+      "landing_zone": {
+        "x": 1898,
+        "y": 5740,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 202,
+      "damage_dealt": 194,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1673,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.24870903461362187
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_3",
+      "landing_zone": {
+        "x": 1856,
+        "y": 5784,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 442,
+      "damage_dealt": 96,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3557,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.33165361323839754
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_4",
+      "landing_zone": {
+        "x": 1852,
+        "y": 5786,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 7,
+      "damage_dealt": 194,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1770,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.33288264026316455
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_5",
+      "landing_zone": {
+        "x": 1894,
+        "y": 5750,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 502,
+      "damage_dealt": 36,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3179,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.2769002261161395
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_6",
+      "landing_zone": {
+        "x": 3355,
+        "y": 4970,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 435,
+      "damage_dealt": 88,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1314,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.20768613573651118
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_7",
+      "landing_zone": {
+        "x": 3346,
+        "y": 5000,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 275,
+      "damage_dealt": 135,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3638,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.263172843786266
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_8",
+      "landing_zone": {
+        "x": 3276,
+        "y": 5058,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 194,
+      "damage_dealt": 63,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1494,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.18769326536915287
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_9",
+      "landing_zone": {
+        "x": 3296,
+        "y": 5131,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 198,
+      "damage_dealt": 44,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3426,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.2305856936877934
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_10",
+      "landing_zone": {
+        "x": 3342,
+        "y": 5016,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 148,
+      "damage_dealt": 59,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1121,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.23390736806016926
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_11",
+      "landing_zone": {
+        "x": 3352,
+        "y": 4972,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 424,
+      "damage_dealt": 28,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3322,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.13911649939025483
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_12",
+      "landing_zone": {
+        "x": 3268,
+        "y": 5114,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 504,
+      "damage_dealt": 62,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3411,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.3260512796220262
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_13",
+      "landing_zone": {
+        "x": 3347,
+        "y": 4979,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 213,
+      "damage_dealt": 164,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2637,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.15500295786629212
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_14",
+      "landing_zone": {
+        "x": 3901,
+        "y": 4312,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 56,
+      "damage_dealt": 195,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2185,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.07070285104531562
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_15",
+      "landing_zone": {
+        "x": 3494,
+        "y": 5092,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 23,
+      "damage_dealt": 63,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1666,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.12543753780794484
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_16",
+      "landing_zone": {
+        "x": 3349,
+        "y": 4971,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 493,
+      "damage_dealt": 48,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1477,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.15205668587849658
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_17",
+      "landing_zone": {
+        "x": 3363,
+        "y": 4969,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 501,
+      "damage_dealt": 162,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3846,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.0510469476402835
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_18",
+      "landing_zone": {
+        "x": 3457,
+        "y": 5128,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 392,
+      "damage_dealt": 188,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1938,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.06035315629677873
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_19",
+      "landing_zone": {
+        "x": 3491,
+        "y": 5060,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 45,
+      "damage_dealt": 8,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3235,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.06842906406326985
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_20",
+      "landing_zone": {
+        "x": 3289,
+        "y": 5029,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 164,
+      "damage_dealt": 9,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1179,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.2854604302384637
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_21",
+      "landing_zone": {
+        "x": 3130,
+        "y": 6234,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 593,
+      "damage_dealt": 103,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3551,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.28694332831387565
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_22",
+      "landing_zone": {
+        "x": 2919,
+        "y": 4314,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 34,
+      "damage_dealt": 126,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2059,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.30965123725366567
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_23",
+      "landing_zone": {
+        "x": 3557,
+        "y": 5044,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 164,
+      "damage_dealt": 83,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1146,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.23710506005934218
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_24",
+      "landing_zone": {
+        "x": 3369,
+        "y": 4949,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 119,
+      "damage_dealt": 130,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2605,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.14792564976796493
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_25",
+      "landing_zone": {
+        "x": 3189,
+        "y": 5757,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 430,
+      "damage_dealt": 128,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3090,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.16399253186889395
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_26",
+      "landing_zone": {
+        "x": 3937,
+        "y": 4275,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 103,
+      "damage_dealt": 127,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2462,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.34991934066887814
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_27",
+      "landing_zone": {
+        "x": 2894,
+        "y": 4298,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 65,
+      "damage_dealt": 122,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3863,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.17587250479890115
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_28",
+      "landing_zone": {
+        "x": 3102,
+        "y": 5685,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 296,
+      "damage_dealt": 188,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1100,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.05213162322218756
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_29",
+      "landing_zone": {
+        "x": 3051,
+        "y": 6220,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 408,
+      "damage_dealt": 36,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1972,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.2031021677578917
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_30",
+      "landing_zone": {
+        "x": 2975,
+        "y": 4292,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 38,
+      "damage_dealt": 7,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2166,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.25556424091045304
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_31",
+      "landing_zone": {
+        "x": 2969,
+        "y": 4226,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 149,
+      "damage_dealt": 147,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2230,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.08170590625329582
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_32",
+      "landing_zone": {
+        "x": 3086,
+        "y": 6219,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 221,
+      "damage_dealt": 8,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3043,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.14760606444332622
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_33",
+      "landing_zone": {
+        "x": 3299,
+        "y": 5179,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 251,
+      "damage_dealt": 146,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2947,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.23607521212127258
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_34",
+      "landing_zone": {
+        "x": 2887,
+        "y": 4382,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 168,
+      "damage_dealt": 84,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3882,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.17959499421654923
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_35",
+      "landing_zone": {
+        "x": 2967,
+        "y": 4226,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 526,
+      "damage_dealt": 75,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2709,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.18627382394444475
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_36",
+      "landing_zone": {
+        "x": 2980,
+        "y": 4193,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 462,
+      "damage_dealt": 30,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3706,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.23785596770788087
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_37",
+      "landing_zone": {
+        "x": 2913,
+        "y": 4327,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 474,
+      "damage_dealt": 64,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2557,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.12822836580895863
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_38",
+      "landing_zone": {
+        "x": 2933,
+        "y": 4299,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 437,
+      "damage_dealt": 55,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2316,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.27159855165035063
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_39",
+      "landing_zone": {
+        "x": 3015,
+        "y": 6148,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 36,
+      "damage_dealt": 60,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2334,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.08791432443138247
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_40",
+      "landing_zone": {
+        "x": 3359,
+        "y": 4874,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 538,
+      "damage_dealt": 196,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3624,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.09774993790829342
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_41",
+      "landing_zone": {
+        "x": 3047,
+        "y": 4307,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 283,
+      "damage_dealt": 156,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3989,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.0649112239169195
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_42",
+      "landing_zone": {
+        "x": 3358,
+        "y": 4995,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 522,
+      "damage_dealt": 17,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1125,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.3112388633543928
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_43",
+      "landing_zone": {
+        "x": 3058,
+        "y": 4289,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 84,
+      "damage_dealt": 8,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1767,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.1450365756495522
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_44",
+      "landing_zone": {
+        "x": 3069,
+        "y": 6345,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 539,
+      "damage_dealt": 33,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3153,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.20681465345777084
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_45",
+      "landing_zone": {
+        "x": 2943,
+        "y": 4286,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 338,
+      "damage_dealt": 32,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3969,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.26418822457253766
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_46",
+      "landing_zone": {
+        "x": 3316,
+        "y": 4919,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 217,
+      "damage_dealt": 76,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2429,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.2013490346942468
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_47",
+      "landing_zone": {
+        "x": 3106,
+        "y": 6202,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 468,
+      "damage_dealt": 60,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3864,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.19537515193991473
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_48",
+      "landing_zone": {
+        "x": 3037,
+        "y": 6226,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 207,
+      "damage_dealt": 160,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1232,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.23327141659269235
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_49",
+      "landing_zone": {
+        "x": 2823,
+        "y": 4316,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 361,
+      "damage_dealt": 122,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3256,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.06266280724535278
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_50",
+      "landing_zone": {
+        "x": 3278,
+        "y": 4948,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 14,
+      "damage_dealt": 158,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1705,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.29990081261752427
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_51",
+      "landing_zone": {
+        "x": 3017,
+        "y": 6380,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 447,
+      "damage_dealt": 46,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3038,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.18718779582068346
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_52",
+      "landing_zone": {
+        "x": 3052,
+        "y": 4428,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 9,
+      "damage_dealt": 69,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3841,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.13931534694837727
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_53",
+      "landing_zone": {
+        "x": 2964,
+        "y": 4506,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 555,
+      "damage_dealt": 131,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3452,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.16181792453082022
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_54",
+      "landing_zone": {
+        "x": 4864,
+        "y": 4929,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 28,
+      "damage_dealt": 84,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2786,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.30536769932110197
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_55",
+      "landing_zone": {
+        "x": 4897,
+        "y": 4923,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 37,
+      "damage_dealt": 184,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2586,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.24532007657991434
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_56",
+      "landing_zone": {
+        "x": 4846,
+        "y": 5064,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 568,
+      "damage_dealt": 73,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1770,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.2810733345488574
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_57",
+      "landing_zone": {
+        "x": 3112,
+        "y": 4292,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 170,
+      "damage_dealt": 10,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3963,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.10656040067694258
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_58",
+      "landing_zone": {
+        "x": 4902,
+        "y": 4922,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 399,
+      "damage_dealt": 36,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3557,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.17503698884170915
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_59",
+      "landing_zone": {
+        "x": 4967,
+        "y": 5087,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 220,
+      "damage_dealt": 113,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3788,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.22896773888841893
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_60",
+      "landing_zone": {
+        "x": 4854,
+        "y": 5062,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 334,
+      "damage_dealt": 179,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3949,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.13987651201463855
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_61",
+      "landing_zone": {
+        "x": 5056,
+        "y": 5093,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 147,
+      "damage_dealt": 100,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1791,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.12379254493101625
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_62",
+      "landing_zone": {
+        "x": 3005,
+        "y": 4391,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 200,
+      "damage_dealt": 98,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3259,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.28853205026400225
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_63",
+      "landing_zone": {
+        "x": 4878,
+        "y": 5027,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 521,
+      "damage_dealt": 192,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3997,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.2602058508108537
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_64",
+      "landing_zone": {
+        "x": 2763,
+        "y": 4350,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 386,
+      "damage_dealt": 163,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2790,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.3070200378891404
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_65",
+      "landing_zone": {
+        "x": 3090,
+        "y": 6383,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 433,
+      "damage_dealt": 86,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3586,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.1370046778706152
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_66",
+      "landing_zone": {
+        "x": 5070,
+        "y": 5111,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 34,
+      "damage_dealt": 93,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3166,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.14413937956455466
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_67",
+      "landing_zone": {
+        "x": 4840,
+        "y": 5021,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 177,
+      "damage_dealt": 152,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2130,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.15144567422091254
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_68",
+      "landing_zone": {
+        "x": 4838,
+        "y": 4940,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 409,
+      "damage_dealt": 125,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2364,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.31912331361527263
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_69",
+      "landing_zone": {
+        "x": 4962,
+        "y": 5116,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 401,
+      "damage_dealt": 169,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3780,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.13411632772161594
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_70",
+      "landing_zone": {
+        "x": 4977,
+        "y": 5056,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 201,
+      "damage_dealt": 106,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3338,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.11777975981493989
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_71",
+      "landing_zone": {
+        "x": 4841,
+        "y": 5061,
+        "zone_name": "Pochinki"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 113,
+      "damage_dealt": 168,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3480,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.31505377675864693
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_72",
+      "landing_zone": {
+        "x": 2801,
+        "y": 3858,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 236,
+      "damage_dealt": 43,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3203,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.31747263398752185
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_73",
+      "landing_zone": {
+        "x": 2836,
+        "y": 4472,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 62,
+      "damage_dealt": 1,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1278,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.2283788103566604
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_74",
+      "landing_zone": {
+        "x": 4815,
+        "y": 5838,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 169,
+      "damage_dealt": 49,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1834,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.2692903263352821
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_75",
+      "landing_zone": {
+        "x": 3871,
+        "y": 6493,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 462,
+      "damage_dealt": 72,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1557,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.12442730555485126
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_76",
+      "landing_zone": {
+        "x": 6223,
+        "y": 4438,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 547,
+      "damage_dealt": 182,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2407,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.2644591612782839
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_77",
+      "landing_zone": {
+        "x": 2996,
+        "y": 3707,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 73,
+      "damage_dealt": 189,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3830,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.11861487754659372
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_78",
+      "landing_zone": {
+        "x": 3826,
+        "y": 6505,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 67,
+      "damage_dealt": 174,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3517,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.3283500451938223
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_79",
+      "landing_zone": {
+        "x": 6206,
+        "y": 4374,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 431,
+      "damage_dealt": 32,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3524,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.10058827559052907
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_80",
+      "landing_zone": {
+        "x": 3822,
+        "y": 6579,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 352,
+      "damage_dealt": 49,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2021,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.33403604394231917
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_81",
+      "landing_zone": {
+        "x": 4675,
+        "y": 3560,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 498,
+      "damage_dealt": 122,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3568,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.296855870163691
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_82",
+      "landing_zone": {
+        "x": 6302,
+        "y": 4478,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 100,
+      "damage_dealt": 7,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3269,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.21801097251088608
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_83",
+      "landing_zone": {
+        "x": 4675,
+        "y": 3630,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 118,
+      "damage_dealt": 122,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3212,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.3368361094684774
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_84",
+      "landing_zone": {
+        "x": 6199,
+        "y": 4389,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 572,
+      "damage_dealt": 49,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1035,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.33450602770772864
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_85",
+      "landing_zone": {
+        "x": 4650,
+        "y": 3561,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 556,
+      "damage_dealt": 128,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1578,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.2031354883798458
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_86",
+      "landing_zone": {
+        "x": 2835,
+        "y": 3663,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 587,
+      "damage_dealt": 121,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 3323,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.17942586322828347
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_87",
+      "landing_zone": {
+        "x": 6168,
+        "y": 5795,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 335,
+      "damage_dealt": 136,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1291,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.1564229479468447
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_88",
+      "landing_zone": {
+        "x": 2794,
+        "y": 3765,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 147,
+      "damage_dealt": 21,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1103,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.27471575090833666
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_89",
+      "landing_zone": {
+        "x": 2810,
+        "y": 3682,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 354,
+      "damage_dealt": 114,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1026,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.19035942307158554
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_90",
+      "landing_zone": {
+        "x": 3881,
+        "y": 6775,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 7,
+      "damage_dealt": 1,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 2678,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.14281379147211784
+    },
+    {
+      "match_id": "410096ad-cc3a-4ec1-a96f-48a0edaac134_91",
+      "landing_zone": {
+        "x": 6719,
+        "y": 4567,
+        "zone_name": "Safe Zone"
+      },
+      "weapon_used": "M416",
+      "weapon_category": "AR",
+      "final_placement": 100,
+      "weapon_won": false,
+      "time_survived": 494,
+      "damage_dealt": 41,
+      "kills": 0,
+      "player_archetype": "Rusher",
+      "movement_distance": 1105,
+      "avg_kill_distance": 0,
+      "headshot_rate": 0.32653844583960745
+    }
+  ],
+  "metadata": {
+    "source": "real",
+    "fetched_at": "2026-02-02T09:51:58.189Z",
+    "api_version": "v1",
+    "match_count": 289
+  }
+}

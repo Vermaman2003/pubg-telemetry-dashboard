@@ -20,7 +20,9 @@ export default function DashboardPage() {
     selectedZone,
     setSelectedZone,
     isLoading,
-    error
+    error,
+    dataSource,
+    lastUpdated
   } = useTelemetryData();
 
   if (isLoading) {
@@ -90,10 +92,28 @@ export default function DashboardPage() {
         {/* Classic Weapon Stats */}
         <WeaponMetaChart weaponStats={weaponStats} />
 
-        {/* Version Badge */}
-        <div className="flex justify-center">
+        {/* Version Badge with Data Source Indicator */}
+        <div className="flex justify-center gap-4 flex-wrap">
+          {/* Data Source Badge */}
+          <div className={`inline-flex items-center gap-2 px-6 py-3 border rounded-full ${dataSource === 'real'
+              ? 'bg-gradient-to-r from-green-500/20 to-emerald-500/20 border-green-500/40'
+              : 'bg-gradient-to-r from-orange-500/20 to-yellow-500/20 border-orange-500/40'
+            }`}>
+            <div className={`w-2 h-2 rounded-full animate-pulse ${dataSource === 'real' ? 'bg-green-400' : 'bg-orange-400'
+              }`}></div>
+            <span className="text-sm font-bold text-gray-200">
+              {dataSource === 'real' ? '🟢 Live Data' : '🟠 Demo Mode'}
+            </span>
+            {lastUpdated && (
+              <span className="text-xs text-gray-400">
+                • {new Date(lastUpdated).toLocaleString()}
+              </span>
+            )}
+          </div>
+
+          {/* Version Badge */}
           <div className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-purple-500/20 to-blue-500/20 border border-purple-500/30 rounded-full">
-            <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
+            <div className="w-2 h-2 bg-purple-400 rounded-full animate-pulse"></div>
             <span className="text-sm font-bold text-gray-300">
               Dashboard v2.0 • Game Balancing & Player Segmentation
             </span>
