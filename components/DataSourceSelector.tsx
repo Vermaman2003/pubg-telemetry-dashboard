@@ -33,10 +33,10 @@ export default function DataSourceSelector({
     }, []);
 
     const sources = [
-        { id: 'live', label: '🟢 Live Data', color: 'from-green-500/20 to-emerald-500/20 border-green-500/40' },
-        { id: 'dynamic', label: '🟣 Dynamic Mode', color: 'from-purple-500/20 to-blue-500/20 border-purple-500/40' },
-        ...snapshots.map(s => ({ id: s.id, label: s.label, color: 'from-blue-500/20 to-cyan-500/20 border-blue-500/40' })),
-        { id: 'mock', label: '🟠 Demo Mode', color: 'from-orange-500/20 to-red-500/20 border-orange-500/40' }
+        { id: 'live', label: '🟢 Live Data', color: 'emerald' },
+        { id: 'dynamic', label: '🟣 Dynamic Mode', color: 'purple' },
+        ...snapshots.map(s => ({ id: s.id, label: s.label, color: 'blue' })),
+        { id: 'mock', label: '🟠 Demo Mode', color: 'orange' }
     ];
 
     const currentSourceData = sources.find(s => s.id === currentSource) || sources[0];
@@ -55,71 +55,56 @@ export default function DataSourceSelector({
     return (
         <div className="relative group">
             {/* Glow effect */}
-            <div className={`absolute -inset-0.5 bg-gradient-to-r ${currentSourceData.color} rounded-xl blur opacity-30 group-hover:opacity-50 transition duration-300`}></div>
+            <div className="absolute -inset-0.5 bg-gradient-to-r from-emerald-500/30 to-teal-500/30 rounded-lg blur opacity-50 group-hover:opacity-70 transition duration-300"></div>
 
-            <div className="relative">
+            <div className="relative backdrop-blur-glass border-2 border-emerald-500/30 rounded-lg p-4">
                 <label className="flex flex-col gap-2">
-                    <span className="text-xs text-gray-400 font-semibold flex items-center gap-2 px-1">
-                        <Database className="w-3.5 h-3.5 text-purple-400" />
+                    <span className="text-xs text-emerald-300 font-bold flex items-center gap-2 tracking-wider uppercase">
+                        <Database className="w-4 h-4 text-emerald-400" />
                         Data Source
-                        <Sparkles className="w-3 h-3 text-yellow-400 animate-pulse" />
+                        <Sparkles className="w-3 h-3 text-emerald-400 animate-pulse" />
                     </span>
 
                     <div className="relative">
                         <select
                             value={currentSource}
                             onChange={handleChange}
-                            className={`w-full px-4 py-3 pr-10
-                                bg-gradient-to-br ${currentSourceData.color}
-                                backdrop-blur-xl
-                                border-2 ${currentSourceData.color.split(' ').pop()}
-                                rounded-xl
-                                text-sm font-bold text-white
-                                hover:scale-[1.02] hover:shadow-lg
-                                focus:scale-[1.02] focus:outline-none focus:ring-2 focus:ring-purple-500/50
+                            className="w-full px-4 py-3 pr-10
+                                bg-gradient-to-br from-emerald-950/50 to-teal-950/50
+                                backdrop-blur-sm
+                                border-2 border-emerald-500/40
+                                rounded-md
+                                text-sm font-bold text-emerald-100
+                                hover:border-emerald-400/60 hover:shadow-glow-green
+                                focus:outline-none focus:ring-2 focus:ring-emerald-500/50 focus:border-emerald-400
                                 transition-all duration-200
                                 cursor-pointer
                                 min-w-[220px]
-                                appearance-none
-                                shadow-lg
-                                hover:brightness-110`}
+                                appearance-none"
                             style={{
-                                backgroundImage: `linear-gradient(to bottom right, rgba(99, 102, 241, 0.1), rgba(139, 92, 246, 0.1)),
-                                                 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3E%3Cpath stroke='%23a78bfa' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m6 8 4 4 4-4'/%3E%3C/svg%3E")`,
-                                backgroundPosition: 'center, right 0.75rem center',
-                                backgroundRepeat: 'no-repeat, no-repeat',
-                                backgroundSize: 'cover, 1.25em 1.25em',
+                                backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3E%3Cpath stroke='%2300ff88' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m6 8 4 4 4-4'/%3E%3C/svg%3E")`,
+                                backgroundPosition: 'right 0.75rem center',
+                                backgroundRepeat: 'no-repeat',
+                                backgroundSize: '1.25em 1.25em',
                             }}
                         >
                             {sources.map(source => (
                                 <option
                                     key={source.id}
                                     value={source.id}
-                                    className="bg-gray-900 text-white py-2"
+                                    className="bg-[#0a1e1e] text-emerald-100 py-2"
                                 >
                                     {source.label}
                                 </option>
                             ))}
                         </select>
-
-                        {/* Animated border */}
-                        <div className="absolute inset-0 rounded-xl border-2 border-transparent 
-                            bg-gradient-to-r from-purple-500/50 via-pink-500/50 to-purple-500/50 
-                            opacity-0 hover:opacity-100 transition-opacity duration-300 pointer-events-none"
-                            style={{
-                                WebkitMask: 'linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0)',
-                                WebkitMaskComposite: 'xor',
-                                maskComposite: 'exclude',
-                                padding: '2px'
-                            }}
-                        ></div>
                     </div>
                 </label>
 
                 {lastUpdated && (
-                    <div className="text-xs text-gray-500 mt-2 px-1 flex items-center gap-1.5 font-medium">
-                        <div className="w-1.5 h-1.5 bg-green-400 rounded-full animate-pulse"></div>
-                        <span>Updated: {new Date(lastUpdated).toLocaleString('en-US', {
+                    <div className="text-xs text-teal-400/80 mt-2 flex items-center gap-2 font-mono">
+                        <div className="w-1.5 h-1.5 bg-emerald-400 rounded-full animate-pulse shadow-glow-green"></div>
+                        <span>UPDT: {new Date(lastUpdated).toLocaleString('en-US', {
                             month: 'short',
                             day: 'numeric',
                             hour: '2-digit',
