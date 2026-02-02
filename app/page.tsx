@@ -75,19 +75,19 @@ export default function DashboardPage() {
     <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-black p-4 md:p-8">
       <div className="max-w-7xl mx-auto space-y-8">
         {/* Header with Hero and Data Selector */}
-        <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-4">
-          <div className="flex-1 w-full">
-            <HeroSection
-              onRefreshData={isDynamicMode ? handleRefresh : undefined}
-              isRefreshing={isRefreshing}
-              showRefreshButton={isDynamicMode}
+        <div className="flex flex-col gap-4">
+          <HeroSection
+            onRefreshData={isDynamicMode ? handleRefresh : undefined}
+            isRefreshing={isRefreshing}
+            showRefreshButton={isDynamicMode}
+          />
+          <div className="flex justify-end">
+            <DataSourceSelector
+              currentSource={selectedDataSource}
+              onSourceChange={setSelectedDataSource}
+              lastUpdated={lastUpdated}
             />
           </div>
-          <DataSourceSelector
-            currentSource={selectedDataSource}
-            onSourceChange={setSelectedDataSource}
-            lastUpdated={lastUpdated}
-          />
         </div>
 
         {/* Filter Indicator */}

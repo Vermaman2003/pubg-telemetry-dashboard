@@ -26,16 +26,16 @@ export default function HeroSection({ onRefreshData, isRefreshing = false, showR
 
             <div className="relative z-10">
                 {/* Header with title and refresh button */}
-                <div className="flex items-start justify-between gap-4 mb-6">
+                <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4 mb-6">
                     <div className="flex-1">
                         {/* Enhanced title with layered effects */}
                         <div className="text-sm uppercase tracking-[0.3em] text-green-400/80 font-semibold mb-2 animate-pulse">
                             Krafton | Esports Analytics
                         </div>
-                        <h1 className="text-6xl md:text-7xl font-black mb-3 bg-gradient-to-r from-green-400 via-emerald-300 to-green-400 bg-clip-text text-transparent drop-shadow-[0_0_30px_rgba(0,255,136,0.5)] animate-gradient-x">
+                        <h1 className="text-5xl sm:text-6xl md:text-7xl font-black mb-3 bg-gradient-to-r from-green-400 via-emerald-300 to-green-400 bg-clip-text text-transparent drop-shadow-[0_0_30px_rgba(0,255,136,0.5)] animate-gradient-x">
                             PROJECT ALPHA
                         </h1>
-                        <div className="text-2xl md:text-3xl font-bold text-white/90 tracking-wide">
+                        <div className="text-xl sm:text-2xl md:text-3xl font-bold text-white/90 tracking-wide">
                             PUBG Telemetry Intelligence System
                         </div>
                     </div>
@@ -45,22 +45,21 @@ export default function HeroSection({ onRefreshData, isRefreshing = false, showR
                         <button
                             onClick={onRefreshData}
                             disabled={isRefreshing}
-                            className="flex items-center gap-2 px-6 py-3 
+                            className="flex items-center justify-center gap-2 px-4 sm:px-6 py-3 
                                 bg-gradient-to-r from-purple-600 to-blue-600 
                                 hover:from-purple-500 hover:to-blue-500 
                                 disabled:from-gray-600 disabled:to-gray-700
-                                rounded-xl font-bold text-white
+                                rounded-xl font-bold text-white text-sm sm:text-base
                                 transition-all hover:scale-105 active:scale-95
                                 disabled:opacity-50 disabled:cursor-not-allowed
                                 shadow-lg shadow-purple-500/30 hover:shadow-purple-500/50
-                                border border-purple-400/30"
+                                border border-purple-400/30
+                                w-full sm:w-auto
+                                min-h-[44px]"
                         >
-                            <RefreshCw className={`w-5 h-5 ${isRefreshing ? 'animate-spin' : ''}`} />
-                            <span className="hidden sm:inline">
+                            <RefreshCw className={`w-4 h-4 sm:w-5 sm:h-5 ${isRefreshing ? 'animate-spin' : ''}`} />
+                            <span>
                                 {isRefreshing ? 'Generating...' : 'Simulate New Matches'}
-                            </span>
-                            <span className="sm:hidden">
-                                {isRefreshing ? 'Loading...' : 'Refresh'}
                             </span>
                         </button>
                     )}
