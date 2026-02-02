@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { Match, TelemetryData } from '@/lib/types';
 
 interface UseDataSourceReturn {
@@ -34,7 +34,8 @@ export function useDataSource(selectedSource: string = 'live'): UseDataSourceRet
         return data;
     };
 
-    const loadData = async () => {
+    const loadData = useCallback(async () => {
+        console.log('🔄 loadData called for source:', selectedSource);
         setIsLoading(true);
         setError(null);
 
@@ -61,6 +62,7 @@ export function useDataSource(selectedSource: string = 'live'): UseDataSourceRet
                 setDataSource('real'); // Dynamic is categorized as 'real' (not static mock)
                 setLastUpdated(data.metadata?.generated_at || null);
                 setIsLoading(false);
+                console.log('✅ Dynamic data loaded, timestamp:', data.metadata?.generated_at);
                 return;
             }
 
@@ -75,7 +77,9 @@ export function useDataSource(selectedSource: string = 'live'): UseDataSourceRet
                     console.log(`✅ Loaded ${dataPath}:`, data.matches.length, 'matches');
                     setMatches(data.matches);
                     setDataSource(data.metadata?.source || (selectedSource === 'mock' ? 'mock' : 'real'));
-                    setLastUpdated(data.metadata?.fetched_at || data.metadata?.generated_at || null);
+                    const timestamp = data.metadata?.fetched_at || data.metadata?.generated_at || new Date().toISOString();
+                    setLastUpdated(timestamp);
+                    console.log('✅ Data loaded, timestamp:', timestamp);
                     setIsLoading(false);
                     return;
                 } else {
@@ -102,7 +106,8 @@ export function useDataSource(selectedSource: string = 'live'): UseDataSourceRet
 
             setMatches(mockData.matches);
             setDataSource('mock');
-            setLastUpdated(null);
+            setLastUpdated(new Date().toISOString()); // Use current time for demo mode
+            console.log('✅ Fallback complete, timestamp:', new Date().toISOString());
         } catch (err) {
             console.error('❌ Failed to load any data:', err);
             setError('Failed to load telemetry data');
@@ -110,7 +115,7 @@ export function useDataSource(selectedSource: string = 'live'): UseDataSourceRet
         } finally {
             setIsLoading(false);
         }
-    };
+    }, [selectedSource]); // Now properly depends on selectedSource
 
     useEffect(() => {
         console.log('🔄 useDataSource: selectedSource changed to:', selectedSource);
