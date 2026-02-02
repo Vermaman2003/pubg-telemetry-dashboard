@@ -55,6 +55,14 @@ export default function DataSourceSelector({
             description: 'Real-time PUBG API data',
             source: 'real'
         },
+        {
+            id: 'dynamic',
+            label: '🟣 Dynamic Mode',
+            date: new Date().toISOString(),
+            matches: 500,
+            description: 'On-demand generated matches',
+            source: 'dynamic'
+        },
         ...snapshots,
         {
             id: 'mock',

@@ -36,8 +36,25 @@ export default function DashboardPage() {
     isLoading,
     error,
     dataSource,
-    lastUpdated
+    lastUpdated,
+    refreshData
   } = useTelemetryData(selectedDataSource);
+
+  // Track if we're in dynamic mode and currently refreshing
+  const isDynamicMode = selectedDataSource === 'dynamic';
+  const [isRefreshing, setIsRefreshing] = React.useState(false);
+
+  // Handle refresh for dynamic mode
+  const handleRefresh = async () => {
+    if (refreshData) {
+      setIsRefreshing(true);
+      try {
+        await refreshData();
+      } finally {
+        setIsRefreshing(false);
+      }
+    }
+  };
 
   if (isLoading) {
     return <LoadingSkeleton />;
@@ -59,7 +76,13 @@ export default function DashboardPage() {
       <div className="max-w-7xl mx-auto space-y-8">
         {/* Header with Hero and Data Selector */}
         <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-4">
-          <HeroSection />
+          <div className="flex-1 w-full">
+            <HeroSection
+              onRefreshData={isDynamicMode ? handleRefresh : undefined}
+              isRefreshing={isRefreshing}
+              showRefreshButton={isDynamicMode}
+            />
+          </div>
           <DataSourceSelector
             currentSource={selectedDataSource}
             onSourceChange={setSelectedDataSource}

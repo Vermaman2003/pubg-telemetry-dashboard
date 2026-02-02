@@ -1,8 +1,15 @@
 'use client';
 
 import React from 'react';
+import { RefreshCw } from 'lucide-react';
 
-export default function HeroSection() {
+interface HeroSectionProps {
+    onRefreshData?: () => Promise<void>;
+    isRefreshing?: boolean;
+    showRefreshButton?: boolean;
+}
+
+export default function HeroSection({ onRefreshData, isRefreshing = false, showRefreshButton = false }: HeroSectionProps) {
     return (
         <div className="relative overflow-hidden bg-gradient-to-br from-gray-900 via-gray-800 to-black border-2 border-green-500/30 rounded-2xl p-10 mb-8 shadow-2xl shadow-green-500/20">
             {/* Animated background layers */}
@@ -18,17 +25,45 @@ export default function HeroSection() {
             <div className="absolute -bottom-24 -left-24 w-96 h-96 bg-orange-500/20 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '1s' }}></div>
 
             <div className="relative z-10">
-                {/* Enhanced title with layered effects */}
-                <div className="mb-6">
-                    <div className="text-sm uppercase tracking-[0.3em] text-green-400/80 font-semibold mb-2 animate-pulse">
-                        Krafton | Esports Analytics
+                {/* Header with title and refresh button */}
+                <div className="flex items-start justify-between gap-4 mb-6">
+                    <div className="flex-1">
+                        {/* Enhanced title with layered effects */}
+                        <div className="text-sm uppercase tracking-[0.3em] text-green-400/80 font-semibold mb-2 animate-pulse">
+                            Krafton | Esports Analytics
+                        </div>
+                        <h1 className="text-6xl md:text-7xl font-black mb-3 bg-gradient-to-r from-green-400 via-emerald-300 to-green-400 bg-clip-text text-transparent drop-shadow-[0_0_30px_rgba(0,255,136,0.5)] animate-gradient-x">
+                            PROJECT ALPHA
+                        </h1>
+                        <div className="text-2xl md:text-3xl font-bold text-white/90 tracking-wide">
+                            PUBG Telemetry Intelligence System
+                        </div>
                     </div>
-                    <h1 className="text-6xl md:text-7xl font-black mb-3 bg-gradient-to-r from-green-400 via-emerald-300 to-green-400 bg-clip-text text-transparent drop-shadow-[0_0_30px_rgba(0,255,136,0.5)] animate-gradient-x">
-                        PROJECT ALPHA
-                    </h1>
-                    <div className="text-2xl md:text-3xl font-bold text-white/90 tracking-wide">
-                        PUBG Telemetry Intelligence System
-                    </div>
+
+                    {/* Refresh Button - Only shown in dynamic mode */}
+                    {showRefreshButton && onRefreshData && (
+                        <button
+                            onClick={onRefreshData}
+                            disabled={isRefreshing}
+                            className="flex items-center gap-2 px-6 py-3 
+                                bg-gradient-to-r from-purple-600 to-blue-600 
+                                hover:from-purple-500 hover:to-blue-500 
+                                disabled:from-gray-600 disabled:to-gray-700
+                                rounded-xl font-bold text-white
+                                transition-all hover:scale-105 active:scale-95
+                                disabled:opacity-50 disabled:cursor-not-allowed
+                                shadow-lg shadow-purple-500/30 hover:shadow-purple-500/50
+                                border border-purple-400/30"
+                        >
+                            <RefreshCw className={`w-5 h-5 ${isRefreshing ? 'animate-spin' : ''}`} />
+                            <span className="hidden sm:inline">
+                                {isRefreshing ? 'Generating...' : 'Simulate New Matches'}
+                            </span>
+                            <span className="sm:hidden">
+                                {isRefreshing ? 'Loading...' : 'Refresh'}
+                            </span>
+                        </button>
+                    )}
                 </div>
 
                 <div className="h-1 w-40 bg-gradient-to-r from-green-400 to-orange-400 rounded-full mb-6 shadow-lg shadow-green-500/50"></div>

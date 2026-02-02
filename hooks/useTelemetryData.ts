@@ -33,11 +33,14 @@ export interface UseTelemetryDataReturn {
     // Data Source Metadata
     dataSource: 'real' | 'mock';
     lastUpdated: string | null;
+
+    // Refresh function (only available for dynamic mode)
+    refreshData?: () => Promise<void>;
 }
 
 export function useTelemetryData(selectedSource: string = 'live'): UseTelemetryDataReturn {
     // Use data source hook for automatic real/mock fallback with source selection
-    const { matches, isLoading, error, dataSource, lastUpdated } = useDataSource(selectedSource);
+    const { matches, isLoading, error, dataSource, lastUpdated, refreshData } = useDataSource(selectedSource);
 
     const [selectedZone, setSelectedZone] = useState<string | null>(null);
 
@@ -78,6 +81,7 @@ export function useTelemetryData(selectedSource: string = 'live'): UseTelemetryD
         isLoading,
         error,
         dataSource,
-        lastUpdated
+        lastUpdated,
+        refreshData
     };
 }
