@@ -27,12 +27,17 @@ export default function HotDropHeatmap({ matches }: HotDropHeatmapProps) {
         canvas.width = size;
         canvas.height = size;
 
-        // Clear canvas
-        ctx.fillStyle = '#0a0e14';
+        // Clear canvas with darker background
+        ctx.fillStyle = '#0f1419';
         ctx.fillRect(0, 0, size, size);
 
+        // Draw border around map
+        ctx.strokeStyle = '#00ff88';
+        ctx.lineWidth = 2;
+        ctx.strokeRect(0, 0, size, size);
+
         // Draw grid
-        ctx.strokeStyle = '#1a1f2e';
+        ctx.strokeStyle = '#2a3f3f';
         ctx.lineWidth = 1;
         for (let i = 0; i <= 8; i++) {
             const pos = (i / 8) * size;
@@ -46,36 +51,43 @@ export default function HotDropHeatmap({ matches }: HotDropHeatmapProps) {
             ctx.stroke();
         }
 
-        // Draw map label
-        ctx.fillStyle = '#4a5568';
-        ctx.font = 'bold 24px sans-serif';
+        // Draw map label with better visibility
+        ctx.fillStyle = '#00ff88';
+        ctx.font = 'bold 32px sans-serif';
         ctx.textAlign = 'center';
+        ctx.shadowColor = 'rgba(0, 255, 136, 0.5)';
+        ctx.shadowBlur = 10;
         ctx.fillText('ERANGEL', size / 2, size / 2);
-        ctx.font = '12px sans-serif';
-        ctx.fillText('8000m x 8000m', size / 2, size / 2 + 25);
+        ctx.font = '16px sans-serif';
+        ctx.fillText('8000m x 8000m', size / 2, size / 2 + 35);
+        ctx.shadowBlur = 0;
 
-        // Plot landing points
+        // Plot landing points with better visibility
         matches.forEach((match) => {
             const x = (match.landing_zone.x / 8000) * size;
             const y = (match.landing_zone.y / 8000) * size;
             const minutes = match.time_survived / 60;
 
-            // Color based on survival time
+            // Color based on survival time - brighter colors
             let color;
             if (minutes < 2) {
-                color = '#ff4444'; // Red - died early
+                color = '#ff1744'; // Bright red - died early
             } else if (minutes < 15) {
-                color = '#ffaa00'; // Yellow - mid game
+                color = '#ffc107'; // Bright yellow - mid game
             } else {
-                color = '#00ff88'; // Green - survived long
+                color = '#00e676'; // Bright green - survived long
             }
 
+            // Draw larger circles with glow effect
             ctx.fillStyle = color;
-            ctx.globalAlpha = 0.7;
+            ctx.shadowColor = color;
+            ctx.shadowBlur = 5;
+            ctx.globalAlpha = 0.8;
             ctx.beginPath();
-            ctx.arc(x, y, 4, 0, 2 * Math.PI);
+            ctx.arc(x, y, 6, 0, 2 * Math.PI);
             ctx.fill();
             ctx.globalAlpha = 1;
+            ctx.shadowBlur = 0;
         });
     }, [matches]);
 

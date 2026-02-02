@@ -9,7 +9,7 @@ export default function HeroSection() {
             <div className="absolute inset-0 bg-gradient-to-r from-green-500/5 to-orange-500/5 animate-pulse-bg"></div>
 
             <div className="relative z-10">
-                <h1 className="text-5xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-orange-400 animate-glow">
+                <h1 className="text-5xl font-bold mb-4 text-green-400 drop-shadow-[0_0_15px_rgba(0,255,136,0.5)]">
                     Project Alpha: PUBG Telemetry Analysis
                 </h1>
 
