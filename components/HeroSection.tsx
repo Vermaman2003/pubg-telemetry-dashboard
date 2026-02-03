@@ -28,10 +28,10 @@ export default function HeroSection({ onRefreshData, isRefreshing = false, showR
                 <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4 mb-4">
                     <div className="flex-1">
                         <h1 className="text-4xl md:text-5xl font-black mb-2 tracking-wider">
-                            <span className="text-emerald-400 text-glow-green">PROJECT ALPHA</span>
+                            <span className="text-emerald-400 text-glow-green">PUBG TELEMETRY</span>
                         </h1>
                         <p className="text-lg text-emerald-300/80 font-medium tracking-wide">
-                            PUBG Telemetry Analytics
+                            Advanced Battle Royale Analytics
                         </p>
                     </div>
 
